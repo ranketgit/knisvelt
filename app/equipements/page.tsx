@@ -1,0 +1,80 @@
+import Link from 'next/link';
+import Image from 'next/image';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Nos Équipements | Kinesvelt Casablanca",
+  description: "Découvrez notre parc de machines de haute technologie pour l'amincissement, le raffermissement et le remodelage corporel.",
+};
+
+export default function EquipementsIndexPage() {
+  // Verified slugs matching exactly the pages we generated
+  const machines = [
+    { name: "Radiofréquence", action: "Raffermissement et régénération cutanée", slug: "radiofrequence", img: "/images/radiofrequence.jpg" },
+    { name: "Lipocavitation", action: "Réduction de la graisse localisée", slug: "lipocavitation", img: "/images/lipocavitation.jpg" },
+    { name: "Ondes de Choc X-Wave", action: "Stimulation mécanique profonde et restructuration", slug: "ondes-de-choc", img: "/images/ondes-de-choc.jpg" },
+    { name: "Pressothérapie", action: "Drainage et stimulation circulatoire", slug: "pressotherapie", img: "/images/pressotherapie.jpg" },
+    { name: "EMSculpt", action: "Renforcement musculaire et remodelage", slug: "emsculpt", img: "/images/emsculpt.jpg" },
+    { name: "I-Lipo", action: "Laser lipolytique de dernière génération", slug: "i-lipo", img: "/images/i-lipo.jpg" },
+    { name: "Endosphères", action: "Micro-vibration compressive pour le drainage", slug: "endospheres", img: "/images/endospheres.jpg" },
+    { name: "Madérothérapie", action: "Remodelage par instruments en bois et métal", slug: "maderotherapie", img: "/images/maderotherapie.jpg" },
+    { name: "LPG", action: "Bodycontouring et remodelage global", slug: "lpg", img: "/images/lpg.jpg" },
+    { name: "Emtone – BTL", action: "Traitement avancé de la cellulite", slug: "emtone-btl", img: "/images/emtone.jpg" },
+    { name: "T-Care Slim", action: "Stimulation cellulaire profonde TECAR", slug: "t-care-slim", img: "/images/t-care-slim.jpg" },
+    { name: "Exilis – BTL", action: "Combinaison radiofréquence et ultrasons", slug: "exilis-btl", img: "/images/exilis.jpg" }
+  ];
+
+  return (
+    <div className="bg-[#FAF8F7] min-h-screen pb-24">
+      
+      {/* Wide Hero Section */}
+      <section className="relative w-full h-[400px] lg:h-[500px] mb-16 lg:mb-24">
+        <div className="absolute inset-0 bg-gray-300">
+          {/* <Image src="/images/equipements-hero.jpg" alt="Nos Équipements" fill className="object-cover" priority /> */}
+          <div className="absolute inset-0 bg-black/30"></div>
+        </div>
+        <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
+          <h1 className="text-4xl lg:text-6xl font-medium text-white mb-6">Nos Équipements</h1>
+          <p className="text-lg text-white/90 max-w-2xl font-medium">
+            Des technologies de pointe au service de votre corps et de vos objectifs.
+          </p>
+        </div>
+      </section>
+
+      {/* Grid of Machines */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          {machines.map((machine, idx) => (
+            <div key={idx} className="bg-white rounded-[2rem] overflow-hidden shadow-sm border border-gray-50 flex flex-col h-full">
+              
+              {/* Machine Image */}
+              <div className="relative h-56 w-full bg-gray-100">
+                {/* <Image src={machine.img} alt={machine.name} fill className="object-cover" /> */}
+              </div>
+
+              {/* Card Content */}
+              <div className="p-8 flex flex-col flex-grow">
+                <div className="mb-6 flex-grow">
+                  <h2 className="text-xl font-medium text-[#2A2A2A] mb-3">{machine.name}</h2>
+                  <p className="text-gray-500 text-[15px] leading-relaxed">{machine.action}</p>
+                </div>
+
+                <Link 
+                  href={`/equipements/${machine.slug}`}
+                  className="inline-flex items-center gap-2 text-sm font-medium text-[#E38F75] hover:text-[#d47b60] transition-colors group mt-auto"
+                >
+                  Découvrir la technologie
+                  <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </Link>
+              </div>
+              
+            </div>
+          ))}
+        </div>
+      </div>
+
+    </div>
+  );
+}
