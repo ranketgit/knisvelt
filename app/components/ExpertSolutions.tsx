@@ -9,7 +9,7 @@ export default function ExpertSolutions() {
         <div className="relative h-[400px] lg:h-[500px] w-full rounded-[2.5rem] overflow-hidden">
           {/* Note: Add an image named 'consultation.jpg' to your public folder */}
           <Image 
-            src="/solutions.png" 
+            src="/solutions.jpg" 
             alt="Consultation minceur avec une experte" 
             fill
             className="object-cover"

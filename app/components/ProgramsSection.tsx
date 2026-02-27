@@ -37,15 +37,7 @@ export default function ProgramsSection() {
             <p className="text-gray-500 text-[15px] leading-relaxed mb-8 flex-grow">
               Des plans nutritionnels, adaptés à vos objectifs et à vos besoins personnels.
             </p>
-            <Link 
-              href="#" 
-              className="text-[#E38F75] font-medium text-sm flex items-center gap-2 hover:translate-x-1 transition-transform"
-            >
-              Lire Plus 
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </Link>
+            
           </div>
 
           {/* Card 2 */}
@@ -61,15 +53,7 @@ export default function ProgramsSection() {
             <p className="text-gray-500 text-[15px] leading-relaxed mb-8 flex-grow">
               Des techniques avancées pour l'amincissement et le remodelage corporel.
             </p>
-            <Link 
-              href="#" 
-              className="text-[#E38F75] font-medium text-sm flex items-center gap-2 hover:translate-x-1 transition-transform"
-            >
-              Lire Plus 
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </Link>
+            
           </div>
 
           {/* Card 3 */}
@@ -85,15 +69,7 @@ export default function ProgramsSection() {
             <p className="text-gray-500 text-[15px] leading-relaxed mb-8 flex-grow">
               Un accompagnement sportif personnalisé pour sculpter et tonifier votre corps.
             </p>
-            <Link 
-              href="#" 
-              className="text-[#E38F75] font-medium text-sm flex items-center gap-2 hover:translate-x-1 transition-transform"
-            >
-              Lire Plus 
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </Link>
+            
           </div>
 
         </div>

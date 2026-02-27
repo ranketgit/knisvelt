@@ -13,25 +13,25 @@ export default function PrestationsIndexPage() {
       title: "Prestations Corps",
       desc: "Amincissement, remodelage, drainage et épilation laser pour sculpter votre silhouette.",
       link: "/prestations/corps",
-      img: "/images/corps-category.jpg" // Add an image to your public folder
+      img: "/corps.jpg" // Add an image to your public folder
     },
     {
       title: "Prestations Visage",
       desc: "Contouring, soins anti-acné, microneedling et lifting pour un teint éclatant.",
       link: "/prestations/visage",
-      img: "/images/visage-category.jpg"
+      img: "/visage.jpg"
     },
     {
       title: "Prestations Intime",
       desc: "Soins de haute technologie HIFU pour votre bien-être et confort intime.",
       link: "/prestations/intime",
-      img: "/images/intime-category.jpg"
+      img: "/intime.jpg"
     },
     {
       title: "Prestations Capillaires",
       desc: "Protocoles ciblés de microneedling pour redonner force et densité à vos cheveux.",
       link: "/prestations/capillaires",
-      img: "/images/capillaire-category.jpg"
+      img: "/capillaire-category.jpg"
     }
   ];
 
@@ -58,7 +58,7 @@ export default function PrestationsIndexPage() {
           {categories.map((cat, idx) => (
             <div key={idx} className="bg-white rounded-[2rem] overflow-hidden shadow-sm border border-gray-50 flex flex-col">
               <div className="relative h-64 w-full bg-gray-100">
-                {/* <Image src={cat.img} alt={cat.title} fill className="object-cover" /> */}
+              <Image src={cat.img} alt={cat.title} fill className="object-cover" />
               </div>
               <div className="p-8 lg:p-10 flex flex-col flex-grow">
                 <h2 className="text-2xl font-medium text-[#2A2A2A] mb-4">{cat.title}</h2>

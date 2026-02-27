@@ -10,18 +10,18 @@ export const metadata: Metadata = {
 export default function EquipementsIndexPage() {
   // Verified slugs matching exactly the pages we generated
   const machines = [
-    { name: "Radiofréquence", action: "Raffermissement et régénération cutanée", slug: "radiofrequence", img: "/images/radiofrequence.jpg" },
-    { name: "Lipocavitation", action: "Réduction de la graisse localisée", slug: "lipocavitation", img: "/images/lipocavitation.jpg" },
-    { name: "Ondes de Choc X-Wave", action: "Stimulation mécanique profonde et restructuration", slug: "ondes-de-choc", img: "/images/ondes-de-choc.jpg" },
-    { name: "Pressothérapie", action: "Drainage et stimulation circulatoire", slug: "pressotherapie", img: "/images/pressotherapie.jpg" },
-    { name: "EMSculpt", action: "Renforcement musculaire et remodelage", slug: "emsculpt", img: "/images/emsculpt.jpg" },
-    { name: "I-Lipo", action: "Laser lipolytique de dernière génération", slug: "i-lipo", img: "/images/i-lipo.jpg" },
-    { name: "Endosphères", action: "Micro-vibration compressive pour le drainage", slug: "endospheres", img: "/images/endospheres.jpg" },
-    { name: "Madérothérapie", action: "Remodelage par instruments en bois et métal", slug: "maderotherapie", img: "/images/maderotherapie.jpg" },
-    { name: "LPG", action: "Bodycontouring et remodelage global", slug: "lpg", img: "/images/lpg.jpg" },
-    { name: "Emtone – BTL", action: "Traitement avancé de la cellulite", slug: "emtone-btl", img: "/images/emtone.jpg" },
-    { name: "T-Care Slim", action: "Stimulation cellulaire profonde TECAR", slug: "t-care-slim", img: "/images/t-care-slim.jpg" },
-    { name: "Exilis – BTL", action: "Combinaison radiofréquence et ultrasons", slug: "exilis-btl", img: "/images/exilis.jpg" }
+    { name: "Radiofréquence", action: "Raffermissement et régénération cutanée", slug: "radiofrequence", img: "/radio.jpeg" },
+    { name: "Lipocavitation", action: "Réduction de la graisse localisée", slug: "lipocavitation", img: "/lipo.jpeg" },
+    { name: "Ondes de Choc X-Wave", action: "Stimulation mécanique profonde et restructuration", slug: "ondes-de-choc", img: "/ondes.jpeg" },
+    { name: "Pressothérapie", action: "Drainage et stimulation circulatoire", slug: "pressotherapie", img: "/presto.jpeg" },
+    { name: "EMSculpt", action: "Renforcement musculaire et remodelage", slug: "emsculpt", img: "/emscuplt.jpeg" },
+    { name: "I-Lipo", action: "Laser lipolytique de dernière génération", slug: "i-lipo", img: "/i-lipo.jpeg" },
+    { name: "Endosphères", action: "Micro-vibration compressive pour le drainage", slug: "endospheres", img: "/endospheres.jpeg" },
+    { name: "Madérothérapie", action: "Remodelage par instruments en bois et métal", slug: "maderotherapie", img: "/maderotherapie.jpeg" },
+    { name: "LPG", action: "Bodycontouring et remodelage global", slug: "lpg", img: "/lpg.jpeg" },
+    { name: "Emtone – BTL", action: "Traitement avancé de la cellulite", slug: "emtone-btl", img: "/emtone.jpeg" },
+    { name: "T-Care Slim", action: "Stimulation cellulaire profonde TECAR", slug: "t-care-slim", img: "/tcare.jpeg" },
+    { name: "Exilis – BTL", action: "Combinaison radiofréquence et ultrasons", slug: "exilis-btl", img: "/exilis.jpeg" }
   ];
 
   return (
@@ -30,7 +30,7 @@ export default function EquipementsIndexPage() {
       {/* Wide Hero Section */}
       <section className="relative w-full h-[400px] lg:h-[500px] mb-16 lg:mb-24">
         <div className="absolute inset-0 bg-gray-300">
-          {/* <Image src="/images/equipements-hero.jpg" alt="Nos Équipements" fill className="object-cover" priority /> */}
+          <Image src="/presto.jpeg" alt="Nos Équipements" fill className="object-cover" priority /> 
           <div className="absolute inset-0 bg-black/30"></div>
         </div>
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
@@ -49,7 +49,7 @@ export default function EquipementsIndexPage() {
               
               {/* Machine Image */}
               <div className="relative h-56 w-full bg-gray-100">
-                {/* <Image src={machine.img} alt={machine.name} fill className="object-cover" /> */}
+                <Image src={machine.img} alt={machine.name} fill className="object-cover" />
               </div>
 
               {/* Card Content */}
