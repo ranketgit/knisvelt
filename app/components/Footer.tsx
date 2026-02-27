@@ -35,21 +35,21 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Top Services */}
+          {/* Top Services -> Updated to the actual pages we built! */}
           <div>
-            <h4 className="text-[#2A2A2A] font-medium mb-6">Expertise</h4>
+            <h4 className="text-[#2A2A2A] font-medium mb-6">Nos Soins</h4>
             <ul className="space-y-4">
               <li>
-                <Link href="/prestations/amincissement" className="text-gray-500 hover:text-[#E38F75] text-[15px] transition-colors">Amincissement</Link>
+                <Link href="/prestations/corps" className="text-gray-500 hover:text-[#E38F75] text-[15px] transition-colors">Prestations Corps</Link>
               </li>
               <li>
-                <Link href="/prestations/bien-etre" className="text-gray-500 hover:text-[#E38F75] text-[15px] transition-colors">Bien-être</Link>
+                <Link href="/prestations/visage" className="text-gray-500 hover:text-[#E38F75] text-[15px] transition-colors">Prestations Visage</Link>
               </li>
               <li>
-                <Link href="/prestations/coaching-sportif" className="text-gray-500 hover:text-[#E38F75] text-[15px] transition-colors">Coaching Sportif</Link>
+                <Link href="/prestations/intime" className="text-gray-500 hover:text-[#E38F75] text-[15px] transition-colors">Prestations Intime</Link>
               </li>
               <li>
-                <Link href="/prestations/suivi-a-distance" className="text-gray-500 hover:text-[#E38F75] text-[15px] transition-colors">Suivi à Distance</Link>
+                <Link href="/prestations/capillaires" className="text-gray-500 hover:text-[#E38F75] text-[15px] transition-colors">Prestations Capillaires</Link>
               </li>
             </ul>
           </div>
