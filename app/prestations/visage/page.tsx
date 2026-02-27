@@ -71,7 +71,7 @@ export default function PrestationsVisagePage() {
       <section className="relative w-full h-[400px] lg:h-[500px]">
         {/* Placeholder background color until you add the image */}
         <div className="absolute inset-0 bg-gray-200">
-          {/* <Image src="/images/visage-hero.jpg" alt="Prestations Visage" fill className="object-cover" priority /> */}
+        <Image src="/visage.jpg" alt="Prestations Visage" fill className="object-cover" priority />
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
         

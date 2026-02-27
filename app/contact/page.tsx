@@ -2,11 +2,7 @@
 
 import { useState } from 'react';
 import type { Metadata } from "next";
-
-// Note: You can't use Next.js Metadata in a 'use client' file directly.
-// If your SEO team complains, move the Metadata to a separate layout.tsx in this folder, 
-// or split this into a Server Component that imports a Client Component form. 
-// For now, this gives you the exact functionality you need.
+import Image from 'next/image';
 
 export default function ContactPage() {
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
@@ -49,7 +45,7 @@ export default function ContactPage() {
       {/* Wide Hero Section */}
       <section className="relative w-full h-[400px] lg:h-[500px] mb-16 lg:mb-24">
         <div className="absolute inset-0 bg-gray-300">
-          {/* <Image src="/images/contact-hero.jpg" alt="Contact Kinesvelt" fill className="object-cover" priority /> */}
+          <Image src="/contact.png" alt="Contact Kinesvelt" fill className="object-cover" priority />
           <div className="absolute inset-0 bg-black/30"></div>
         </div>
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">

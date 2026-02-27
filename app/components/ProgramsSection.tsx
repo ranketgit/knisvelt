@@ -78,8 +78,8 @@ export default function ProgramsSection() {
         <div className="text-center">
           <p className="text-gray-500 text-[15px]">
             Prêts à transformer votre corps et votre vie? &gt;{" "}
-            <Link href="#" className="font-semibold text-[#2A2A2A] hover:text-[#E38F75] transition-colors">
-              Obtenez un devis gratuit.
+            <Link href="/contact" className="font-semibold text-[#2A2A2A] hover:text-[#E38F75] transition-colors">
+              Contactez Nous
             </Link>
           </p>
         </div>

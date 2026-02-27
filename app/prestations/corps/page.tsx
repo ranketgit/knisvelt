@@ -84,7 +84,7 @@ export default function PrestationsCorpsPage() {
       <section className="relative w-full h-[400px] lg:h-[500px]">
         {/* Placeholder background color until you add the image */}
         <div className="absolute inset-0 bg-gray-200">
-          {/* <Image src="/images/corps-hero.jpg" alt="Prestations Corps" fill className="object-cover" priority /> */}
+         <Image src="/corps.jpg" alt="Prestations Corps" fill className="object-cover" priority />
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
         

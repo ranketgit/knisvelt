@@ -21,10 +21,10 @@ export default function AddToCartCard({ machineName }: AddToCartCardProps) {
       </div>
 
       <h2 className="text-2xl font-medium text-[#2A2A2A] mb-2">
-        Réserver cet équipement
+      Réserver ce soin
       </h2>
       <p className="text-gray-500 text-[14px] mb-8">
-        Ajoutez cette machine à votre réservation pour choisir votre date et heure.
+        Ajoutez cette soin machine à votre réservation pour choisir votre date et heure.
       </p>
 
       {added ? (

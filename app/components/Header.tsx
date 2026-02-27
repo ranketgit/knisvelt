@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useCart } from './CartProvider';
+import Image from "next/image";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -23,13 +24,19 @@ export default function Header() {
           
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Link href="/" className="text-2xl font-serif tracking-widest text-[#2A2A2A]">
-              KINESVELT<span className="text-[#E38F75]">.</span>
+            <Link href="/" className="flex items-center">
+              <Image 
+                src="/logo-kinesvelt.png" // Make sure logo.png is in your public folder
+                alt="Kinesvelt Logo" 
+                width={160} // Adjust based on your logo's proportions
+                height={40} // Adjust based on your logo's proportions
+                className="object-contain h-auto w-auto max-h-12" // Ensures it scales nicely
+              />
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
+         {/* Desktop Navigation */}
+         <nav className="hidden lg:flex items-center gap-8">
             {navLinks.map((link, index) => (
               <Link 
                 key={index} 
@@ -50,7 +57,7 @@ export default function Header() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
               </svg>
               {cart.length > 0 && (
-                <span className="absolute 0 right-0 bg-[#E38F75] text-white text-[10px] font-bold h-4 w-4 rounded-full flex items-center justify-center border-2 border-white box-content">
+                <span className="absolute top-0 right-0 bg-[#E38F75] text-white text-[10px] font-bold h-4 w-4 rounded-full flex items-center justify-center border-2 border-white box-content">
                   {cart.length}
                 </span>
               )}
@@ -73,7 +80,7 @@ export default function Header() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
               </svg>
               {cart.length > 0 && (
-                <span className="absolute 0 right-0 bg-[#E38F75] text-white text-[10px] font-bold h-4 w-4 rounded-full flex items-center justify-center border-2 border-white box-content">
+                <span className="absolute top-0 right-0 bg-[#E38F75] text-white text-[10px] font-bold h-4 w-4 rounded-full flex items-center justify-center border-2 border-white box-content">
                   {cart.length}
                 </span>
               )}
