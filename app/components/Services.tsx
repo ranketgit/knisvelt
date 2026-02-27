@@ -4,6 +4,7 @@ export default function Prestations() {
   const categories = [
     {
       title: "Prestations Corps",
+      link: "/prestations/corps",
       icon: (
         <svg className="w-7 h-7 text-[#E38F75]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
@@ -18,6 +19,7 @@ export default function Prestations() {
     },
     {
       title: "Prestations Visage",
+      link: "/prestations/visage",
       icon: (
         <svg className="w-7 h-7 text-[#E38F75]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -32,6 +34,7 @@ export default function Prestations() {
     },
     {
       title: "Prestations Intime",
+      link: "/prestations/intime",
       icon: (
         <svg className="w-7 h-7 text-[#E38F75]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -43,6 +46,7 @@ export default function Prestations() {
     },
     {
       title: "Prestations Capillaires",
+      link: "/prestations/capillaires",
       icon: (
         <svg className="w-7 h-7 text-[#E38F75]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5" />
@@ -99,7 +103,7 @@ export default function Prestations() {
               </ul>
 
               <Link 
-                href="#" 
+                href={category.link} 
                 className="mt-auto inline-flex items-center gap-2 text-sm font-medium text-[#E38F75] hover:text-[#d47b60] transition-colors group"
               >
                 Voir tous les soins

@@ -5,50 +5,62 @@ export default function Technologies() {
     {
       name: "Radiofréquence",
       action: "Technologie avancée de raffermissement et régénération cutanée.",
+      link: "/equipements/radiofrequence"
     },
     {
       name: "Lipocavitation",
       action: "Technologie avancée de réduction de la graisse localisée.",
+      link: "/equipements/lipocavitation"
     },
     {
       name: "Ondes de choc X-Wave",
       action: "Stimulation mécanique profonde et restructuration tissulaire.",
+      link: "/equipements/ondes-de-choc"
     },
     {
       name: "Pressothérapie",
       action: "Technologie avancée de drainage et stimulation circulatoire.",
+      link: "/equipements/pressotherapie"
     },
     {
       name: "EMSculpt Haute Intensity",
       action: "Renforcement musculaire et remodelage corporel.",
+      link: "/equipements/emsculpt"
     },
     {
       name: "I-Lipo",
       action: "Technologie laser lipolytique de dernière génération.",
+      link: "/equipements/i-lipo"
     },
     {
       name: "Endosphères",
       action: "Micro-vibration compressive pour le drainage et remodelage avancé.",
+      link: "/equipements/endospheres"
     },
     {
       name: "Madérothérapie & Métallo.",
       action: "Remodelage corporel par instruments en bois et en métal.",
+      link: "/equipements/maderotherapie"
     },
     {
       name: "LPG",
       action: "Bodycontouring et remodelage global de la silhouette.",
+      link: "/equipements/lpg"
     },
     {
       name: "Emtone – BTL",
       action: "Technologie révolutionnaire pour traiter tous les types de cellulite.",
+      link: "/equipements/emtone-btl"
     },
     {
       name: "T-Care Slim",
       action: "Stimulation cellulaire profonde par radiofréquence capacitive.",
+      link: "/equipements/t-care-slim"
     },
     {
       name: "Exilis – BTL",
       action: "Combinaison radiofréquence et ultrasons pour le raffermissement.",
+      link: "/equipements/exilis-btl"
     }
   ];
 
@@ -92,7 +104,7 @@ export default function Technologies() {
               </div>
 
               <Link 
-                href="#" 
+                href={machine.link} 
                 className="inline-flex items-center gap-2 text-sm font-medium text-[#E38F75] hover:text-[#d47b60] transition-colors group mt-auto"
               >
                 Découvrir la technologie
