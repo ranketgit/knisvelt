@@ -46,7 +46,7 @@ export default function Testimonials() {
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-6">
           <div>
             <h2 className="text-3xl lg:text-[2.5rem] font-medium leading-[1.2] text-[#2A2A2A]">
-              Témoignages Clients
+              Témoignages Clients Google
             </h2>
           </div>
           

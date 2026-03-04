@@ -13,8 +13,8 @@ export default function Footer() {
               <Image 
                 src="/logo-kinesvelt.png" 
                 alt="Kinesvelt Logo" 
-                width={120} // Adjust width as needed
-                height={60}  // Adjust height as needed
+                width={120}
+                height={60}
                 className="h-auto w-auto"
                 priority
               />
