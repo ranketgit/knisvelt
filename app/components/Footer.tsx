@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image"; // Recommended for Next.js
 
 export default function Footer() {
   return (
@@ -8,8 +9,15 @@ export default function Footer() {
           
           {/* Brand Column */}
           <div className="flex flex-col items-start">
-            <Link href="/" className="text-2xl font-serif tracking-widest text-[#2A2A2A] mb-4">
-              KINESVELT<span className="text-[#E38F75]">.</span>
+            <Link href="/" className="mb-4 block">
+              <Image 
+                src="/logo-kinesvelt.png" 
+                alt="Kinesvelt Logo" 
+                width={120} // Adjust width as needed
+                height={60}  // Adjust height as needed
+                className="h-auto w-auto"
+                priority
+              />
             </Link>
             <p className="text-gray-500 text-[15px] leading-relaxed mb-6">
               Votre centre expert en amincissement, suivi nutritionnel, bien-être et coaching sportif à Casablanca.
@@ -35,7 +43,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Top Services -> Updated to the actual pages we built! */}
+          {/* Top Services */}
           <div>
             <h4 className="text-[#2A2A2A] font-medium mb-6">Nos Soins</h4>
             <ul className="space-y-4">
@@ -92,7 +100,6 @@ export default function Footer() {
             © {new Date().getFullYear()} Kinesvelt. Tous droits réservés.
           </p>
           <div className="flex gap-4">
-            {/* Instagram Link */}
             <a href="https://www.instagram.com/imane.d/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#E38F75] transition-colors">
               <span className="sr-only">Instagram</span>
               <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">

@@ -22,7 +22,7 @@ export default function ExpertSolutions() {
           <div className="flex items-center gap-2 mb-4">
             <span className="w-1.5 h-1.5 rounded-full bg-[#E38F75]"></span>
             <span className="text-gray-500 text-xs font-semibold tracking-widest uppercase">
-              A Silhoua
+              Kinesvelt
             </span>
           </div>
 
@@ -31,7 +31,7 @@ export default function ExpertSolutions() {
           </h2>
 
           <p className="text-gray-500 text-[15px] leading-relaxed mb-4">
-            A Silhoua Slimming Center, nous proposons des plans personnalisés de perte de poids, adaptés à votre corps et à votre style de vie.
+            A Kinesvelt, nous proposons des plans personnalisés de perte de poids, adaptés à votre corps et à votre style de vie.
           </p>
 
           <p className="text-gray-500 text-[15px] leading-relaxed mb-8">

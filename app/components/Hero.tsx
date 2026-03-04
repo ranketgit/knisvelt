@@ -9,9 +9,7 @@ export default function Hero() {
         <div className="bg-white rounded-[2.5rem] p-8 lg:p-14 shadow-sm flex flex-col justify-center">
           <div className="flex items-center gap-2 mb-6">
             <span className="w-1.5 h-1.5 rounded-full bg-[#E38F75]"></span>
-            <span className="text-[#E38F75] text-xs font-semibold tracking-widest uppercase">
-              Welcome to Silhoua
-            </span>
+            
           </div>
 
           <h1 className="text-4xl lg:text-[2.75rem] font-medium leading-[1.15] text-[#2A2A2A] mb-6">
