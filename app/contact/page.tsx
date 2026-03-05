@@ -75,8 +75,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-sm font-medium text-[#2A2A2A] mb-1">Adresse</h3>
                     <p className="text-gray-500 text-[15px] leading-relaxed">
-                      123 Boulevard d'Anfa<br />
-                      Casablanca, Maroc
+                    Résidence AL ANDALOUS, Lotissement Ouled Taleb (Parallèle Californie, Bd. Al Qods), Casablanca. 
                     </p>
                   </div>
                 </div>
@@ -90,7 +89,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-sm font-medium text-[#2A2A2A] mb-1">Téléphone</h3>
                     <p className="text-gray-500 text-[15px]">
-                      +212 6 00 00 00 00
+                     05 22 21 73 91
                     </p>
                   </div>
                 </div>
@@ -116,11 +115,11 @@ export default function ContactPage() {
               <ul className="space-y-3 text-[15px]">
                 <li className="flex justify-between text-gray-500">
                   <span>Lundi - Vendredi</span>
-                  <span className="font-medium text-[#2A2A2A]">09h00 - 19h00</span>
+                  <span className="font-medium text-[#2A2A2A]">09h00 - 19h30</span>
                 </li>
                 <li className="flex justify-between text-gray-500">
                   <span>Samedi</span>
-                  <span className="font-medium text-[#2A2A2A]">09h00 - 14h00</span>
+                  <span className="font-medium text-[#2A2A2A]">09h00 - 15h00</span>
                 </li>
                 <li className="flex justify-between text-gray-500">
                   <span>Dimanche</span>
