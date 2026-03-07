@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ExpertSolutions() {
   return (
@@ -67,12 +68,12 @@ export default function ExpertSolutions() {
           </div>
 
           <div>
-            <button className="bg-[#E38F75] hover:bg-[#d47b60] transition-colors text-white px-8 py-3.5 rounded-full font-medium text-sm inline-flex items-center gap-2">
+            <Link href='/prestations' className="bg-[#E38F75] hover:bg-[#d47b60] transition-colors text-white px-8 py-3.5 rounded-full font-medium text-sm inline-flex items-center gap-2">
               En savoir plus
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
-            </button>
+            </Link >
           </div>
 
         </div>

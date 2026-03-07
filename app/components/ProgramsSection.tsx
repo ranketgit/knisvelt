@@ -6,10 +6,7 @@ export default function ProgramsSection() {
       
       {/* BACKGROUND GRADIENT BLOBS */}
       <div className="absolute inset-0 pointer-events-none z-0">
-        {/* Soft pink glow on the left */}
         <div className="absolute -left-[10%] top-[10%] w-[500px] h-[500px] rounded-full bg-pink-100/60 blur-[100px]"></div>
-        
-        {/* Soft blue/lavender glow on the right */}
         <div className="absolute -right-[10%] bottom-[0%] w-[600px] h-[600px] rounded-full bg-blue-50/80 blur-[120px]"></div>
       </div>
 
@@ -23,7 +20,6 @@ export default function ProgramsSection() {
 
         {/* Cards Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          
           {/* Card 1 */}
           <div className="bg-white/80 backdrop-blur-sm rounded-[2rem] p-10 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] flex flex-col items-start border border-white/50">
             <div className="mb-6">
@@ -37,7 +33,6 @@ export default function ProgramsSection() {
             <p className="text-gray-500 text-[15px] leading-relaxed mb-8 flex-grow">
               Des plans nutritionnels, adaptés à vos objectifs et à vos besoins personnels.
             </p>
-            
           </div>
 
           {/* Card 2 */}
@@ -53,7 +48,6 @@ export default function ProgramsSection() {
             <p className="text-gray-500 text-[15px] leading-relaxed mb-8 flex-grow">
               Des techniques avancées pour l'amincissement et le remodelage corporel.
             </p>
-            
           </div>
 
           {/* Card 3 */}
@@ -69,19 +63,17 @@ export default function ProgramsSection() {
             <p className="text-gray-500 text-[15px] leading-relaxed mb-8 flex-grow">
               Un accompagnement sportif personnalisé pour sculpter et tonifier votre corps.
             </p>
-            
           </div>
-
         </div>
 
-        {/* Bottom Call to Action Text */}
+        {/* Updated Call to Action Button */}
         <div className="text-center">
-          <p className="text-gray-500 text-[15px]">
-            Prêts à transformer votre corps et votre vie? &gt;{" "}
-            <Link href="/contact" className="font-semibold text-[#2A2A2A] hover:text-[#E38F75] transition-colors">
-              Contactez Nous
-            </Link>
-          </p>
+          <Link 
+            href="/contact" 
+            className="inline-flex items-center px-10 py-4 text-white bg-[#E38F75] hover:bg-[#d47b60] font-medium rounded-full transition-all duration-300 shadow-lg shadow-[#E38F75]/20 hover:shadow-xl hover:shadow-[#E38F75]/30 transform hover:-translate-y-1"
+          >
+            Commencer ma transformation
+          </Link>
         </div>
       </div>
     </section>
