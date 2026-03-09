@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Microneedling | Kinesvelt Casablanca",
-  description: "La technique de régénération cutanée reconnue à l’international pour améliorer visiblement la qualité de la peau. Découvrez l'expertise Kinesvelt by Imane D.",
+  title: "Alma PrimeX Visage | Kinesvelt Casablanca",
+  description: "Une technologie avancée pour raffermir la peau et redessiner les contours du visage sans chirurgie. Expertise Kinesvelt by Imane D.",
 };
 
-export default function MicroneedlingPage() {
+export default function AlmaPrimexVisagePage() {
   return (
     <div className="bg-white min-h-screen py-16 lg:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -18,11 +18,11 @@ export default function MicroneedlingPage() {
             <span className="w-1.5 h-1.5 rounded-full bg-[#E38F75]"></span>
             <span className="text-[#E38F75] text-xs font-semibold tracking-widest uppercase">Prestations Visage</span>
           </div>
-          <h1 className="text-4xl lg:text-5xl font-medium leading-tight text-[#2A2A2A] mb-4">
-            MICRONEEDLING
+          <h1 className="text-4xl lg:text-5xl font-medium leading-tight text-[#2A2A2A] mb-4 uppercase">
+            ALMA PRIMEX – LIFTING VISAGE
           </h1>
           <h2 className="text-xl text-gray-500 font-medium leading-relaxed max-w-3xl">
-            La technique de régénération cutanée reconnue à l’international pour améliorer visiblement la qualité de la peau
+            Une technologie avancée pour raffermir la peau et redessiner les contours du visage sans chirurgie
           </h2>
         </div>
 
@@ -32,8 +32,8 @@ export default function MicroneedlingPage() {
           <div className="flex flex-col gap-10">
             <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100 shadow-sm">
                <Image 
-                 src="/new-services/9.jpeg" 
-                 alt="Microneedling" 
+                 src="/new-services/16.jpeg" 
+                 alt="Alma PrimeX Lifting Visage" 
                  fill 
                  className="object-cover" 
                />
@@ -43,37 +43,62 @@ export default function MicroneedlingPage() {
               <section>
                 <h3 className="text-2xl font-medium text-[#2A2A2A] mb-4">Description</h3>
                 <p>
-                  Le Microneedling est un traitement esthétique avancé qui consiste à créer de micro-stimulations contrôlées dans la peau afin d’activer le processus naturel de régénération cutanée.
-                  Cette technique stimule la production de collagène et d’élastine, améliorant ainsi la texture de la peau, l’éclat du teint et la fermeté cutanée.
+                  Le Alma PrimeX est une plateforme esthétique de dernière génération combinant ultrasons guidés et radiofréquence médicale afin de stimuler le collagène et améliorer la fermeté de la peau.
+                  Ce traitement permet de raffermir le visage, lisser les rides et redéfinir l’ovale tout en restant totalement non invasif.
+                </p>
+                <p>
+                  Grâce à cette combinaison d’énergies, la peau est chauffée en profondeur, ce qui stimule la production naturelle de collagène et d’élastine, responsables de la fermeté et de la jeunesse cutanée.
                 </p>
               </section>
+
+              <div className="bg-gray-50 p-8 rounded-[2rem] border border-gray-100">
+                <h3 className="text-xl font-medium text-[#2A2A2A] mb-4">Zones traitées</h3>
+                <ul className="grid grid-cols-2 gap-4">
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#E38F75]"></span>
+                    <span>Ovale du visage</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#E38F75]"></span>
+                    <span>Bajoues</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#E38F75]"></span>
+                    <span>Joues</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#E38F75]"></span>
+                    <span>Double menton</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#E38F75]"></span>
+                    <span>Cou</span>
+                  </li>
+                </ul>
+              </div>
 
               <div className="bg-[#FAF8F7] p-8 lg:p-10 rounded-[2rem] border border-gray-50">
                 <h3 className="text-xl font-medium text-[#2A2A2A] mb-6">Bienfaits</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <span className="text-[#E38F75] mt-1">•</span>
-                    <span>Stimulation du collagène et de l’élastine</span>
+                    <span>Effet lifting naturel</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-[#E38F75] mt-1">•</span>
-                    <span>Amélioration de la texture de la peau</span>
+                    <span>Raffermissement visible de la peau</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-[#E38F75] mt-1">•</span>
-                    <span>Réduction des pores dilatés</span>
+                    <span>Amélioration de l’élasticité cutanée</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-[#E38F75] mt-1">•</span>
-                    <span>Atténuation des cicatrices d’acné</span>
+                    <span>Redéfinition des contours du visage</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-[#E38F75] mt-1">•</span>
-                    <span>Amélioration de l’éclat du teint</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-[#E38F75] mt-1">•</span>
-                    <span>Peau plus lisse et plus ferme</span>
+                    <span>Réduction des rides et du relâchement cutané</span>
                   </li>
                 </ul>
               </div>
@@ -85,27 +110,27 @@ export default function MicroneedlingPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-[#2A2A2A] mb-2">Technologie</h3>
-                  <p>Technique esthétique reconnue à l’international permettant de stimuler la régénération cutanée et d’optimiser la pénétration des actifs.</p>
+                  <p>Association ultrasons guidés + radiofréquence unipolaire, chauffant les couches profondes de la peau.</p>
                 </div>
               </div>
 
               <section>
                 <h3 className="text-lg font-medium text-[#2A2A2A] mb-2">Résultat</h3>
                 <p>
-                  La peau devient progressivement plus lisse plus ferme et plus lumineuse grâce à la stimulation naturelle de sa régénération.
+                  La peau devient progressivement plus ferme, plus lisse et visiblement liftée, avec un visage redessiné et des contours plus définis.
                 </p>
               </section>
 
               <div className="bg-[#2A2A2A] p-8 rounded-[2rem] text-white">
                 <h3 className="text-xl font-medium mb-4">Signature KINESVELT</h3>
                 <p className="opacity-90 leading-relaxed italic">
-                  Chez KINESVELT by Imane D, le microneedling est réalisé selon un protocole expert afin d’améliorer la qualité de la peau tout en respectant son équilibre naturel.
+                  Chez KINESVELT by Imane D, Alma PrimeX est intégré dans un protocole expert afin d’obtenir un lifting naturel du visage sans chirurgie ni éviction sociale.
                 </p>
               </div>
             </div>
           </div>
 
-          <BookingForm serviceName="Microneedling" />
+          <BookingForm serviceName="Alma PrimeX Visage" />
           
         </div>
       </div>

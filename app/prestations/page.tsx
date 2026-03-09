@@ -24,7 +24,7 @@ export default function PrestationsIndexPage() {
     {
       title: "Prestations Intime",
       desc: "Soins de haute technologie HIFU pour votre bien-être et confort intime.",
-      link: "/prestations/intime",
+      link: "/prestations/hifu-vaginal",
       img: "/intime.jpg"
     },
     {

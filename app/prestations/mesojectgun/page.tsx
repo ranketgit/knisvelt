@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Microneedling | Kinesvelt Casablanca",
-  description: "La technique de régénération cutanée reconnue à l’international pour améliorer visiblement la qualité de la peau. Découvrez l'expertise Kinesvelt by Imane D.",
+  title: "MesojectGun | Kinesvelt Casablanca",
+  description: "La mésothérapie nouvelle génération sans aiguille pour une peau hydratée, repulpée et lumineuse. Découvrez l'expertise Kinesvelt by Imane D.",
 };
 
-export default function MicroneedlingPage() {
+export default function MesojectGunPage() {
   return (
     <div className="bg-white min-h-screen py-16 lg:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,10 +19,10 @@ export default function MicroneedlingPage() {
             <span className="text-[#E38F75] text-xs font-semibold tracking-widest uppercase">Prestations Visage</span>
           </div>
           <h1 className="text-4xl lg:text-5xl font-medium leading-tight text-[#2A2A2A] mb-4">
-            MICRONEEDLING
+            MESOJECTGUN
           </h1>
           <h2 className="text-xl text-gray-500 font-medium leading-relaxed max-w-3xl">
-            La technique de régénération cutanée reconnue à l’international pour améliorer visiblement la qualité de la peau
+            La mésothérapie nouvelle génération sans aiguille inspirée des techniques esthétiques internationales pour une peau hydratée repulpée et lumineuse
           </h2>
         </div>
 
@@ -32,8 +32,8 @@ export default function MicroneedlingPage() {
           <div className="flex flex-col gap-10">
             <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100 shadow-sm">
                <Image 
-                 src="/new-services/9.jpeg" 
-                 alt="Microneedling" 
+                 src="/new-services/8.jpg" 
+                 alt="MesojectGun" 
                  fill 
                  className="object-cover" 
                />
@@ -43,8 +43,8 @@ export default function MicroneedlingPage() {
               <section>
                 <h3 className="text-2xl font-medium text-[#2A2A2A] mb-4">Description</h3>
                 <p>
-                  Le Microneedling est un traitement esthétique avancé qui consiste à créer de micro-stimulations contrôlées dans la peau afin d’activer le processus naturel de régénération cutanée.
-                  Cette technique stimule la production de collagène et d’élastine, améliorant ainsi la texture de la peau, l’éclat du teint et la fermeté cutanée.
+                  Le MesojectGun est une technologie innovante utilisée dans les centres esthétiques internationaux permettant d’infuser des actifs puissants au cœur de la peau sans aiguille et sans douleur.
+                  Grâce à un système de pression haute précision les sérums pénètrent profondément dans la peau afin d’améliorer l’hydratation la qualité cutanée et l’éclat du teint.
                 </p>
               </section>
 
@@ -53,19 +53,15 @@ export default function MicroneedlingPage() {
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <span className="text-[#E38F75] mt-1">•</span>
-                    <span>Stimulation du collagène et de l’élastine</span>
+                    <span>Hydratation profonde de la peau</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-[#E38F75] mt-1">•</span>
-                    <span>Amélioration de la texture de la peau</span>
+                    <span>Amélioration de l’élasticité cutanée</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-[#E38F75] mt-1">•</span>
-                    <span>Réduction des pores dilatés</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-[#E38F75] mt-1">•</span>
-                    <span>Atténuation des cicatrices d’acné</span>
+                    <span>Peau plus lisse et plus repulpée</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-[#E38F75] mt-1">•</span>
@@ -73,7 +69,7 @@ export default function MicroneedlingPage() {
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-[#E38F75] mt-1">•</span>
-                    <span>Peau plus lisse et plus ferme</span>
+                    <span>Stimulation de la régénération de la peau</span>
                   </li>
                 </ul>
               </div>
@@ -81,31 +77,31 @@ export default function MicroneedlingPage() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h3 className="text-lg font-medium text-[#2A2A2A] mb-2">Durée de la séance</h3>
-                  <p className="text-[#E38F75] font-semibold">20 minutes</p>
+                  <p className="text-[#E38F75] font-semibold">30 à 45 minutes</p>
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-[#2A2A2A] mb-2">Technologie</h3>
-                  <p>Technique esthétique reconnue à l’international permettant de stimuler la régénération cutanée et d’optimiser la pénétration des actifs.</p>
+                  <p>Technologie de mésothérapie sans aiguille par pression haute vitesse, inspirée des techniques esthétiques internationales, permettant de faire pénétrer les actifs en profondeur tout en respectant la peau.</p>
                 </div>
               </div>
 
               <section>
                 <h3 className="text-lg font-medium text-[#2A2A2A] mb-2">Résultat</h3>
                 <p>
-                  La peau devient progressivement plus lisse plus ferme et plus lumineuse grâce à la stimulation naturelle de sa régénération.
+                  La peau apparaît plus hydratée plus lisse et plus lumineuse avec un effet glow immédiat.
                 </p>
               </section>
 
               <div className="bg-[#2A2A2A] p-8 rounded-[2rem] text-white">
                 <h3 className="text-xl font-medium mb-4">Signature KINESVELT</h3>
                 <p className="opacity-90 leading-relaxed italic">
-                  Chez KINESVELT by Imane D, le microneedling est réalisé selon un protocole expert afin d’améliorer la qualité de la peau tout en respectant son équilibre naturel.
+                  Chez KINESVELT by Imane D, ce soin est réalisé avec des sérums hautement concentrés afin d’offrir un résultat visible tout en restant totalement non invasif.
                 </p>
               </div>
             </div>
           </div>
 
-          <BookingForm serviceName="Microneedling" />
+          <BookingForm serviceName="MesojectGun" />
           
         </div>
       </div>

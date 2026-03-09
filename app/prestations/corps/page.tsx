@@ -5,7 +5,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function PrestationsCorpsPage() {
-  // The tabs are your sub-categories
   const [activeTab, setActiveTab] = useState('amincissement');
 
   const tabs = [
@@ -15,7 +14,6 @@ export default function PrestationsCorpsPage() {
     { id: 'epilation', label: 'Épilation' },
   ];
 
-  // The cards are the ACTUAL individual services, now with correct hrefs!
   const servicesData = {
     amincissement: [
       { 
@@ -56,9 +54,9 @@ export default function PrestationsCorpsPage() {
     ],
     remodelage: [
       { 
-        title: "Lifting colombien", 
-        desc: "Rehaussement et galbe naturel des fesses sans chirurgie ni injection.",
-        href: "/prestations/lifting-colombien"
+        title: "Traitement colombien fessier", 
+        desc: "Rehaussement et galbe naturel des fessiers sans chirurgie ni injection (Dernière génération).",
+        href: "/prestations/traitement-colombien-fessier"
       },
     ],
     drainage: [
@@ -71,7 +69,7 @@ export default function PrestationsCorpsPage() {
     epilation: [
       { 
         title: "Épilation laser", 
-        desc: "Une solution définitive pour une peau douce et nette toute l'année.",
+        desc: "La solution durable pour une peau parfaitement lisse grâce aux technologies laser de dernière génération.",
         href: "/prestations/epilation-laser"
       },
     ]
@@ -82,7 +80,6 @@ export default function PrestationsCorpsPage() {
       
       {/* Wide Hero Section for CORPS */}
       <section className="relative w-full h-[400px] lg:h-[500px]">
-        {/* Placeholder background color until you add the image */}
         <div className="absolute inset-0 bg-gray-200">
          <Image src="/corps.jpg" alt="Prestations Corps" fill className="object-cover" priority />
           <div className="absolute inset-0 bg-black/20"></div>
@@ -107,7 +104,6 @@ export default function PrestationsCorpsPage() {
       {/* Tabs / Filter Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
         
-        {/* Tab Buttons */}
         <div className="flex flex-wrap justify-center gap-4 mb-16">
           {tabs.map((tab) => (
             <button
@@ -124,9 +120,7 @@ export default function PrestationsCorpsPage() {
           ))}
         </div>
 
-        {/* Dynamic Cards Grid (Each card is a service) */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-          {/* @ts-ignore */}
           {servicesData[activeTab].map((service, index) => (
             <div 
               key={index} 
@@ -141,7 +135,6 @@ export default function PrestationsCorpsPage() {
                 </p>
               </div>
 
-              {/* Dynamically linking to the correct page now */}
               <Link 
                 href={service.href} 
                 className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 transition-colors border border-gray-200 text-[#2A2A2A] px-6 py-3 rounded-full font-medium text-sm w-full group"

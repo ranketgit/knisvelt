@@ -26,7 +26,7 @@ export default function Prestations() {
     },
     {
       title: "Prestations Intime",
-      link: "/prestations/intime",
+      link: "/prestations/hifu-vaginal",
       image: "/services/3.jpg",
       subcategories: [
         "HIFU Vaginal",
