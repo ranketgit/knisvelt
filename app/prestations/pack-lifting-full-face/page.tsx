@@ -32,7 +32,7 @@ export default function HifuLiftingVisagePage() {
           <div className="flex flex-col gap-10">
             <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100 shadow-sm">
                <Image 
-                 src="/new-services/12.jpg" 
+                 src="/new-services/12.jpeg" 
                  alt="HIFU LIFTING VISAGE" 
                  fill 
                  className="object-cover" 

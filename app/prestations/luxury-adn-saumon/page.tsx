@@ -32,7 +32,7 @@ export default function LuxuryADNSaumonPage() {
           <div className="flex flex-col gap-10">
             <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100 shadow-sm">
                <Image 
-                 src="/new-services/7.jpg" 
+                 src="/new-services/7.jpeg" 
                  alt="Soin Luxury ADN Saumon" 
                  fill 
                  className="object-cover" 

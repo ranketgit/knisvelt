@@ -32,7 +32,7 @@ export default function TraitementAcnePage() {
           <div className="flex flex-col gap-10">
             <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100 shadow-sm">
                <Image 
-                 src="/new-services/5.jpg" 
+                 src="/new-services/5.jpeg" 
                  alt="Traitement Acné" 
                  fill 
                  className="object-cover" 
