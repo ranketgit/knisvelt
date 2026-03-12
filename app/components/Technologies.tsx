@@ -1,66 +1,79 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Technologies() {
   const machines = [
     {
       name: "Radiofréquence",
       action: "Technologie avancée de raffermissement et régénération cutanée.",
-      link: "/equipements/radiofrequence"
+      link: "/equipements/radiofrequence",
+      img: "/radio.jpeg"
     },
     {
       name: "Lipocavitation",
       action: "Technologie avancée de réduction de la graisse localisée.",
-      link: "/equipements/lipocavitation"
+      link: "/equipements/lipocavitation",
+      img: "/lipo.jpeg"
     },
     {
       name: "Ondes de choc X-Wave",
       action: "Stimulation mécanique profonde et restructuration tissulaire.",
-      link: "/equipements/ondes-de-choc"
+      link: "/equipements/ondes-de-choc",
+      img: "/ondes.jpeg"
     },
     {
       name: "Pressothérapie",
       action: "Technologie avancée de drainage et stimulation circulatoire.",
-      link: "/equipements/pressotherapie"
+      link: "/equipements/pressotherapie",
+      img: "/presto.jpeg"
     },
     {
       name: "EMSculpt Haute Intensity",
       action: "Renforcement musculaire et remodelage corporel.",
-      link: "/equipements/emsculpt"
+      link: "/equipements/emsculpt",
+      img: "/emscuplt.jpeg"
     },
     {
       name: "I-Lipo",
       action: "Technologie laser lipolytique de dernière génération.",
-      link: "/equipements/i-lipo"
+      link: "/equipements/i-lipo",
+      img: "/i-lipo.jpeg"
     },
     {
       name: "Endosphères",
       action: "Micro-vibration compressive pour le drainage et remodelage avancé.",
-      link: "/equipements/endospheres"
+      link: "/equipements/endospheres",
+      img: "/endospheres.jpeg"
     },
     {
       name: "Madérothérapie & Métallo.",
       action: "Remodelage corporel par instruments en bois et en métal.",
-      link: "/equipements/maderotherapie"
+      link: "/equipements/maderotherapie",
+      img: "/maderotherapie.jpeg"
     },
     {
       name: "LPG",
       action: "Bodycontouring et remodelage global de la silhouette.",
-      link: "/equipements/lpg"
+      link: "/equipements/lpg",
+      img: "/lpg.jpeg"
     },
     {
       name: "Emtone – BTL",
       action: "Technologie révolutionnaire pour traiter tous les types de cellulite.",
-      link: "/equipements/emtone-btl"
+      link: "/equipements/emtone-btl",
+      img: "/emtone.jpeg"
     },
     {
       name: "T-Care Slim",
       action: "Stimulation cellulaire profonde par radiofréquence capacitive.",
-      link: "/equipements/t-care-slim"
+      link: "/equipements/t-care-slim",
+      img: "/tcare.jpeg"
     },
     {
       name: "Exilis – BTL",
       action: "Combinaison radiofréquence et ultrasons pour le raffermissement.",
-      link: "/equipements/exilis-btl"
+      link: "/equipements/exilis-btl",
+      img: "/exilis.jpeg"
     }
   ];
 
@@ -86,29 +99,38 @@ export default function Technologies() {
           {machines.map((machine, index) => (
             <div 
               key={index} 
-              className="bg-white rounded-[2rem] p-8 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.03)] border border-gray-50 flex flex-col h-full"
+              className="bg-white rounded-[2.5rem] p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.03)] border border-gray-50 flex flex-col h-full hover:shadow-md transition-shadow duration-300"
             >
-              <div className="mb-6 flex-grow">
-               
-                
-                <h3 className="text-xl font-medium text-[#2A2A2A] mb-3">
+              {/* IMAGE CONTAINER */}
+              <div className="relative w-full h-[220px] mb-6 rounded-[1.8rem] overflow-hidden bg-gray-100">
+                <Image 
+                  src={machine.img} 
+                  alt={machine.name} 
+                  fill 
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+
+              <div className="mb-6 flex-grow px-2">
+                <h3 className="text-xl font-medium text-[#2A2A2A] mb-3 uppercase tracking-tight">
                   {machine.name}
                 </h3>
-                
                 <p className="text-gray-500 text-[15px] leading-relaxed">
                   {machine.action}
                 </p>
               </div>
 
-              <Link 
-                href={machine.link} 
-                className="inline-flex items-center gap-2 text-sm font-medium text-[#E38F75] hover:text-[#d47b60] transition-colors group mt-auto"
-              >
-                Découvrir la technologie
-                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-              </Link>
+              <div className="px-2 pb-2 mt-auto">
+                <Link 
+                  href={machine.link} 
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-[#E38F75] hover:text-[#d47b60] transition-colors group"
+                >
+                  Découvrir la technologie
+                  <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </Link>
+              </div>
             </div>
           ))}
         </div>
