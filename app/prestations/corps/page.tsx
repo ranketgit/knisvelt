@@ -26,6 +26,11 @@ export default function PrestationsCorpsPage() {
       { title: "Cure renforcement musculaire", desc: "Tonifiez votre corps et développez votre masse musculaire efficacement.", href: "/prestations/cure-renforcement-musculaire" },
       { title: "Cure spéciale cellulite", desc: "Des protocoles intensifs pour lisser la peau et éliminer l'aspect peau d'orange.", href: "/prestations/cure-speciale-cellulite" },
       { title: "Cure thyroïde / OPK / diabète", desc: "Un programme minceur strictement adapté à votre métabolisme et vos contraintes de santé.", href: "/prestations/cure-thyroide-opk-diabete" },
+      { 
+        title: "Alma PrimeX Corps", 
+        desc: "Technologie premium de radiofréquence certifiée FDA pour réduire les graisses localisées et raffermir la peau.",
+        href: "/prestations/alma-primex-corps"
+      }
     ],
     remodelage: [
       { title: "Traitement colombien fessier", desc: "Rehaussement et galbe naturel des fessiers sans chirurgie ni injection (Dernière génération).", href: "/prestations/traitement-colombien-fessier" },

@@ -13,7 +13,7 @@ export default function PrestationsIndexPage() {
       title: "Prestations Corps",
       desc: "Amincissement, remodelage, drainage et épilation laser pour sculpter votre silhouette.",
       link: "/prestations/corps",
-      img: "/corps.jpg" // Add an image to your public folder
+      img: "/corp.png" // Add an image to your public folder
     },
     {
       title: "Prestations Visage",
@@ -25,13 +25,13 @@ export default function PrestationsIndexPage() {
       title: "Prestations Intime",
       desc: "Soins de haute technologie HIFU pour votre bien-être et confort intime.",
       link: "/prestations/hifu-vaginal",
-      img: "/intime.jpg"
+      img: "/intim.png"
     },
     {
       title: "Prestations Capillaires",
       desc: "Protocoles ciblés de microneedling pour redonner force et densité à vos cheveux.",
       link: "/prestations/capillaires",
-      img: "/capillaire-category.jpg"
+      img: "/capill.png"
     }
   ];
 

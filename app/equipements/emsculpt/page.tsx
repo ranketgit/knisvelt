@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import BookingForm from '../../components/BookingForm';
+import Image from "next/image";
 import AddToCartCard from "@/app/components/AddToCartCard";
 
 export const metadata: Metadata = {
@@ -19,8 +19,19 @@ export default function EmsculptPage() {
               <span className="text-[#E38F75] text-xs font-semibold tracking-widest uppercase">Rubrique « Machines »</span>
             </div>
             
-            <h1 className="text-4xl lg:text-5xl font-medium leading-tight text-[#2A2A2A] mb-6">EMSCULPT HAUTE INTENSITY</h1>
-            <h2 className="text-xl lg:text-2xl text-gray-500 font-medium mb-10 leading-relaxed">Technologie avancée de renforcement musculaire et remodelage corporel</h2>
+            <h1 className="text-4xl lg:text-5xl font-medium leading-tight text-[#2A2A2A] mb-6 uppercase tracking-tight">EMSCULPT HAUTE INTENSITY</h1>
+            <h2 className="text-xl lg:text-2xl text-gray-400 font-medium mb-10 leading-relaxed">Technologie avancée de renforcement musculaire et remodelage corporel</h2>
+
+            {/* FIXED HEIGHT IMAGE CONTAINER */}
+            <div className="relative w-full h-[250px] lg:h-[350px] mb-12 rounded-[2rem] overflow-hidden bg-gray-100 shadow-sm">
+              <Image 
+                src="/emscuplt.jpeg" 
+                alt="EMSculpt Haute Intensity" 
+                fill 
+                className="object-cover" 
+                priority 
+              />
+            </div>
 
             <div className="text-gray-500 text-[17px] leading-relaxed mb-12 space-y-6">
               <p>EMSculpt utilise des impulsions électromagnétiques focalisées de haute intensité pour provoquer des contractions musculaires profondes impossibles à obtenir volontairement.</p>
@@ -31,30 +42,30 @@ export default function EmsculptPage() {
 
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div>
-                <h3 className="text-lg font-medium text-[#2A2A2A] mb-4">Action & Indications</h3>
+                <h3 className="text-lg font-medium text-[#2A2A2A] mb-4 uppercase text-sm tracking-widest">Action & Indications</h3>
                 <ul className="space-y-2 text-gray-500 text-[15px]">
-                  <li>Renforcement musculaire profond</li>
-                  <li>Tonification et galbe corporel</li>
-                  <li>Ventre relâché & Manque de tonicité</li>
-                  <li>Affinement de la silhouette</li>
+                  <li>• Renforcement profond</li>
+                  <li>• Tonification et galbe</li>
+                  <li>• Ventre relâché</li>
+                  <li>• Affinement silhouette</li>
                 </ul>
               </div>
               <div>
-                <h3 className="text-lg font-medium text-[#2A2A2A] mb-4">Zones traitées</h3>
+                <h3 className="text-lg font-medium text-[#2A2A2A] mb-4 uppercase text-sm tracking-widest">Zones traitées</h3>
                 <ul className="space-y-2 text-gray-500 text-[15px]">
-                  <li>Ventre</li>
-                  <li>Fessiers</li>
-                  <li>Cuisses</li>
-                  <li>Bras</li>
+                  <li>• Ventre</li>
+                  <li>• Fessiers</li>
+                  <li>• Cuisses</li>
+                  <li>• Bras</li>
                 </ul>
               </div>
               <div>
-                <h3 className="text-lg font-medium text-[#2A2A2A] mb-4">Bienfaits</h3>
+                <h3 className="text-lg font-medium text-[#2A2A2A] mb-4 uppercase text-sm tracking-widest">Bienfaits</h3>
                 <ul className="space-y-2 text-gray-500 text-[15px]">
-                  <li>Muscles plus fermes et plus toniques</li>
-                  <li>Silhouette plus sculptée</li>
-                  <li>Amélioration du tonus musculaire</li>
-                  <li>Ventre plus plat et plus ferme</li>
+                  <li>• Muscles plus fermes</li>
+                  <li>• Silhouette sculptée</li>
+                  <li>• Tonus amélioré</li>
+                  <li>• Ventre plus plat</li>
                 </ul>
               </div>
             </div>
@@ -67,13 +78,18 @@ export default function EmsculptPage() {
               <p className="text-gray-500 text-[17px] leading-relaxed">En 30 minutes, la technologie provoque l’équivalent de milliers de contractions musculaires profondes, permettant une stimulation musculaire intense et efficace.</p>
             </div>
 
-            <div className="bg-[#FAF8F7] rounded-[2rem] p-8 lg:p-10 border border-gray-50">
-              <h3 className="text-xl font-medium text-[#2A2A2A] mb-4">Spécificité KINESVELT</h3>
-              <p className="text-gray-500 text-[17px] leading-relaxed">EMSculpt est une technologie idéale pour remodeler le corps, renforcer les muscles et améliorer la tonicité globale, et constitue une étape essentielle dans les protocoles de transformation corporelle chez KINESVELT.</p>
+            <div className="bg-[#FAF8F7] rounded-[2rem] p-8 lg:p-10 border border-gray-100 italic">
+              <h3 className="text-xl font-medium text-[#2A2A2A] mb-4 uppercase tracking-wider not-italic">Spécificité KINESVELT</h3>
+              <p className="text-gray-500 text-[17px] leading-relaxed">
+                EMSculpt est une technologie idéale pour remodeler le corps, renforcer les muscles et améliorer la tonicité globale, et constitue une étape essentielle dans les protocoles de transformation corporelle chez KINESVELT.
+              </p>
             </div>
           </div>
 
-          <AddToCartCard machineName="EMSculpt Haute Intensity" />
+          <aside className="lg:sticky lg:top-24">
+            <AddToCartCard machineName="EMSculpt Haute Intensity" />
+          </aside>
+          
         </div>
       </div>
     </section>

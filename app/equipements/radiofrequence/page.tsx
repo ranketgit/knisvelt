@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import BookingForm from '../../components/BookingForm';
+import Image from "next/image";
 import AddToCartCard from "@/app/components/AddToCartCard";
 
 export const metadata: Metadata = {
@@ -11,6 +11,7 @@ export default function RadiofrequencePage() {
   return (
     <section className="bg-white py-16 lg:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
         <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
           
           <div className="flex flex-col">
@@ -19,8 +20,19 @@ export default function RadiofrequencePage() {
               <span className="text-[#E38F75] text-xs font-semibold tracking-widest uppercase">Rubrique « Machines »</span>
             </div>
             
-            <h1 className="text-4xl lg:text-5xl font-medium leading-tight text-[#2A2A2A] mb-6">RADIOFRÉQUENCE</h1>
-            <h2 className="text-xl lg:text-2xl text-gray-500 font-medium mb-10 leading-relaxed">Technologie avancée de raffermissement et régénération cutanée</h2>
+            <h1 className="text-4xl lg:text-5xl font-medium leading-tight text-[#2A2A2A] mb-4 uppercase tracking-tight">RADIOFRÉQUENCE</h1>
+            <h2 className="text-lg lg:text-xl text-gray-400 font-medium mb-8 leading-relaxed">Technologie avancée de raffermissement et régénération cutanée</h2>
+            
+            {/* FIXED HEIGHT IMAGE CONTAINER */}
+            <div className="relative w-full h-[250px] lg:h-[350px] mb-12 rounded-[2rem] overflow-hidden bg-gray-100 shadow-sm">
+              <Image 
+                src="/radio.jpeg" 
+                alt="Radiofréquence" 
+                fill 
+                className="object-cover" 
+                priority 
+              />
+            </div>
 
             <div className="text-gray-500 text-[17px] leading-relaxed mb-12 space-y-6">
               <p>La radiofréquence est une technologie esthétique non invasive qui utilise des ondes électromagnétiques pour chauffer les couches profondes de la peau de manière contrôlée.</p>
@@ -31,34 +43,34 @@ export default function RadiofrequencePage() {
 
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div>
-                <h3 className="text-lg font-medium text-[#2A2A2A] mb-4">Indications</h3>
+                <h3 className="text-lg font-medium text-[#2A2A2A] mb-4 uppercase text-sm tracking-widest">Indications</h3>
                 <ul className="space-y-2 text-gray-500 text-[15px]">
-                  <li>Raffermissement cutané</li>
-                  <li>Relâchement de la peau</li>
-                  <li>Cellulite</li>
-                  <li>Amélioration de la texture cutanée</li>
-                  <li>Prévention du vieillissement cutané</li>
+                  <li>• Raffermissement cutané</li>
+                  <li>• Relâchement de la peau</li>
+                  <li>• Cellulite</li>
+                  <li>• Texture cutanée</li>
+                  <li>• Anti-âge</li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-lg font-medium text-[#2A2A2A] mb-4">Zones traitées</h3>
+                <h3 className="text-lg font-medium text-[#2A2A2A] mb-4 uppercase text-sm tracking-widest">Zones traitées</h3>
                 <ul className="space-y-2 text-gray-500 text-[15px]">
-                  <li>Visage & Cou</li>
-                  <li>Ventre</li>
-                  <li>Bras</li>
-                  <li>Cuisses & Fesses</li>
+                  <li>• Visage & Cou</li>
+                  <li>• Ventre</li>
+                  <li>• Bras</li>
+                  <li>• Cuisses & Fesses</li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-lg font-medium text-[#2A2A2A] mb-4">Bienfaits</h3>
+                <h3 className="text-lg font-medium text-[#2A2A2A] mb-4 uppercase text-sm tracking-widest">Bienfaits</h3>
                 <ul className="space-y-2 text-gray-500 text-[15px]">
-                  <li>Stimulation intense du collagène</li>
-                  <li>Amélioration de la fermeté et de l’élasticité</li>
-                  <li>Amélioration de la qualité de peau</li>
-                  <li>Réduction visible du relâchement</li>
-                  <li>Activation de la microcirculation</li>
+                  <li>• Collagène intense</li>
+                  <li>• Élasticité retrouvée</li>
+                  <li>• Qualité de peau</li>
+                  <li>• Effet tenseur</li>
+                  <li>• Microcirculation</li>
                 </ul>
               </div>
             </div>
@@ -70,21 +82,22 @@ export default function RadiofrequencePage() {
               <p className="text-xl text-[#E38F75] font-medium mb-6">30 minutes par zone</p>
               <div className="text-gray-500 text-[17px] leading-relaxed space-y-6">
                 <p>Cette durée est optimale pour atteindre la température thérapeutique nécessaire à la stimulation du collagène sans agresser les tissus.</p>
-                <p>Au-delà de ce temps, la stimulation est déjà maximale et prolonger la séance n’augmente pas l’efficacité, mais peut fatiguer inutilement les tissus.</p>
-                <p>Une séance de 30 minutes permet donc un traitement efficace, sécurisé et parfaitement toléré, avec une stimulation profonde et progressive.</p>
+                <p>Une séance de 30 minutes permet un traitement efficace, sécurisé et parfaitement toléré, avec une stimulation profonde et progressive.</p>
               </div>
             </div>
 
-            <div className="bg-[#FAF8F7] rounded-[2rem] p-8 lg:p-10 border border-gray-50">
-              <h3 className="text-xl font-medium text-[#2A2A2A] mb-4">L’expertise KINESVELT</h3>
-              <p className="text-gray-500 text-[17px] leading-relaxed">
-                Chez KINESVELT, la radiofréquence est utilisée selon des protocoles précis afin d’assurer une stimulation optimale des tissus et des résultats visibles, tout en respectant la physiologie naturelle de la peau.
+            <div className="bg-[#FAF8F7] rounded-[2rem] p-8 border border-gray-100 italic">
+              <h3 className="text-lg font-medium text-[#2A2A2A] mb-3 uppercase tracking-wider not-italic">L’expertise KINESVELT</h3>
+              <p className="text-gray-500 text-[16px] leading-relaxed">
+                Chez KINESVELT, la radiofréquence est utilisée selon des protocoles précis afin d’assurer une stimulation optimale des tissus et des résultats visibles.
               </p>
             </div>
-
           </div>
 
-          <AddToCartCard machineName="Radiofréquence" />
+          <aside className="lg:sticky lg:top-24">
+            <AddToCartCard machineName="Radiofréquence" />
+          </aside>
+          
         </div>
       </div>
     </section>

@@ -47,7 +47,7 @@ export default function LeCentrePage() {
             Le Centre
           </h1>
           <p className="text-lg lg:text-xl text-white/90 font-light leading-relaxed">
-            Vous trouverez au centre Kinesvelt le bon équilibre entre une atmosphère calme et relaxante, et l'utilisation des machines les plus efficaces pour une fiabilité totale et aucune douleur dans le processus.
+          Vous trouverez au centre Kinesvelt le parfait équilibre entre une atmosphère calme et relaxante et l’utilisation de technologies et machines de pointe, reconnues pour leur efficacité. Nos traitements pour le corps et le visage sont entièrement non invasifs, et bénéficient de plus de 16 ans d’expérience au service de votre bien-être et de votre beauté.
           </p>
         </div>
       </section>

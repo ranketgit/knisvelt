@@ -5,7 +5,7 @@ export default function Prestations() {
     {
       title: "Prestations Corps",
       link: "/prestations/corps",
-      image: "/services/1.jpg",
+      image: "/corp.png",
       subcategories: [
         "Amincissement & Silhouette",
         "Remodelage & Raffermissement",
