@@ -122,14 +122,6 @@ export default function ReservationPage() {
                   <div>
                     <input type="date" name="date_souhaitee" required className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-[#E38F75] bg-[#FAF8F7] text-gray-600 text-sm" />
                   </div>
-                  <div>
-                    <select name="heure_souhaitee" required className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-[#E38F75] bg-[#FAF8F7] text-gray-600 text-sm">
-                      <option value="">Heure</option>
-                      {timeSlots.map((time) => (
-                        <option key={time} value={time}>{time}</option>
-                      ))}
-                    </select>
-                  </div>
                 </div>
 
                 <button 
