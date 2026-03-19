@@ -21,9 +21,7 @@ export default function CureAllaitementPage() {
 
         <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
           <div className="flex flex-col gap-10">
-            <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100">
-               {/* <Image src="/images/cure-allaitement.jpg" alt="Cure Allaitement" fill className="object-cover" /> */}
-            </div>
+           
 
             <div className="text-gray-500 text-[17px] leading-relaxed space-y-6">
               <p>L'allaitement requiert des précautions particulières. Il est essentiel de ne pas brusquer l'organisme tout en amorçant une perte de poids et un remodelage corporel en toute sécurité pour la maman et le bébé.</p>

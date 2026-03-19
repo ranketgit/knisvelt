@@ -21,9 +21,7 @@ export default function DoubleMentonPage() {
 
         <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
           <div className="flex flex-col gap-10">
-            <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100">
-               {/* <Image src="/images/double-menton.jpg" alt="Double Menton" fill className="object-cover" /> */}
-            </div>
+            
 
             <div className="text-gray-500 text-[17px] leading-relaxed space-y-6">
               <p>Le double menton est souvent source de complexes. Il peut être dû à un amas graisseux localisé, à la génétique, ou à un relâchement cutané, et résiste généralement aux régimes stricts et à la gymnastique faciale.</p>

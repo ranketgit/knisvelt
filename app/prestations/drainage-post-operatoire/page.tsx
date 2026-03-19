@@ -21,9 +21,7 @@ export default function DrainagePostOpPage() {
 
         <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
           <div className="flex flex-col gap-10">
-            <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100">
-               {/* <Image src="/images/drainage-post-op.jpg" alt="Drainage Post Opératoire" fill className="object-cover" /> */}
-            </div>
+           
 
             <div className="text-gray-500 text-[17px] leading-relaxed space-y-6">
               <p>Après une intervention chirurgicale (liposuccion, abdominoplastie, chirurgie esthétique ou réparatrice), le corps réagit souvent par une inflammation, des ecchymoses et une rétention de liquides importante.</p>

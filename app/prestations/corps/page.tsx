@@ -29,7 +29,7 @@ export default function PrestationsCorpsPage() {
       { 
         title: "Alma PrimeX Corps", 
         desc: "Technologie premium de radiofréquence certifiée FDA pour réduire les graisses localisées et raffermir la peau.",
-        href: "/prestations/alma-primex-corps"
+        href: "/equipements/alma-primex-corps"
       }
     ],
     remodelage: [

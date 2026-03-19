@@ -21,9 +21,7 @@ export default function CureSpecialeCellulitePage() {
 
         <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
           <div className="flex flex-col gap-10">
-            <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100">
-               {/* <Image src="/images/cure-cellulite.jpg" alt="Cure Cellulite" fill className="object-cover" /> */}
-            </div>
+           
 
             <div className="text-gray-500 text-[17px] leading-relaxed space-y-6">
               <p>Qu'elle soit aqueuse, adipeuse ou fibreuse, la cellulite est souvent résistante aux régimes classiques et au sport. Notre cure spéciale cellulite est une approche thérapeutique complète conçue pour casser les capitons et lisser la peau.</p>

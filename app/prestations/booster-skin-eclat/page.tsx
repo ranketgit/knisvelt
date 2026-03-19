@@ -21,9 +21,7 @@ export default function BoosterSkinEclatPage() {
 
         <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
           <div className="flex flex-col gap-10">
-            <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100">
-               {/* <Image src="/images/booster-eclat.jpg" alt="Booster Skin Éclat" fill className="object-cover" /> */}
-            </div>
+           
 
             <div className="text-gray-500 text-[17px] leading-relaxed space-y-6">
               <p>Pollution, stress, fatigue, tabac ou manque de sommeil : notre peau subit de nombreuses agressions quotidiennes qui brouillent le teint et lui font perdre sa luminosité naturelle. Le Booster Skin Éclat est la solution "glow" par excellence.</p>

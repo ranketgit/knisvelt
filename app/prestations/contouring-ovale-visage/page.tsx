@@ -21,9 +21,7 @@ export default function ContouringOvalePage() {
 
         <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
           <div className="flex flex-col gap-10">
-            <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100">
-               {/* <Image src="/images/contouring-ovale.jpg" alt="Contouring Ovale" fill className="object-cover" /> */}
-            </div>
+            
 
             <div className="text-gray-500 text-[17px] leading-relaxed space-y-6">
               <p>Avec le temps ou les variations de poids, l'ovale du visage a tendance à se relâcher et à perdre de sa définition. Le contouring médical esthétique permet de restructurer le bas du visage sans passer par la case chirurgie.</p>

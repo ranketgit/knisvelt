@@ -21,9 +21,7 @@ export default function CureZoneLocaliseePage() {
 
         <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
           <div className="flex flex-col gap-10">
-            <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100">
-               {/* <Image src="/images/zone-localisee.jpg" alt="Zone Localisée" fill className="object-cover" /> */}
-            </div>
+          
 
             <div className="text-gray-500 text-[17px] leading-relaxed space-y-6">
               <p>Même avec une bonne hygiène de vie et du sport, certaines zones du corps stockent la graisse de manière récalcitrante (poignées d'amour, culotte de cheval, ventre, intérieur des cuisses).</p>

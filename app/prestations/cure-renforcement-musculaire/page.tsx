@@ -21,9 +21,7 @@ export default function CureRenforcementMusculairePage() {
 
         <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
           <div className="flex flex-col gap-10">
-            <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100">
-               {/* <Image src="/images/renforcement-musculaire.jpg" alt="Renforcement Musculaire" fill className="object-cover" /> */}
-            </div>
+            
 
             <div className="text-gray-500 text-[17px] leading-relaxed space-y-6">
               <p>Perdre du gras est une chose, mais avoir un corps tonique et galbé en est une autre. Notre cure de renforcement musculaire utilise des technologies avancées comme l'EMSculpt Haute Intensité pour provoquer des contractions musculaires profondes.</p>

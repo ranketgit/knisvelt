@@ -21,9 +21,7 @@ export default function CureBodycontouringPage() {
 
         <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
           <div className="flex flex-col gap-10">
-            <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100">
-               {/* <Image src="/images/full-body.jpg" alt="Bodycontouring" fill className="object-cover" /> */}
-            </div>
+           
 
             <div className="text-gray-500 text-[17px] leading-relaxed space-y-6">
               <p>Le Bodycontouring Full Body est la solution ultime pour une transformation globale. Plutôt que de cibler une seule zone, ce protocole complet prend en charge l'ensemble de votre silhouette pour un résultat harmonieux et proportionné.</p>

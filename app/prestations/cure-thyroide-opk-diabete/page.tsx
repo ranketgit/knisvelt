@@ -21,9 +21,7 @@ export default function CurePathologiesPage() {
 
         <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
           <div className="flex flex-col gap-10">
-            <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100">
-               {/* <Image src="/images/cure-pathologies.jpg" alt="Cure Pathologies" fill className="object-cover" /> */}
-            </div>
+            
 
             <div className="text-gray-500 text-[17px] leading-relaxed space-y-6">
               <p>La perte de poids peut s'avérer extrêmement complexe lorsque le métabolisme est ralenti par des dérèglements hormonaux comme l'hypothyroïdie, le syndrome des ovaires polykystiques (OPK) ou le diabète.</p>

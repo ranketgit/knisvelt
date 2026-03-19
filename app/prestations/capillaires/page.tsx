@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import type { Metadata } from "next";
-import BookingForm from '../../components/BookingForm'; // Import your new component
+import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
   title: "Microneedling Cheveux | Kinesvelt Casablanca",
@@ -31,8 +31,14 @@ export default function PrestationsCapillairesPage() {
           <div className="flex flex-col gap-10">
             
             {/* Main Service Image */}
-            <div className="relative w-full h-[400px] rounded-[2rem] overflow-hidden bg-gray-100">
-               {/* <Image src="/images/capillaire-service.jpg" alt="Microneedling Cheveux" fill className="object-cover" /> */}
+            <div className="relative w-full h-[250px] lg:h-[400px] rounded-[2rem] overflow-hidden bg-gray-100 shadow-sm">
+               <Image 
+                 src="/capill.png" 
+                 alt="Microneedling Cheveux" 
+                 fill 
+                 className="object-cover" 
+                 priority 
+               />
             </div>
 
             {/* Service Content */}
@@ -66,7 +72,9 @@ export default function PrestationsCapillairesPage() {
           </div>
 
           {/* Right Column: The Reusable Booking Form */}
-          <BookingForm serviceName="Microneedling Cheveux" />
+          <div className="lg:sticky lg:top-24">
+            <BookingForm serviceName="Microneedling Cheveux" />
+          </div>
 
         </div>
       </div>

@@ -21,10 +21,6 @@ export default function PackAntiAgePage() {
 
         <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
           <div className="flex flex-col gap-10">
-            <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100">
-               {/* <Image src="/images/pack-anti-age.jpg" alt="Pack Anti-Âge" fill className="object-cover" /> */}
-            </div>
-
             <div className="text-gray-500 text-[17px] leading-relaxed space-y-6">
               <p>Le vieillissement cutané se manifeste par l'apparition de ridules, une perte de densité et un affinement de la peau. Notre Pack Anti-Âge est conçu pour freiner ce processus en stimulant la régénération cellulaire de l'intérieur.</p>
               <p>Ce programme sur-mesure combine des peelings doux, de la radiofréquence ou des soins repulpants à base d'acide hyaluronique pour combler les rides de l'intérieur, relancer la production naturelle de collagène et préserver le capital jeunesse de votre peau.</p>
