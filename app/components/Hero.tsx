@@ -49,7 +49,7 @@ export default function Hero() {
         </div>
 
         {/* Right Column: Image */}
-        <div className="relative h-[400px] lg:h-auto min-h-[500px] w-full rounded-[2.5rem] overflow-hidden">
+        <div className="hidden relative md:inline h-[400px] lg:h-auto min-h-[500px] w-full rounded-[2.5rem] overflow-hidden">
           <Image 
             src="/hero-kenisvelt.jpg" 
             alt="Femme mesurant sa taille" 

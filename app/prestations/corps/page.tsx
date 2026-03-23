@@ -47,7 +47,7 @@ export default function PrestationsCorpsPage() {
     <div className="bg-[#FAF8F7] min-h-screen">
       <section className="relative w-full h-[400px] lg:h-[500px]">
         <div className="absolute inset-0 bg-gray-200">
-         <Image src="/corps.jpg" alt="Prestations Corps" fill className="object-cover" priority />
+         <Image src="/corp.png" alt="Prestations Corps" fill className="object-cover" priority />
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">

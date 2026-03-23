@@ -7,7 +7,7 @@ export default function ExpertSolutions() {
       <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
         
         {/* Left Column: Image */}
-        <div className="relative h-[400px] lg:h-[500px] w-full rounded-[2.5rem] overflow-hidden">
+        <div className="relative hidden md:inline h-[400px] lg:h-[500px] w-full rounded-[2.5rem] overflow-hidden">
           {/* Note: Add an image named 'consultation.jpg' to your public folder */}
           <Image 
             src="/solutions.jpg" 

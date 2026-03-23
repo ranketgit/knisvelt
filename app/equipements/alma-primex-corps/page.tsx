@@ -30,9 +30,9 @@ export default function AlmaPrimexCorpsPage() {
           
           {/* Main Content */}
           <div className="flex flex-col gap-10">
-            <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100 shadow-sm">
+            <div className="relative w-full h-[500px] rounded-[2rem] overflow-hidden bg-gray-100 shadow-sm">
                <Image 
-                 src="/new-services/21.png" 
+                 src="/new-services/21.jpg" 
                  alt="Alma PrimeX Body Contouring" 
                  fill 
                  className="object-cover" 

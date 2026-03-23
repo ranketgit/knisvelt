@@ -30,7 +30,7 @@ export default function HifuVaginalPage() {
           {/* Left Column: Content */}
           <div className="flex flex-col gap-10">
             <div className="relative w-full h-[400px] rounded-[2rem] overflow-hidden bg-gray-100">
-               {/* <Image src="/images/hifu-vaginal.jpg" alt="HIFU Vaginal" fill className="object-cover" /> */}
+               <Image src="/services/3.jpg" alt="HIFU Vaginal" fill className="object-cover" />
             </div>
 
             <div className="text-gray-500 text-[17px] leading-relaxed space-y-6">

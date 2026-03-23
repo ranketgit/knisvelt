@@ -14,7 +14,7 @@ export default function EquipementsIndexPage() {
     { name: "Emtone – BTL", action: "Traitement avancé de la cellulite", slug: "emtone-btl", img: "/emtone.jpeg", premium: true },
     { name: "Exilis – BTL", action: "Combinaison radiofréquence et ultrasons", slug: "exilis-btl", img: "/exilis.jpeg", premium: true },
     { name: "T-Care Slim", action: "Stimulation cellulaire profonde TECAR", slug: "t-care-slim", img: "/tcare.jpeg", premium: true },
-    { name: "Alma PrimeX", action: "Remodelage corporel et raffermissement premium", slug: "alma-primex-corps", img: "/new-services/21.png", premium: true },
+    { name: "Alma PrimeX", action: "Remodelage corporel et raffermissement premium", slug: "alma-primex-corps", img: "/new-services/21.jpg", premium: true },
     { name: "EMS NEO BTL", action: "Renforcement musculaire et réduction de graisse HIFEM+", slug: "ems-neo-btl", img: "/ems-neo.jpg", premium: true },
     { name: "VelaShape III", action: "Solution n°1 pour la cellulite et la circonférence", slug: "velashape-3", img: "/vela.jpg", premium: true },
     
