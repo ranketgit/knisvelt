@@ -59,6 +59,9 @@ export default function Footer() {
               <li>
                 <Link href="/prestations/capillaires" className="text-gray-500 hover:text-[#E38F75] text-[15px] transition-colors">Prestations Capillaires</Link>
               </li>
+              <li>
+                <Link href="/prestations/epilation-laser" className="text-gray-500 hover:text-[#E38F75] text-[15px] transition-colors">Épilation Laser</Link>
+              </li>
             </ul>
           </div>
 
