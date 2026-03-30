@@ -8,7 +8,7 @@ export default function ContactPage() {
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
   // CHANGE THIS TO YOUR ACTUAL EMAIL ADDRESS
-  const targetEmail = "VOTRE_EMAIL@domaine.com";
+  const targetEmail = "youness.filali.ma@gmail.com";
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();

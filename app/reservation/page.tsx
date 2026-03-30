@@ -8,7 +8,7 @@ export default function ReservationPage() {
   const { cart, removeFromCart } = useCart();
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
-  const targetEmail = "medmezzat1964@gmail.com"; // CHANGE THIS
+  const targetEmail = "youness.filali.ma@gmail.com"; // CHANGE THIS
 
   // Generate time slots from 09:00 to 17:00
   const timeSlots = [
