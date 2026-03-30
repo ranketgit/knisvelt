@@ -3,6 +3,58 @@ import Image from "next/image";
 
 export default function Technologies() {
   const machines = [
+    // PREMIUM MACHINES FIRST
+    {
+      name: "LPG",
+      action: "Bodycontouring et remodelage global de la silhouette.",
+      link: "/equipements/lpg",
+      img: "/lpg.jpeg",
+      premium: true
+    },
+    {
+      name: "Emtone – BTL",
+      action: "Technologie révolutionnaire pour traiter tous les types de cellulite.",
+      link: "/equipements/emtone-btl",
+      img: "/emtone.jpeg",
+      premium: true
+    },
+    {
+      name: "Exilis – BTL",
+      action: "Combinaison radiofréquence et ultrasons pour le raffermissement.",
+      link: "/equipements/exilis-btl",
+      img: "/exilis.jpeg",
+      premium: true
+    },
+    {
+      name: "T-Care Slim",
+      action: "Stimulation cellulaire profonde par radiofréquence capacitive.",
+      link: "/equipements/t-care-slim",
+      img: "/tcare.jpeg",
+      premium: true
+    },
+    {
+      name: "Alma PrimeX",
+      action: "Technologie premium de radiofréquence pour réduire les graisses.",
+      link: "/equipements/alma-primex",
+      img: "/new-services/21.jpg", // Replace with correct image path if needed
+      premium: true
+    },
+    {
+      name: "EMS NEO BTL",
+      action: "Renforcement musculaire et réduction de graisse par HIFEM+.",
+      link: "/equipements/ems-neo-btl",
+      img: "/ems-neo.jpg",
+      premium: true
+    },
+    {
+      name: "VelaShape III",
+      action: "Solution n°1 pour la cellulite et la réduction de circonférence.",
+      link: "/equipements/velashape-3",
+      img: "/vela.jpg",
+      premium: true
+    },
+    
+    // STANDARD MACHINES
     {
       name: "Radiofréquence",
       action: "Technologie avancée de raffermissement et régénération cutanée.",
@@ -50,30 +102,6 @@ export default function Technologies() {
       action: "Remodelage corporel par instruments en bois et en métal.",
       link: "/equipements/maderotherapie",
       img: "/maderotherapie.jpeg"
-    },
-    {
-      name: "LPG",
-      action: "Bodycontouring et remodelage global de la silhouette.",
-      link: "/equipements/lpg",
-      img: "/lpg.jpeg"
-    },
-    {
-      name: "Emtone – BTL",
-      action: "Technologie révolutionnaire pour traiter tous les types de cellulite.",
-      link: "/equipements/emtone-btl",
-      img: "/emtone.jpeg"
-    },
-    {
-      name: "T-Care Slim",
-      action: "Stimulation cellulaire profonde par radiofréquence capacitive.",
-      link: "/equipements/t-care-slim",
-      img: "/tcare.jpeg"
-    },
-    {
-      name: "Exilis – BTL",
-      action: "Combinaison radiofréquence et ultrasons pour le raffermissement.",
-      link: "/equipements/exilis-btl",
-      img: "/exilis.jpeg"
     }
   ];
 
@@ -102,13 +130,20 @@ export default function Technologies() {
               className="bg-white rounded-[2.5rem] p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.03)] border border-gray-50 flex flex-col h-full hover:shadow-md transition-shadow duration-300"
             >
               {/* IMAGE CONTAINER */}
-              <div className="relative w-full h-[220px] mb-6 rounded-[1.8rem] overflow-hidden bg-gray-100">
+              <div className="relative w-full h-[220px] mb-6 rounded-[1.8rem] overflow-hidden bg-gray-100 group">
                 <Image 
                   src={machine.img} 
                   alt={machine.name} 
                   fill 
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
+                
+                {/* Minimal Premium Tag */}
+                {machine.premium && (
+                  <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full shadow-sm border border-gray-100">
+                    <span className="text-[9px] uppercase tracking-[0.15em] font-bold text-[#E38F75]">Premium</span>
+                  </div>
+                )}
               </div>
 
               <div className="mb-6 flex-grow px-2">
