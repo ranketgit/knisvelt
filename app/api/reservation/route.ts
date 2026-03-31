@@ -9,8 +9,8 @@ export async function POST(request: Request) {
     const { nom_complet, telephone, email, date_souhaitee, soins_selectionnes } = body;
 
     // ATTENTION : Remplace par ton email de domaine vérifié sur Resend
-    const verifiedDomainEmail = 'contact@ton-domaine.com'; 
-    const adminEmail = 'youness.filali.ma@gmail.com';
+    const verifiedDomainEmail = 'contact@kinesvelt.com'; 
+    const adminEmail = 'jalal.asfaj5@gmail.com';
 
     // 1. EMAIL POUR KINESVELT (L'ADMIN)
     await resend.emails.send({
