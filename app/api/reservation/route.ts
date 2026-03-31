@@ -10,7 +10,7 @@ export async function POST(request: Request) {
 
     // ATTENTION : Remplace par ton email de domaine vérifié sur Resend
     const verifiedDomainEmail = 'contact@kinesvelt.com'; 
-    const adminEmail = 'jalal.asfaj5@gmail.com';
+    const adminEmail = 'kinesvelt@outlook.com';
 
     // 1. EMAIL POUR KINESVELT (L'ADMIN)
     await resend.emails.send({
