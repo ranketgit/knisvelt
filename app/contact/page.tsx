@@ -72,7 +72,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-sm font-medium text-[#2A2A2A] mb-1">Adresse</h3>
                     <p className="text-gray-500 text-[15px] leading-relaxed">
-                    Résidence AL ANDALOUS, Lotissement Ouled Taleb (Parallèle Californie, Bd. Al Qods), Casablanca. 
+                    Résidence AL ANDALOUS, intersection fin Taddart et Californie, Casablanca. 
                     </p>
                   </div>
                 </div>
