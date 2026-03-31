@@ -14,7 +14,7 @@ export async function POST(request: Request) {
     // 1. Email envoyé à KINESVELT (Toi)
     await resend.emails.send({
       from: `Site Web Kinesvelt <${verifiedDomainEmail}>`,
-      to: 'kinesvelt@outlook.com', // Replace with your actual receiving email
+      to: 'kinesvelt@outlook.com',
       subject: `Nouveau Contact : ${sujet}`,
       html: `
         <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; background-color: #FAF8F7; padding: 40px 20px; border-radius: 12px;">
