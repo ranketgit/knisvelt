@@ -1,14 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import type { Metadata } from "next";
 import Image from 'next/image';
 
 export default function ContactPage() {
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
-
-  // CHANGE THIS TO YOUR ACTUAL EMAIL ADDRESS
-  const targetEmail = "youness.filali.ma@gmail.com";
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -19,7 +15,8 @@ export default function ContactPage() {
     const data = Object.fromEntries(formData.entries());
 
     try {
-      const response = await fetch(`https://formsubmit.co/ajax/${targetEmail}`, {
+      // ON POINTE MAINTENANT VERS NOTRE PROPRE API
+      const response = await fetch('/api/contact', {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -156,11 +153,7 @@ export default function ContactPage() {
                 <p className="text-gray-500 text-[15px] mb-8">Remplissez le formulaire ci-dessous pour toute question ou pour planifier votre consultation.</p>
 
                 <form onSubmit={handleSubmit} className="flex flex-col gap-6">
-                  {/* Anti-Spam Hidden Fields */}
-                  <input type="hidden" name="_honey" style={{ display: 'none' }} />
-                  <input type="hidden" name="_captcha" value="false" />
-                  <input type="hidden" name="_subject" value="Nouveau contact depuis le site web Kinesvelt" />
-
+                  
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">Nom Complet *</label>

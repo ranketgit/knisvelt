@@ -8,15 +8,6 @@ export default function ReservationPage() {
   const { cart, removeFromCart } = useCart();
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
-  const targetEmail = "youness.filali.ma@gmail.com"; // CHANGE THIS
-
-  // Generate time slots from 09:00 to 17:00
-  const timeSlots = [
-    "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", 
-    "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", 
-    "15:00", "15:30", "16:00", "16:30", "17:00"
-  ];
-
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus('loading');
@@ -26,9 +17,10 @@ export default function ReservationPage() {
     const data = Object.fromEntries(formData.entries());
 
     try {
-      const response = await fetch(`https://formsubmit.co/ajax/${targetEmail}`, {
+      // ON APPELLE NOTRE NOUVELLE ROUTE API
+      const response = await fetch('/api/reservation', {
         method: "POST",
-        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data)
       });
 
@@ -53,7 +45,7 @@ export default function ReservationPage() {
             </svg>
           </div>
           <h2 className="text-3xl font-medium text-[#2A2A2A] mb-4">Réservation Confirmée !</h2>
-          <p className="text-gray-500 mb-8">Nous avons bien reçu votre demande pour vos soins. Notre équipe vous contactera très rapidement pour valider définitivement cet horaire.</p>
+          <p className="text-gray-500 mb-8">Nous avons bien reçu votre demande pour vos soins. Un email récapitulatif vous a été envoyé. Notre équipe vous contactera très rapidement pour valider définitivement cet horaire.</p>
           <Link href="/prestations" className="text-[#E38F75] font-medium hover:underline">Découvrir d'autres soins</Link>
         </div>
       </div>
@@ -81,13 +73,13 @@ export default function ReservationPage() {
                 </div>
               </div>
             ) : (
-              <ul className="divide-y divide-gray-100">
+              <ul className="divide-y divide-gray-50">
                 {cart.map((item, idx) => (
-                  <li key={idx} className="py-4 flex justify-between items-center">
+                  <li key={idx} className="py-5 flex justify-between items-center">
                     <span className="font-medium text-[#2A2A2A]">{item}</span>
                     <button 
                       onClick={() => removeFromCart(item)}
-                      className="text-red-400 hover:text-red-600 text-sm font-medium"
+                      className="text-red-400 hover:text-red-600 text-sm font-medium transition-colors"
                     >
                       Retirer
                     </button>
@@ -97,39 +89,48 @@ export default function ReservationPage() {
             )}
           </div>
 
-          {/* Right Column: Date, Time & Info Form */}
+          {/* Right Column: Info Form */}
           {cart.length > 0 && (
             <div className="bg-white rounded-[2.5rem] p-8 shadow-sm border border-gray-100 sticky top-32">
               <h2 className="text-xl font-medium text-[#2A2A2A] mb-6">Vos coordonnées & Date</h2>
               
               <form onSubmit={handleSubmit} className="flex flex-col gap-5">
-                <input type="hidden" name="_honey" style={{ display: 'none' }} />
-                <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_subject" value="Nouvelle Réservation Multiservices" />
                 
-                {/* Passes the whole cart in the email */}
+                {/* Passes the whole cart in the email payload */}
                 <input type="hidden" name="soins_selectionnes" value={cart.join(", ")} />
 
                 <div>
-                  <input type="text" name="nom_complet" required placeholder="Nom Complet" className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-[#E38F75] bg-[#FAF8F7]" />
+                  <input type="text" name="nom_complet" required placeholder="Nom Complet *" disabled={status === 'loading'} className="w-full px-4 py-3.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#E38F75]/20 focus:border-[#E38F75] bg-[#FAF8F7] disabled:opacity-50" />
                 </div>
                 <div>
-                  <input type="tel" name="telephone" required placeholder="Téléphone (ex: 06...)" className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-[#E38F75] bg-[#FAF8F7]" />
+                  <input type="tel" name="telephone" required placeholder="Téléphone (ex: 06...) *" disabled={status === 'loading'} className="w-full px-4 py-3.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#E38F75]/20 focus:border-[#E38F75] bg-[#FAF8F7] disabled:opacity-50" />
+                </div>
+                <div>
+                  <input type="email" name="email" placeholder="Adresse Email (Optionnel)" disabled={status === 'loading'} className="w-full px-4 py-3.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#E38F75]/20 focus:border-[#E38F75] bg-[#FAF8F7] disabled:opacity-50" />
                 </div>
 
-                {/* DATE AND TIME ROW */}
-                <div className="grid grid-cols-2 gap-3">
-                  <div>
-                    <input type="date" name="date_souhaitee" required className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-[#E38F75] bg-[#FAF8F7] text-gray-600 text-sm" />
-                  </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2 ml-1">Date souhaitée *</label>
+                  <input type="date" name="date_souhaitee" required disabled={status === 'loading'} className="w-full px-4 py-3.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#E38F75]/20 focus:border-[#E38F75] bg-[#FAF8F7] text-gray-600 disabled:opacity-50" />
                 </div>
+
+                {status === 'error' && (
+                  <p className="text-red-500 text-sm font-medium bg-red-50 p-3 rounded-lg border border-red-100">
+                    Une erreur s'est produite lors de l'envoi. Veuillez réessayer.
+                  </p>
+                )}
 
                 <button 
                   type="submit"
                   disabled={status === 'loading'}
-                  className="w-full bg-[#E38F75] hover:bg-[#d47b60] text-white py-4 rounded-xl font-medium mt-2"
+                  className="w-full bg-[#E38F75] hover:bg-[#d47b60] disabled:bg-gray-400 text-white py-4 rounded-xl font-medium mt-2 transition-colors flex justify-center items-center"
                 >
-                  {status === 'loading' ? 'Envoi en cours...' : 'Confirmer la réservation'}
+                  {status === 'loading' ? (
+                    <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                  ) : 'Confirmer la réservation'}
                 </button>
               </form>
             </div>
