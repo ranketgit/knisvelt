@@ -8,6 +8,13 @@ import Image from 'next/image';
 export default function ReservationPage() {
   const { cart, removeFromCart } = useCart();
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [copied, setCopied] = useState(false);
+
+  const handleCopyRib = () => {
+    navigator.clipboard.writeText("021780000023703004384111");
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -138,7 +145,7 @@ export default function ReservationPage() {
                 </form>
               </div>
 
-              {/* Acompte / Bank Info Card - NOW UNDER THE FORM */}
+              {/* Acompte / Bank Info Card - UNDER THE FORM ON THE RIGHT */}
               <div className="bg-orange-50/40 rounded-[2rem] p-6 border border-[#E38F75]/20 shadow-sm">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-10 h-10 rounded-full bg-[#E38F75]/10 flex items-center justify-center flex-shrink-0">
@@ -153,18 +160,42 @@ export default function ReservationPage() {
                   Afin de garantir la réservation de votre créneau, un acompte de <strong className="text-[#2A2A2A]">200 MAD</strong> est requis.
                 </p>
 
-                {/* FIXED IMAGE CONTAINER */}
-                <div className="w-full bg-white rounded-2xl p-2 shadow-sm border border-gray-100">
+                {/* FULL WIDTH, NATURAL SCALING IMAGE CONTAINER */}
+                <div className="w-full bg-white rounded-2xl p-2 shadow-sm border border-gray-100 mb-4">
                   <Image 
                     src="/bank.png" 
-                    alt="Informations bancaires" 
+                    alt="Informations bancaires Kinesvelt" 
                     width={1000} 
                     height={500} 
                     className="w-full h-auto object-contain rounded-xl" 
                   />
                 </div>
-              </div>
 
+                {/* COPY RIB BUTTON BOX */}
+                <div className="bg-white rounded-xl p-4 border border-gray-100 shadow-sm flex items-center justify-between">
+                  <div>
+                    <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold mb-1">RIB Crédit du Maroc</p>
+                    <p className="text-sm font-medium text-[#2A2A2A] font-mono tracking-tight">021780000023703004384111</p>
+                  </div>
+                  <button 
+                    onClick={handleCopyRib}
+                    className="p-2.5 rounded-lg bg-[#FAF8F7] hover:bg-gray-100 transition-colors text-gray-500 hover:text-[#E38F75]"
+                    title="Copier le RIB"
+                    type="button"
+                  >
+                    {copied ? (
+                      <svg className="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    ) : (
+                      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                      </svg>
+                    )}
+                  </button>
+                </div>
+
+              </div>
             </div>
           )}
 
