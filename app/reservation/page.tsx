@@ -60,10 +60,8 @@ export default function ReservationPage() {
 
         <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
           
-          {/* Left Column: Selected Services & Payment Info */}
+          {/* Left Column: Selected Services ONLY */}
           <div className="flex flex-col gap-8">
-            
-            {/* Cart Card */}
             <div className="bg-white rounded-[2rem] p-8 shadow-sm">
               <h2 className="text-2xl font-medium text-[#2A2A2A] mb-6">Soins & Équipements sélectionnés</h2>
               
@@ -91,81 +89,82 @@ export default function ReservationPage() {
                 </ul>
               )}
             </div>
-
-            {/* Acompte / Bank Info Card */}
-            {cart.length > 0 && (
-         
-            <div className="bg-orange-50/40 rounded-[2rem] p-8 border border-[#E38F75]/20 shadow-sm">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-full bg-[#E38F75]/10 flex items-center justify-center flex-shrink-0">
-                  <svg className="w-5 h-5 text-[#E38F75]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-medium text-[#2A2A2A]">Validation du créneau</h3>
-              </div>
-              
-              <p className="text-gray-600 text-[15px] leading-relaxed mb-6">
-                Afin de garantir la réservation de votre créneau, un acompte de <strong className="text-[#2A2A2A]">200 MAD</strong> est requis.
-              </p>
-
-              {/* FIXED IMAGE CONTAINER: Natural width/height scaling */}
-              <div className="w-full bg-white rounded-2xl p-2 shadow-sm border border-gray-100">
-                <Image 
-                  src="/bank.png" 
-                  alt="Informations bancaires" 
-                  width={1000} 
-                  height={500} 
-                  className="w-full h-auto object-contain rounded-xl" 
-                />
-              </div>
-            </div>
-            )}
-
           </div>
 
-          {/* Right Column: Info Form */}
+          {/* Right Column: Info Form AND Bank Details */}
           {cart.length > 0 && (
-            <div className="bg-white rounded-[2.5rem] p-8 shadow-sm border border-gray-100 sticky top-32">
-              <h2 className="text-xl font-medium text-[#2A2A2A] mb-6">Vos coordonnées & Date</h2>
+            <div className="flex flex-col gap-6 lg:sticky lg:top-24">
               
-              <form onSubmit={handleSubmit} className="flex flex-col gap-5">
-                <input type="hidden" name="soins_selectionnes" value={cart.join(", ")} />
+              {/* The Form */}
+              <div className="bg-white rounded-[2.5rem] p-8 shadow-sm border border-gray-100">
+                <h2 className="text-xl font-medium text-[#2A2A2A] mb-6">Vos coordonnées & Date</h2>
+                
+                <form onSubmit={handleSubmit} className="flex flex-col gap-5">
+                  <input type="hidden" name="soins_selectionnes" value={cart.join(", ")} />
 
-                <div>
-                  <input type="text" name="nom_complet" required placeholder="Nom Complet *" disabled={status === 'loading'} className="w-full px-4 py-3.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#E38F75]/20 focus:border-[#E38F75] bg-[#FAF8F7] disabled:opacity-50" />
-                </div>
-                <div>
-                  <input type="tel" name="telephone" required placeholder="Téléphone (ex: 06...) *" disabled={status === 'loading'} className="w-full px-4 py-3.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#E38F75]/20 focus:border-[#E38F75] bg-[#FAF8F7] disabled:opacity-50" />
-                </div>
-                <div>
-                  <input type="email" name="email" placeholder="Adresse Email (Optionnel)" disabled={status === 'loading'} className="w-full px-4 py-3.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#E38F75]/20 focus:border-[#E38F75] bg-[#FAF8F7] disabled:opacity-50" />
-                </div>
+                  <div>
+                    <input type="text" name="nom_complet" required placeholder="Nom Complet *" disabled={status === 'loading'} className="w-full px-4 py-3.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#E38F75]/20 focus:border-[#E38F75] bg-[#FAF8F7] disabled:opacity-50" />
+                  </div>
+                  <div>
+                    <input type="tel" name="telephone" required placeholder="Téléphone (ex: 06...) *" disabled={status === 'loading'} className="w-full px-4 py-3.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#E38F75]/20 focus:border-[#E38F75] bg-[#FAF8F7] disabled:opacity-50" />
+                  </div>
+                  <div>
+                    <input type="email" name="email" placeholder="Adresse Email (Optionnel)" disabled={status === 'loading'} className="w-full px-4 py-3.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#E38F75]/20 focus:border-[#E38F75] bg-[#FAF8F7] disabled:opacity-50" />
+                  </div>
 
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2 ml-1">Date souhaitée *</label>
-                  <input type="date" name="date_souhaitee" required disabled={status === 'loading'} className="w-full px-4 py-3.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#E38F75]/20 focus:border-[#E38F75] bg-[#FAF8F7] text-gray-600 disabled:opacity-50" />
-                </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2 ml-1">Date souhaitée *</label>
+                    <input type="date" name="date_souhaitee" required disabled={status === 'loading'} className="w-full px-4 py-3.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#E38F75]/20 focus:border-[#E38F75] bg-[#FAF8F7] text-gray-600 disabled:opacity-50" />
+                  </div>
 
-                {status === 'error' && (
-                  <p className="text-red-500 text-sm font-medium bg-red-50 p-3 rounded-lg border border-red-100">
-                    Une erreur s'est produite lors de l'envoi. Veuillez réessayer.
-                  </p>
-                )}
+                  {status === 'error' && (
+                    <p className="text-red-500 text-sm font-medium bg-red-50 p-3 rounded-lg border border-red-100">
+                      Une erreur s'est produite lors de l'envoi. Veuillez réessayer.
+                    </p>
+                  )}
 
-                <button 
-                  type="submit"
-                  disabled={status === 'loading'}
-                  className="w-full bg-[#E38F75] hover:bg-[#d47b60] disabled:bg-gray-400 text-white py-4 rounded-xl font-medium mt-2 transition-colors flex justify-center items-center"
-                >
-                  {status === 'loading' ? (
-                    <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                  <button 
+                    type="submit"
+                    disabled={status === 'loading'}
+                    className="w-full bg-[#E38F75] hover:bg-[#d47b60] disabled:bg-gray-400 text-white py-4 rounded-xl font-medium mt-2 transition-colors flex justify-center items-center"
+                  >
+                    {status === 'loading' ? (
+                      <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                      </svg>
+                    ) : 'Confirmer la réservation'}
+                  </button>
+                </form>
+              </div>
+
+              {/* Acompte / Bank Info Card - NOW UNDER THE FORM */}
+              <div className="bg-orange-50/40 rounded-[2rem] p-6 border border-[#E38F75]/20 shadow-sm">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 rounded-full bg-[#E38F75]/10 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-[#E38F75]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                  ) : 'Confirmer la réservation'}
-                </button>
-              </form>
+                  </div>
+                  <h3 className="text-lg font-medium text-[#2A2A2A]">Validation du créneau</h3>
+                </div>
+                
+                <p className="text-gray-600 text-[15px] leading-relaxed mb-6">
+                  Afin de garantir la réservation de votre créneau, un acompte de <strong className="text-[#2A2A2A]">200 MAD</strong> est requis.
+                </p>
+
+                {/* FIXED IMAGE CONTAINER */}
+                <div className="w-full bg-white rounded-2xl p-2 shadow-sm border border-gray-100">
+                  <Image 
+                    src="/bank.png" 
+                    alt="Informations bancaires" 
+                    width={1000} 
+                    height={500} 
+                    className="w-full h-auto object-contain rounded-xl" 
+                  />
+                </div>
+              </div>
+
             </div>
           )}
 
