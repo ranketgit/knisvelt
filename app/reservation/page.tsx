@@ -108,7 +108,7 @@ export default function ReservationPage() {
                 </p>
                 <div className="relative w-full h-[200px] rounded-2xl overflow-hidden bg-white border border-white shadow-sm">
                   <Image 
-                    src="/bank.jpg" 
+                    src="/bank.png" 
                     alt="Informations bancaires" 
                     fill 
                     className="object-contain p-2" 
