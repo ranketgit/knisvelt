@@ -112,7 +112,7 @@ export default function ReservationPage() {
               {/* FIXED IMAGE CONTAINER: Natural width/height scaling */}
               <div className="w-full bg-white rounded-2xl p-2 shadow-sm border border-gray-100">
                 <Image 
-                  src="/bank.jpg" 
+                  src="/bank.png" 
                   alt="Informations bancaires" 
                   width={1000} 
                   height={500} 
