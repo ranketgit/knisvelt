@@ -3,6 +3,7 @@
 import { useCart } from '../components/CartProvider';
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function ReservationPage() {
   const { cart, removeFromCart } = useCart();
@@ -17,7 +18,6 @@ export default function ReservationPage() {
     const data = Object.fromEntries(formData.entries());
 
     try {
-      // ON APPELLE NOTRE NOUVELLE ROUTE API
       const response = await fetch('/api/reservation', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -60,33 +60,63 @@ export default function ReservationPage() {
 
         <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
           
-          {/* Left Column: Selected Services */}
-          <div className="bg-white rounded-[2rem] p-8 shadow-sm">
-            <h2 className="text-2xl font-medium text-[#2A2A2A] mb-6">Soins & Équipements sélectionnés</h2>
+          {/* Left Column: Selected Services & Payment Info */}
+          <div className="flex flex-col gap-8">
             
-            {cart.length === 0 ? (
-              <div className="text-center py-12">
-                <p className="text-gray-500 mb-6">Votre sélection est vide.</p>
-                <div className="flex justify-center gap-4">
-                  <Link href="/prestations" className="bg-[#2A2A2A] text-white px-6 py-3 rounded-full font-medium text-sm">Voir les prestations</Link>
-                  <Link href="/equipements" className="bg-[#E38F75] text-white px-6 py-3 rounded-full font-medium text-sm">Voir les équipements</Link>
+            {/* Cart Card */}
+            <div className="bg-white rounded-[2rem] p-8 shadow-sm">
+              <h2 className="text-2xl font-medium text-[#2A2A2A] mb-6">Soins & Équipements sélectionnés</h2>
+              
+              {cart.length === 0 ? (
+                <div className="text-center py-12">
+                  <p className="text-gray-500 mb-6">Votre sélection est vide.</p>
+                  <div className="flex justify-center gap-4">
+                    <Link href="/prestations" className="bg-[#2A2A2A] text-white px-6 py-3 rounded-full font-medium text-sm">Voir les prestations</Link>
+                    <Link href="/equipements" className="bg-[#E38F75] text-white px-6 py-3 rounded-full font-medium text-sm">Voir les équipements</Link>
+                  </div>
+                </div>
+              ) : (
+                <ul className="divide-y divide-gray-50">
+                  {cart.map((item, idx) => (
+                    <li key={idx} className="py-5 flex justify-between items-center">
+                      <span className="font-medium text-[#2A2A2A]">{item}</span>
+                      <button 
+                        onClick={() => removeFromCart(item)}
+                        className="text-red-400 hover:text-red-600 text-sm font-medium transition-colors"
+                      >
+                        Retirer
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+
+            {/* Acompte / Bank Info Card */}
+            {cart.length > 0 && (
+              <div className="bg-orange-50/40 rounded-[2rem] p-8 border border-[#E38F75]/20 shadow-sm">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 rounded-full bg-[#E38F75]/10 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-[#E38F75]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-medium text-[#2A2A2A]">Validation du créneau</h3>
+                </div>
+                <p className="text-gray-600 text-[15px] leading-relaxed mb-6">
+                  Afin de garantir la réservation de votre créneau, un acompte de <strong className="text-[#2A2A2A]">200 MAD</strong> est requis.
+                </p>
+                <div className="relative w-full h-[200px] rounded-2xl overflow-hidden bg-white border border-white shadow-sm">
+                  <Image 
+                    src="/bank.jpg" 
+                    alt="Informations bancaires" 
+                    fill 
+                    className="object-contain p-2" 
+                  />
                 </div>
               </div>
-            ) : (
-              <ul className="divide-y divide-gray-50">
-                {cart.map((item, idx) => (
-                  <li key={idx} className="py-5 flex justify-between items-center">
-                    <span className="font-medium text-[#2A2A2A]">{item}</span>
-                    <button 
-                      onClick={() => removeFromCart(item)}
-                      className="text-red-400 hover:text-red-600 text-sm font-medium transition-colors"
-                    >
-                      Retirer
-                    </button>
-                  </li>
-                ))}
-              </ul>
             )}
+
           </div>
 
           {/* Right Column: Info Form */}
@@ -95,8 +125,6 @@ export default function ReservationPage() {
               <h2 className="text-xl font-medium text-[#2A2A2A] mb-6">Vos coordonnées & Date</h2>
               
               <form onSubmit={handleSubmit} className="flex flex-col gap-5">
-                
-                {/* Passes the whole cart in the email payload */}
                 <input type="hidden" name="soins_selectionnes" value={cart.join(", ")} />
 
                 <div>
