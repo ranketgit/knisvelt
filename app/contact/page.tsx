@@ -125,8 +125,7 @@ export default function ContactPage() {
                 </li>
               </ul>
             </div>
-
-            {/* Acompte / Bank Info Card */}
+{/* Acompte / Bank Info Card */}
             <div className="bg-orange-50/40 rounded-[2rem] p-8 border border-[#E38F75]/20 shadow-sm">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-[#E38F75]/10 flex items-center justify-center flex-shrink-0">
@@ -136,15 +135,19 @@ export default function ContactPage() {
                 </div>
                 <h3 className="text-lg font-medium text-[#2A2A2A]">Validation du créneau</h3>
               </div>
+              
               <p className="text-gray-600 text-[15px] leading-relaxed mb-6">
                 Afin de garantir la réservation de votre créneau, un acompte de <strong className="text-[#2A2A2A]">200 MAD</strong> est requis.
               </p>
-              <div className="relative w-full h-[200px] rounded-2xl overflow-hidden bg-white border border-white shadow-sm">
+
+              {/* FIXED IMAGE CONTAINER: Natural width/height scaling */}
+              <div className="w-full bg-white rounded-2xl p-2 shadow-sm border border-gray-100">
                 <Image 
                   src="/bank.png" 
                   alt="Informations bancaires" 
-                  fill 
-                  className="object-contain p-2" 
+                  width={1000} 
+                  height={500} 
+                  className="w-full h-auto object-contain rounded-xl" 
                 />
               </div>
             </div>
