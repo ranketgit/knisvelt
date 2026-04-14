@@ -157,7 +157,7 @@ export default function ReservationPage() {
                 </div>
                 
                 <p className="text-gray-600 text-[15px] leading-relaxed mb-6">
-                  Afin de garantir la réservation de votre créneau, un acompte de <strong className="text-[#2A2A2A]">200 MAD</strong> est requis.
+                  Afin de confirmer la réservation de votre créneau, le paiement de la consultation, d’un montant de 200 MAD, est requis à l’avance
                 </p>
 
                 {/* FULL WIDTH, NATURAL SCALING IMAGE CONTAINER */}
