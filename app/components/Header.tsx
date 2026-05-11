@@ -19,7 +19,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
-      <!-- Meta Pixel Code -->
+     
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -37,7 +37,7 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=1688202398979613&ev=PageView
 &noscript=1"/>
 </noscript>
-<!-- End Meta Pixel Code -->
+
       <div className="bg-[#694e6e] text-white/90 py-2 border-b border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center text-[13px] font-medium">
           <div className="hidden sm:flex items-center gap-6">
