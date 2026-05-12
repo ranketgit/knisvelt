@@ -35,6 +35,15 @@ export default function Header() {
           fbq('track', 'PageView');
         `}
       </Script>
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RZZF4SM78Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RZZF4SM78Z');
+</script>
 
       <noscript>
         <img
