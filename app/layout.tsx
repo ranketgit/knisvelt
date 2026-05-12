@@ -4,20 +4,17 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { CartProvider } from "./components/CartProvider";
-// import Header from "@/components/Header";
-// import Footer from "@/components/Footer";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
-
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
-// Update this with your actual production domain when ready
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://votre-domaine.com";
 
 export const metadata: Metadata = {
@@ -47,17 +44,27 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#FAF8F7] text-gray-800`}
       >
-        {/* <Header /> */}
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-RZZF4SM78Z"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RZZF4SM78Z');
+          `}
+        </Script>
+
         <main className="min-h-screen pt-24">
-        <CartProvider>
-          <Header />
-          
-          {children}
-          
-          <Footer />
+          <CartProvider>
+            <Header />
+            {children}
+            <Footer />
           </CartProvider>
         </main>
-        {/* <Footer /> */}
       </body>
     </html>
   );
