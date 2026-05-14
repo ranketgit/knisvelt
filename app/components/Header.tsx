@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useCart } from './CartProvider';
 import Image from "next/image";
 
+
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { cart } = useCart();
@@ -20,8 +21,21 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
-      <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18093021997"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-18093021997'); </script>
-     
+
+      <>
+  <Script
+    src="https://www.googletagmanager.com/gtag/js?id=AW-18093021997"
+    strategy="afterInteractive"
+  />
+  <Script id="google-ads" strategy="afterInteractive">
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-18093021997');
+    `}
+  </Script>
+</>
       <Script id="meta-pixel" strategy="afterInteractive">
         {`
           !function(f,b,e,v,n,t,s)
