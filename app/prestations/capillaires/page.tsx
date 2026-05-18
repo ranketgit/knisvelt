@@ -5,6 +5,12 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Microneedling Cheveux | Kinesvelt Casablanca",
   description: "Soins capillaires avancés avec la technique du Microneedling pour stimuler la repousse et densifier vos cheveux.",
+
+
+  alternates: {
+    canonical: "/prestations/capillaires"
+  }
+
 };
 
 export default function PrestationsCapillairesPage() {

@@ -35,7 +35,7 @@ export default function Technologies() {
     {
       name: "Alma PrimeX",
       action: "Technologie premium de radiofréquence pour réduire les graisses.",
-      link: "/equipements/alma-primex",
+      link: "/equipements/alma-primex-corps",
       img: "/new-services/21.jpg", // Replace with correct image path if needed
       premium: true
     },

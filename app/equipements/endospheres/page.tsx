@@ -5,6 +5,10 @@ import AddToCartCard from "@/app/components/AddToCartCard";
 export const metadata: Metadata = {
   title: "Endosphères | Kinesvelt Casablanca",
   description: "Technologie de micro-vibration compressive pour le drainage et remodelage avancé.",
+
+  alternates: {
+    canonical: "/equipements/endospheres"
+  }
 };
 
 export default function EndospheresPage() {

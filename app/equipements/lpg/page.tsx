@@ -5,6 +5,8 @@ import AddToCartCard from "@/app/components/AddToCartCard";
 export const metadata: Metadata = {
   title: "LPG | Kinesvelt Casablanca",
   description: "Technologie parfaitement conçue pour le bodycontouring et le remodelage global de la silhouette.",
+
+  alternates: { canonical: "/equipements/lpg" }
 };
 
 export default function LpgPage() {

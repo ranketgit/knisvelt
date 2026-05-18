@@ -5,6 +5,7 @@ import AddToCartCard from "@/app/components/AddToCartCard";
 export const metadata: Metadata = {
   title: "Radiofréquence | Kinesvelt Casablanca",
   description: "Technologie avancée de raffermissement et régénération cutanée. Découvrez nos séances de radiofréquence chez Kinesvelt.",
+  alternates: { canonical: "/equipements/radiofrequence" }
 };
 
 export default function RadiofrequencePage() {

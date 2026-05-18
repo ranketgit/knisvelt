@@ -5,6 +5,7 @@ import AddToCartCard from "@/app/components/AddToCartCard";
 export const metadata: Metadata = {
   title: "T-Care Slim | Kinesvelt Casablanca",
   description: "Technologie TECAR – Stimulation cellulaire profonde par radiofréquence capacitive et résistive.",
+  alternates: { canonical: "/equipements/t-care-slim" }
 };
 
 export default function TCareSlimPage() {

@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Cure Minceur Pathologies | Kinesvelt Casablanca",
   description: "Un programme minceur strictement adapté à votre métabolisme (Thyroïde, OPK, Diabète).",
+  alternates: {
+    canonical: "/prestations/cure-thyroide-opk-diabete"
+  }
 };
 
 export default function CurePathologiesPage() {

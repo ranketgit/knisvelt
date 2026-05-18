@@ -5,6 +5,7 @@ import AddToCartCard from "@/app/components/AddToCartCard";
 export const metadata: Metadata = {
   title: "Ondes de Choc X-Wave Expert | Kinesvelt Casablanca",
   description: "Technologie de stimulation mécanique profonde et restructuration tissulaire.",
+  alternates: { canonical: "/equipements/ondes-de-choc" }
 };
 
 export default function OndesDeChocPage() {

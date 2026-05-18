@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Cure Spéciale Cellulite | Kinesvelt Casablanca",
   description: "Des protocoles intensifs pour lisser la peau, éliminer l'aspect peau d'orange et réduire la cellulite.",
+  alternates: {
+    canonical: "/prestations/cure-speciale-cellulite"
+  }
 };
 
 export default function CureSpecialeCellulitePage() {

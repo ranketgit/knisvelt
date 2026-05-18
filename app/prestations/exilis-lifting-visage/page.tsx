@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Exilis Lifting Visage | Kinesvelt Casablanca",
   description: "La technologie de radiofréquence et ultrasons reconnue FDA pour raffermir la peau et redessiner les contours du visage. Expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/exilis-lifting-visage"
+  }
 };
 
 export default function ExilisLiftingVisagePage() {

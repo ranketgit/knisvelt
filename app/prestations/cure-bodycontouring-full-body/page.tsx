@@ -5,6 +5,12 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Cure Bodycontouring Full Body | Kinesvelt Casablanca",
   description: "Un remodelage complet de votre silhouette grâce à notre cure bodycontouring full body.",
+
+
+  alternates: {
+    canonical: "/prestations/cure-bodycontouring-full-body"
+  }
+
 };
 
 export default function CureBodycontouringPage() {

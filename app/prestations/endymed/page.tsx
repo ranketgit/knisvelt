@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "EndyMed | Kinesvelt Casablanca",
   description: "Le secret beauté des célébrités. La radiofréquence nouvelle génération pour un lifting naturel sans chirurgie. Expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/endymed"
+  }
 };
 
 export default function EndymedPage() {

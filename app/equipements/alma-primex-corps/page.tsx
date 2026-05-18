@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Alma PrimeX Corps | Kinesvelt Casablanca",
   description: "Technologie de radiofréquence avancée – Remodelage corporel de dernière génération. Expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/alma-primex-corps"
+  }
 };
 
 export default function AlmaPrimexCorpsPage() {

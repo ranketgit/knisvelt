@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "LPG Visage + Massage Kobido | Kinesvelt Casablanca",
   description: "L’alliance d’une technologie avancée et d’un massage ancestral japonais pour un effet lifting naturel. Expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/lpg-visage-kobido"
+  }
 };
 
 export default function LpgKobidoPage() {

@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "MesojectGun | Kinesvelt Casablanca",
   description: "La mésothérapie nouvelle génération sans aiguille pour une peau hydratée, repulpée et lumineuse. Découvrez l'expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/mesojectgun"
+  }
 };
 
 export default function MesojectGunPage() {

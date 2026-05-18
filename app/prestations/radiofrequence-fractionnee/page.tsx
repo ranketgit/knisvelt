@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Radiofréquence Fractionnée | Kinesvelt Casablanca",
   description: "La technologie avancée de régénération cutanée pour raffermir la peau et améliorer visiblement sa qualité. Expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/radiofrequence-fractionnee"
+  }
 };
 
 export default function RadiofrequenceFractionneePage() {

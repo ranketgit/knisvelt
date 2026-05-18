@@ -5,6 +5,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Le Centre | Kinesvelt Casablanca",
   description: "Découvrez le centre Kinesvelt : le bon équilibre entre une atmosphère relaxante et les technologies les plus avancées.",
+  alternates: {
+    canonical: "/le-centre"
+  }
 };
 
 export default function LeCentrePage() {

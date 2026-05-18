@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Soin Visage Complet | Kinesvelt Casablanca",
   description: "Nettoyage en profondeur, hydratation et revitalisation pour une peau éclatante de santé.",
+  alternates: {
+    canonical: "/prestations/soin-visage-complet"
+  }
 };
 
 export default function SoinVisageCompletPage() {

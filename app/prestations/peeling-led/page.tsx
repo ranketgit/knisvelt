@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Peeling + LED – Soin de la Peau | Kinesvelt Casablanca",
   description: "Le soin expert pour renouveler la peau et révéler un teint plus lumineux. Découvrez l'expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/peeling-led"
+  }
 };
 
 export default function PeelingLedPage() {

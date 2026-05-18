@@ -5,6 +5,10 @@ import AddToCartCard from "@/app/components/AddToCartCard";
 export const metadata: Metadata = {
   title: "Exilis – BTL | Kinesvelt Casablanca",
   description: "Technologie internationale de référence conçue pour réduire la graisse et raffermir la peau simultanément.",
+
+  alternates: {
+    canonical: "/equipements/exilis-btl"
+  }
 };
 
 export default function ExilisPage() {

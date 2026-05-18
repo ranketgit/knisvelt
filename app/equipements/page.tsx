@@ -5,6 +5,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Nos Équipements | Kinesvelt Casablanca",
   description: "Découvrez notre parc de machines de haute technologie pour l'amincissement, le raffermissement et le remodelage corporel.",
+  alternates: {
+    canonical: "/equipements"
+  }
 };
 
 export default function EquipementsIndexPage() {

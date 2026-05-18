@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Hydrafacial Signature | Kinesvelt Casablanca",
   description: "Le soin iconique pour une peau parfaitement nettoyée hydratée et lumineuse. Découvrez l'expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/hydrafacial-signature"
+  }
 };
 
 export default function HydrafacialSignaturePage() {

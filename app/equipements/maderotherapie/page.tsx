@@ -5,6 +5,7 @@ import AddToCartCard from "@/app/components/AddToCartCard";
 export const metadata: Metadata = {
   title: "Madérothérapie & Métallothérapie | Kinesvelt Casablanca",
   description: "Technique de remodelage corporel par instruments en bois et en métal.",
+  alternates: { canonical: "/equipements/maderotherapie" }
 };
 
 export default function MaderotherapiePage() {

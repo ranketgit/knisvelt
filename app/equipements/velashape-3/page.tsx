@@ -5,6 +5,7 @@ import AddToCartCard from "@/app/components/AddToCartCard";
 export const metadata: Metadata = {
   title: "VelaShape III | Kinesvelt Casablanca",
   description: "Technologie avancée de remodelage corporel, traitement de la cellulite et raffermissement cutané.",
+  alternates: { canonical: "/equipements/velashape-3" }
 };
 
 export default function Velashape3Page() {

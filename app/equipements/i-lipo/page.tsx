@@ -5,6 +5,8 @@ import AddToCartCard from "@/app/components/AddToCartCard";
 export const metadata: Metadata = {
   title: "I-Lipo | Kinesvelt Casablanca",
   description: "Technologie laser lipolytique de dernière génération. 100% indolore.",
+  alternates: { canonical: "/equipements/i-lipo" }
+
 };
 
 export default function ILipoPage() {

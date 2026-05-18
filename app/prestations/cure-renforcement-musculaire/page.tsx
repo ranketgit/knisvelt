@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Cure Renforcement Musculaire | Kinesvelt Casablanca",
   description: "Tonifiez votre corps et développez votre masse musculaire avec notre cure spécialisée.",
+  alternates: {
+    canonical: "/prestations/cure-renforcement-musculaire"
+  }
 };
 
 export default function CureRenforcementMusculairePage() {

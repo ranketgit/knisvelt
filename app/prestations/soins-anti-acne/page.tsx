@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Traitement Acné | Kinesvelt Casablanca",
   description: "Un protocole expert pour purifier la peau et réduire durablement les imperfections. Découvrez l'expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/soins-anti-acne"
+  }
 };
 
 export default function TraitementAcnePage() {

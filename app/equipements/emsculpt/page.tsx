@@ -5,6 +5,7 @@ import AddToCartCard from "@/app/components/AddToCartCard";
 export const metadata: Metadata = {
   title: "EMSculpt Haute Intensity | Kinesvelt Casablanca",
   description: "Technologie avancée de renforcement musculaire et remodelage corporel.",
+  alternates: { canonical: "/equipements/emsculpt" }
 };
 
 export default function EmsculptPage() {

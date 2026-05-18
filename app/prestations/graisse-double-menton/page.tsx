@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Traitement Double Menton | Kinesvelt Casablanca",
   description: "Éliminez la graisse localisée sous le menton pour affiner votre profil de manière non invasive.",
+  alternates: {
+    canonical: "/prestations/graisse-double-menton"
+  }
 };
 
 export default function DoubleMentonPage() {

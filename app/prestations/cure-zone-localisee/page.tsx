@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Cure Minceur Zone Localisée | Kinesvelt Casablanca",
   description: "Ciblez spécifiquement les amas graisseux rebelles avec notre cure minceur localisée.",
+  alternates: {
+    canonical: "/prestations/cure-zone-localisee"
+  }
 };
 
 export default function CureZoneLocaliseePage() {

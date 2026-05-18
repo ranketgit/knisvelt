@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Pack Anti-Âge | Kinesvelt Casablanca",
   description: "Prévenez et traitez les premiers signes du vieillissement avec des soins repulpants et hautement ciblés.",
+  alternates: {
+    canonical: "/prestations/pack-anti-age"
+  }
 };
 
 export default function PackAntiAgePage() {

@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Traitement Colombien Fessier | Kinesvelt Casablanca",
   description: "La technique colombienne pour galber et lifter les fessiers naturellement sans chirurgie. Expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/traitement-colombien-fessier"
+  }
 };
 
 export default function TraitementColombienFessierPage() {

@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Microneedling | Kinesvelt Casablanca",
   description: "La technique de régénération cutanée reconnue à l’international pour améliorer visiblement la qualité de la peau. Découvrez l'expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/microneedling-visage"
+  }
 };
 
 export default function MicroneedlingPage() {

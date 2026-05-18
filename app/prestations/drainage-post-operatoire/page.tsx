@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Drainage Post-Opératoire | Kinesvelt Casablanca",
   description: "Accélérez votre récupération et réduisez les œdèmes après une chirurgie avec notre drainage lymphatique.",
+  alternates: {
+    canonical: "/prestations/drainage-post-operatoire"
+  }
 };
 
 export default function DrainagePostOpPage() {

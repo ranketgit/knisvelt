@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "HIFU Vaginal | Kinesvelt Casablanca",
   description: "La technologie de rajeunissement intime sans chirurgie pour améliorer le tonus et le confort féminin. Expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/hifu-vaginal"
+  }
 };
 
 export default function HifuVaginalPage() {

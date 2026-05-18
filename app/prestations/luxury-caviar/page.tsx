@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Soin Luxury Caviar | Kinesvelt Casablanca",
   description: "Un soin d’exception pour revitaliser intensément la peau et révéler un teint éclatant. Découvrez l'expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/luxury-caviar"
+  }
 };
 
 export default function LuxuryCaviarPage() {

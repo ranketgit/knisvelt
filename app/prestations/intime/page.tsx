@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "HIFU Vaginal | Kinesvelt Casablanca",
   description: "Soins intimes de haute technologie HIFU vaginal pour votre bien-être et confort intime.",
+  alternates: {
+    canonical: "/prestations/hifu-vaginal"
+  }
 };
 
 export default function HifuVaginalPage() {

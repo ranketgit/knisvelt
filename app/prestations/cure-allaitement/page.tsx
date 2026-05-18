@@ -5,6 +5,10 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Cure Minceur Allaitement | Kinesvelt Casablanca",
   description: "Un protocole minceur doux et 100% sécurisé, parfaitement compatible avec l'allaitement.",
+
+  alternates: {
+    canonical: "/prestations/cure-allaitement"
+  }
 };
 
 export default function CureAllaitementPage() {

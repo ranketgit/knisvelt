@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "HIFU LIFTING VISAGE | Kinesvelt Casablanca",
   description: "Le lifting nouvelle génération par ultrasons focalisés utilisé dans les cliniques esthétiques internationales. Découvrez l'expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/hifu-lifting-visage"
+  }
 };
 
 export default function HifuLiftingVisagePage() {

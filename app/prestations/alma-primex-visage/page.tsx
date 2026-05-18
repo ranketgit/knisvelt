@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Alma PrimeX Visage | Kinesvelt Casablanca",
   description: "Une technologie avancée pour raffermir la peau et redessiner les contours du visage sans chirurgie. Expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/alma-primex-visage"
+  }
 };
 
 export default function AlmaPrimexVisagePage() {

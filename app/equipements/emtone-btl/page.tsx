@@ -5,6 +5,9 @@ import AddToCartCard from "@/app/components/AddToCartCard";
 export const metadata: Metadata = {
   title: "Emtone – BTL | Kinesvelt Casablanca",
   description: "Technologie internationale révolutionnaire conçue pour traiter efficacement tous les types de cellulite.",
+  alternates: {
+    canonical: "/equipements/emtone-btl"
+  }
 };
 
 export default function EmtonePage() {

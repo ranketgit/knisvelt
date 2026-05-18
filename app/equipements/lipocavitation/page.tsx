@@ -5,6 +5,8 @@ import AddToCartCard from "@/app/components/AddToCartCard";
 export const metadata: Metadata = {
   title: "Lipocavitation | Kinesvelt Casablanca",
   description: "Technologie avancée de réduction de la graisse localisée par ultrasons.",
+
+  alternates: { canonical: "/equipements/lipocavitation" }
 };
 
 export default function LipocavitationPage() {

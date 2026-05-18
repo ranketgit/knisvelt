@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Soin Luxury ADN Saumon | Kinesvelt Casablanca",
   description: "Un soin régénérant d’exception pour revitaliser intensément la peau et restaurer son éclat naturel. Découvrez l'expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/luxury-adn-saumon"
+  }
 };
 
 export default function LuxuryADNSaumonPage() {

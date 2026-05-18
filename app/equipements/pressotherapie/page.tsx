@@ -5,6 +5,7 @@ import AddToCartCard from "@/app/components/AddToCartCard";
 export const metadata: Metadata = {
   title: "Pressothérapie | Kinesvelt Casablanca",
   description: "Technologie avancée de drainage et stimulation circulatoire.",
+  alternates: { canonical: "/equipements/pressotherapie" }
 };
 
 export default function PressotherapiePage() {

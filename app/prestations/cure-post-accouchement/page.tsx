@@ -5,6 +5,10 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Cure Post Accouchement | Kinesvelt Casablanca",
   description: "Retrouvez votre silhouette après l'arrivée de bébé avec notre cure minceur post-accouchement sur-mesure.",
+
+  alternates: {
+    canonical: "/prestations/cure-post-accouchement"
+  }
 };
 
 export default function CurePostAccouchementPage() {

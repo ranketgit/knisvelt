@@ -5,6 +5,9 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Épilation Laser | Kinesvelt Casablanca",
   description: "La solution durable pour une peau parfaitement lisse grâce aux technologies laser de dernière génération. Expertise Kinesvelt by Imane D.",
+  alternates: {
+    canonical: "/prestations/epilation-laser"
+  }
 };
 
 export default function EpilationLaserPage() {

@@ -5,6 +5,12 @@ import BookingForm from '../../components/BookingForm';
 export const metadata: Metadata = {
   title: "Contouring Ovale du Visage | Kinesvelt Casablanca",
   description: "Redéfinissez les contours de votre visage pour une mâchoire plus nette, ferme et parfaitement sculptée.",
+
+
+  alternates: {
+    canonical: "/prestations/contouring-ovale-visage"
+  }
+
 };
 
 export default function ContouringOvalePage() {
