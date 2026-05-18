@@ -138,7 +138,7 @@ export default function Header() {
             </div>
 
             <div className="flex items-center gap-4 lg:hidden">
-              <Link href="/demande-devis" className="relative p-2 text-gray-600 hover:text-[#E38F75] transition-colors">
+              <Link href="/reservation" className="relative p-2 text-gray-600 hover:text-[#E38F75] transition-colors">
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                 </svg>
