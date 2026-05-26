@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Alma PrimeX Visage | Kinesvelt Casablanca",
-  description: "Une technologie avancée pour raffermir la peau et redessiner les contours du visage sans chirurgie. Expertise Kinesvelt by Imane D.",
+  title: "Alma PrimeX Visage – Raffermissement Peau | Kinesvelt",
+  description: "Redessinez vos contours et raffermissez la peau avec l'Alma PrimeX chez Kinesvelt Casablanca. Technologie certifiée, non invasive, résultats visibles.",
   alternates: {
     canonical: "/prestations/alma-primex-visage"
   }
