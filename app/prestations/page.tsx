@@ -3,8 +3,8 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Nos Prestations | Kinesvelt Casablanca",
-  description: "Découvrez nos soins spécialisés pour le corps, le visage, l'intime et le capillaire.",
+  title: "Soins Amincissement & Esthétiques | Kinesvelt Casablanca",
+  description: "Amincissement, remodelage corporel, soins visage et bien-être intime : toutes les prestations sur-mesure de Kinesvelt Casablanca.",
   alternates: {
     canonical: "/prestations"
   }
