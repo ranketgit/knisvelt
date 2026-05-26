@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Traitement Double Menton | Kinesvelt Casablanca",
-  description: "Éliminez la graisse localisée sous le menton pour affiner votre profil de manière non invasive.",
+  title: "Traitement Double Menton – Graisse Localisée | Kinesvelt",
+  description: "Éliminez la graisse sous le menton chez Kinesvelt Casablanca. Traitement non invasif pour affiner votre profil et sculpter votre mâchoire durablement.",
   alternates: {
     canonical: "/prestations/graisse-double-menton"
   }
