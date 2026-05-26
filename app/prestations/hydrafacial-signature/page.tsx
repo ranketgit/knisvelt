@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Hydrafacial Signature | Kinesvelt Casablanca",
-  description: "Le soin iconique pour une peau parfaitement nettoyée hydratée et lumineuse. Découvrez l'expertise Kinesvelt by Imane D.",
+  title: "Hydrafacial Signature – Nettoyage & Éclat | Kinesvelt",
+  description: "Le soin iconique Hydrafacial Signature chez Kinesvelt Casablanca : nettoyage en profondeur, hydratation intense et éclat immédiat pour une peau lumineuse.",
   alternates: {
     canonical: "/prestations/hydrafacial-signature"
   }
