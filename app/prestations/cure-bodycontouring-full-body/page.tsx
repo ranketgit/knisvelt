@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Cure Bodycontouring Full Body | Kinesvelt Casablanca",
-  description: "Un remodelage complet de votre silhouette grâce à notre cure bodycontouring full body.",
+  title: "Bodycontouring Full Body – Remodelage Global | Kinesvelt",
+  description: "Cure bodycontouring full body chez Kinesvelt Casablanca : LPG, radiofréquence et Endosphères pour sculpter, raffermir et amincir tout le corps.",
 
 
   alternates: {
