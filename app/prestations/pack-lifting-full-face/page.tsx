@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "HIFU LIFTING VISAGE | Kinesvelt Casablanca",
-  description: "Le lifting nouvelle génération par ultrasons focalisés utilisé dans les cliniques esthétiques internationales. Découvrez l'expertise Kinesvelt by Imane D.",
+  title: "HIFU Lifting Full Face – Ultrasons Focalisés | Kinesvelt",
+  description: "Lifting HIFU visage chez Kinesvelt Casablanca : ultrasons focalisés pour un lifting global sans chirurgie, reconnu dans les cliniques internationales.",
   alternates: {
     canonical: "/prestations/hifu-lifting-visage"
   }
