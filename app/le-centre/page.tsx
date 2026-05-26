@@ -3,8 +3,8 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Le Centre | Kinesvelt Casablanca",
-  description: "Découvrez le centre Kinesvelt : le bon équilibre entre une atmosphère relaxante et les technologies les plus avancées.",
+  title: "Centre Minceur Casablanca | Kinesvelt – 16 ans d'expertise",
+  description: "Découvrez Kinesvelt, centre minceur à Casablanca : 400 m², 20 boxes privés, 16 ans d'expertise en amincissement, bien-être et technologies certifiées FDA.",
   alternates: {
     canonical: "/le-centre"
   }
