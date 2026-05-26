@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "LPG Visage + Massage Kobido | Kinesvelt Casablanca",
-  description: "L’alliance d’une technologie avancée et d’un massage ancestral japonais pour un effet lifting naturel. Expertise Kinesvelt by Imane D.",
+  title: "LPG Visage & Kobido – Lifting Mécanique | Kinesvelt",
+  description: "Alliance du LPG et du Kobido japonais chez Kinesvelt Casablanca. Technologie mécanique et massage ancestral pour un lifting naturel et un teint revitalisé.",
   alternates: {
     canonical: "/prestations/lpg-visage-kobido"
   }
