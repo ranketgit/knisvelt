@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Contouring Ovale du Visage | Kinesvelt Casablanca",
-  description: "Redéfinissez les contours de votre visage pour une mâchoire plus nette, ferme et parfaitement sculptée.",
+  title: "Contouring Ovale du Visage – Mâchoire Sculptée | Kinesvelt",
+  description: "Redessinez l'ovale de votre visage chez Kinesvelt Casablanca. Technologie non invasive pour sculpter la mâchoire et raffermir les contours du visage.",
 
 
   alternates: {
