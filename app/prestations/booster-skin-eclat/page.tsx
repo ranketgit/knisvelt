@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Booster Skin Éclat | Kinesvelt Casablanca",
-  description: "Un véritable coup de fouet revitalisant pour réveiller les teints ternes et fatigués.",
+  title: "Booster Skin Éclat – Soin Éclat & Vitalité | Kinesvelt",
+  description: "Réveillez votre teint avec le Booster Skin Éclat de Kinesvelt Casablanca. Soin revitalisant ciblé pour teints ternes et fatigués, résultat éclat immédiat.",
   alternates: {
     canonical: "/prestations/booster-skin-eclat"
   }
