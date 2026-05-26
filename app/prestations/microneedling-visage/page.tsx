@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Microneedling | Kinesvelt Casablanca",
-  description: "La technique de régénération cutanée reconnue à l’international pour améliorer visiblement la qualité de la peau. Découvrez l'expertise Kinesvelt by Imane D.",
+  title: "Microneedling Visage – Régénération Cutanée | Kinesvelt",
+  description: "Microneedling visage chez Kinesvelt Casablanca : technique reconnue mondialement pour régénérer la peau, réduire rides, pores dilatés et cicatrices.",
   alternates: {
     canonical: "/prestations/microneedling-visage"
   }
