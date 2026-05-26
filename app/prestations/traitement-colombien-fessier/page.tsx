@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Traitement Colombien Fessier | Kinesvelt Casablanca",
-  description: "La technique colombienne pour galber et lifter les fessiers naturellement sans chirurgie. Expertise Kinesvelt by Imane D.",
+  title: "Traitement Colombien Fessier – Galbe & Lifting | Kinesvelt",
+  description: "Galbez et liftez vos fessiers naturellement avec la technique colombienne chez Kinesvelt Casablanca. Remodelage non chirurgical pour des fessiers sculptés.",
   alternates: {
     canonical: "/prestations/traitement-colombien-fessier"
   }
