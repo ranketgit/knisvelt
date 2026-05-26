@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Soin Luxury ADN Saumon | Kinesvelt Casablanca",
-  description: "Un soin régénérant d’exception pour revitaliser intensément la peau et restaurer son éclat naturel. Découvrez l'expertise Kinesvelt by Imane D.",
+  title: "Soin Luxury ADN Saumon – Régénération Cellulaire | Kinesvelt",
+  description: "Soin régénérant à l'ADN de saumon chez Kinesvelt Casablanca. Revitalisation cellulaire intensive pour restaurer l'éclat naturel et la jeunesse de la peau.",
   alternates: {
     canonical: "/prestations/luxury-adn-saumon"
   }
