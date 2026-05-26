@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Drainage Post-Opératoire | Kinesvelt Casablanca",
-  description: "Accélérez votre récupération et réduisez les œdèmes après une chirurgie avec notre drainage lymphatique.",
+  title: "Drainage Post-Opératoire – Lymphatique | Kinesvelt",
+  description: "Drainage lymphatique post-opératoire chez Kinesvelt Casablanca. Réduisez les œdèmes et accélérez votre récupération après chirurgie en toute sécurité.",
   alternates: {
     canonical: "/prestations/drainage-post-operatoire"
   }
