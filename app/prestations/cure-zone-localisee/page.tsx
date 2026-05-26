@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Cure Minceur Zone Localisée | Kinesvelt Casablanca",
-  description: "Ciblez spécifiquement les amas graisseux rebelles avec notre cure minceur localisée.",
+  title: "Cure Minceur Zone Localisée – Lipocavitation | Kinesvelt",
+  description: "Lipocavitation et I-Lipo pour cibler ventre, cuisses et hanches chez Kinesvelt Casablanca. Action ultra-ciblée sur les zones rebelles, résultats visibles.",
   alternates: {
     canonical: "/prestations/cure-zone-localisee"
   }
