@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Cure Minceur Pathologies | Kinesvelt Casablanca",
-  description: "Un programme minceur strictement adapté à votre métabolisme (Thyroïde, OPK, Diabète).",
+  title: "Cure Minceur Zone Localisée – Lipocavitation | Kinesvelt",
+  description: "Lipocavitation et I-Lipo pour cibler ventre, cuisses et hanches chez Kinesvelt Casablanca. Action ultra-ciblée sur les zones rebelles, résultats visibles.",
   alternates: {
     canonical: "/prestations/cure-thyroide-opk-diabete"
   }
