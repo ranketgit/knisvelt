@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "EndyMed | Kinesvelt Casablanca",
-  description: "Le secret beauté des célébrités. La radiofréquence nouvelle génération pour un lifting naturel sans chirurgie. Expertise Kinesvelt by Imane D.",
+  title: "EndyMed – Lifting Radiofréquence Naturel | Kinesvelt",
+  description: "Découvrez l'EndyMed chez Kinesvelt Casablanca : radiofréquence nouvelle génération pour un lifting naturel et un raffermissement cutané sans chirurgie.",
   alternates: {
     canonical: "/prestations/endymed"
   }
