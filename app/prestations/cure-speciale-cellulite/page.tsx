@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Cure Spéciale Cellulite | Kinesvelt Casablanca",
-  description: "Des protocoles intensifs pour lisser la peau, éliminer l'aspect peau d'orange et réduire la cellulite.",
+  title: "Cure Spéciale Cellulite – Lissage & Fermeté | Kinesvelt",
+  description: "Cure cellulite chez Kinesvelt Casablanca : Ondes de Choc, Emtone et Endosphères pour lisser la peau d'orange et réduire tous types de cellulite.",
   alternates: {
     canonical: "/prestations/cure-speciale-cellulite"
   }
