@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Exilis Lifting Visage | Kinesvelt Casablanca",
-  description: "La technologie de radiofréquence et ultrasons reconnue FDA pour raffermir la peau et redessiner les contours du visage. Expertise Kinesvelt by Imane D.",
+  title: "Exilis Lifting Visage – RF & Ultrasons | Kinesvelt",
+  description: "Raffermissez peau et contours du visage avec l'Exilis chez Kinesvelt Casablanca. Technologie radiofréquence et ultrasons certifiée FDA, sans chirurgie.",
   alternates: {
     canonical: "/prestations/exilis-lifting-visage"
   }
