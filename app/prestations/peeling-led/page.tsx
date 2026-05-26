@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Peeling + LED – Soin de la Peau | Kinesvelt Casablanca",
-  description: "Le soin expert pour renouveler la peau et révéler un teint plus lumineux. Découvrez l'expertise Kinesvelt by Imane D.",
+  title: "Peeling & LED – Exfoliation & Photothérapie | Kinesvelt",
+  description: "Peeling + LED chez Kinesvelt Casablanca : exfoliation et photothérapie combinées pour renouveler la peau et révéler un teint lumineux et unifié.",
   alternates: {
     canonical: "/prestations/peeling-led"
   }
