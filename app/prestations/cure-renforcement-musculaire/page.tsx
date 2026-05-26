@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Cure Renforcement Musculaire | Kinesvelt Casablanca",
-  description: "Tonifiez votre corps et développez votre masse musculaire avec notre cure spécialisée.",
+  title: "Cure Renforcement Musculaire – Galbe & Tonicité | Kinesvelt",
+  description: "Galbe abdominaux et fessiers avec l'EMSculpt chez Kinesvelt Casablanca. Contractions profondes pour densifier la masse musculaire et éliminer les graisses.",
   alternates: {
     canonical: "/prestations/cure-renforcement-musculaire"
   }
