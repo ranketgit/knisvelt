@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Épilation Laser | Kinesvelt Casablanca",
-  description: "La solution durable pour une peau parfaitement lisse grâce aux technologies laser de dernière génération. Expertise Kinesvelt by Imane D.",
+  title: "Épilation Laser Triple Technologie | Kinesvelt Casablanca",
+  description: "Épilation laser définitive chez Kinesvelt Casablanca. Triple technologie Alexandrite, Diode et Nd:YAG adaptée à tous les types de peau et phototypes.",
   alternates: {
     canonical: "/prestations/epilation-laser"
   }
