@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Radiofréquence Fractionnée | Kinesvelt Casablanca",
-  description: "La technologie avancée de régénération cutanée pour raffermir la peau et améliorer visiblement sa qualité. Expertise Kinesvelt by Imane D.",
+  title: "Radiofréquence Fractionnée – Raffermissement | Kinesvelt",
+  description: "Radiofréquence fractionnée chez Kinesvelt Casablanca : technologie avancée pour régénérer, raffermir la peau et améliorer visiblement sa texture.",
   alternates: {
     canonical: "/prestations/radiofrequence-fractionnee"
   }
