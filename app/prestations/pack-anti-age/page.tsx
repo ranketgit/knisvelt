@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Pack Anti-Âge | Kinesvelt Casablanca",
-  description: "Prévenez et traitez les premiers signes du vieillissement avec des soins repulpants et hautement ciblés.",
+  title: "Pack Anti-Âge – Soins Repulpants Ciblés | Kinesvelt",
+  description: "Pack anti-âge chez Kinesvelt Casablanca : soins repulpants et hautement ciblés pour prévenir et traiter les premiers signes du vieillissement cutané.",
   alternates: {
     canonical: "/prestations/pack-anti-age"
   }
