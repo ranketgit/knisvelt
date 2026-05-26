@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Soin Luxury Caviar | Kinesvelt Casablanca",
-  description: "Un soin d’exception pour revitaliser intensément la peau et révéler un teint éclatant. Découvrez l'expertise Kinesvelt by Imane D.",
+  title: "Soin Luxury Caviar – Anti-Âge & Teint Éclatant | Kinesvelt",
+  description: "Soin au caviar chez Kinesvelt Casablanca. Nutrition intense et effet repulpant anti-âge pour révéler un teint éclatant de jeunesse et de vitalité.",
   alternates: {
     canonical: "/prestations/luxury-caviar"
   }
