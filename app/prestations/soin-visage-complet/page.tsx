@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Soin Visage Complet | Kinesvelt Casablanca",
-  description: "Nettoyage en profondeur, hydratation et revitalisation pour une peau éclatante de santé.",
+  title: "Soin Visage Complet – Nettoyage & Revitalisation | Kinesvelt",
+  description: "Soin visage complet chez Kinesvelt Casablanca : nettoyage en profondeur, hydratation et revitalisation pour une peau saine et éclatante de fraîcheur.",
   alternates: {
     canonical: "/prestations/soin-visage-complet"
   }
