@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "HIFU Vaginal | Kinesvelt Casablanca",
-  description: "Soins intimes de haute technologie HIFU vaginal pour votre bien-être et confort intime.",
+  title: "Soins Intimes HIFU Vaginal | Kinesvelt Casablanca",
+  description: "Soins intimes haute technologie chez Kinesvelt Casablanca. HIFU vaginal aux ultrasons focalisés pour restaurer fermeté et confort intime sans chirurgie.",
   alternates: {
     canonical: "/prestations/intime"
   }
