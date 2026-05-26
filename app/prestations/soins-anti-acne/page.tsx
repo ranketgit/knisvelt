@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Traitement Acné | Kinesvelt Casablanca",
-  description: "Un protocole expert pour purifier la peau et réduire durablement les imperfections. Découvrez l'expertise Kinesvelt by Imane D.",
+  title: "Traitement Anti-Acné – Purification & Soins | Kinesvelt",
+  description: "Traitement anti-acné expert chez Kinesvelt Casablanca. Protocole ciblé pour purifier la peau en profondeur et réduire durablement les imperfections.",
   alternates: {
     canonical: "/prestations/soins-anti-acne"
   }
