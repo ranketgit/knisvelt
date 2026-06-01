@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
-  title: "Alma PrimeX Corps | Kinesvelt Casablanca",
-  description: "Technologie de radiofréquence avancée – Remodelage corporel de dernière génération. Expertise Kinesvelt by Imane D.",
+  title: "Alma PrimeX Corps – Radiofréquence 40 MHz | Kinesvelt",
+  description: "Alma PrimeX Corps chez Kinesvelt Casablanca : radiofréquence monopolaire 40 MHz certifiée FDA pour réduire les graisses localisées et raffermir la peau.",
   alternates: {
     canonical: "/equipements/alma-primex-corps"
   }
