@@ -3,8 +3,8 @@ import Image from "next/image";
 import AddToCartCard from "@/app/components/AddToCartCard";
 
 export const metadata: Metadata = {
-  title: "EMS NEO BTL | Kinesvelt Casablanca",
-  description: "Renforcement musculaire et réduction de graisse – Technologie médicale avancée HIFEM+ et Radiofréquence.",
+  title: "EMS NEO BTL – HIFEM+ & Radiofréquence | Kinesvelt",
+  description: "EMS NEO BTL chez Kinesvelt Casablanca : HIFEM+ et radiofréquence synchronisée pour développer la masse musculaire et brûler les graisses. Certifié FDA.",
   alternates: {
     canonical: "/equipements/ems-neo-btl"
   }
