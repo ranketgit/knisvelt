@@ -3,8 +3,8 @@ import Image from "next/image";
 import AddToCartCard from "@/app/components/AddToCartCard";
 
 export const metadata: Metadata = {
-  title: "Lipocavitation | Kinesvelt Casablanca",
-  description: "Technologie avancée de réduction de la graisse localisée par ultrasons.",
+  title: "Lipocavitation Casablanca – Ultrasons Minceur | Kinesvelt",
+  description: "Lipocavitation chez Kinesvelt Casablanca : ultrasons basse fréquence pour désintégrer les graisses localisées. Sans douleur, sans éviction sociale.",
 
   alternates: { canonical: "/equipements/lipocavitation" }
 };
