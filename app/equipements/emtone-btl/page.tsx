@@ -3,8 +3,8 @@ import Image from "next/image";
 import AddToCartCard from "@/app/components/AddToCartCard";
 
 export const metadata: Metadata = {
-  title: "Emtone – BTL | Kinesvelt Casablanca",
-  description: "Technologie internationale révolutionnaire conçue pour traiter efficacement tous les types de cellulite.",
+  title: "Emtone BTL – Anti-Cellulite & Raffermissement | Kinesvelt",
+  description: "Emtone BTL chez Kinesvelt Casablanca : radiofréquence et ondes de pression combinées pour traiter efficacement tous les types de cellulite. Non invasif.",
   alternates: {
     canonical: "/equipements/emtone-btl"
   }
