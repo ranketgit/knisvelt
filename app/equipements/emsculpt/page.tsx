@@ -3,8 +3,8 @@ import Image from "next/image";
 import AddToCartCard from "@/app/components/AddToCartCard";
 
 export const metadata: Metadata = {
-  title: "EMSculpt Haute Intensity | Kinesvelt Casablanca",
-  description: "Technologie avancée de renforcement musculaire et remodelage corporel.",
+  title: "EMSculpt – Renforcement Musculaire & Galbe | Kinesvelt",
+  description: "EMSculpt chez Kinesvelt Casablanca : impulsions HIFEM pour des contractions musculaires profondes. Tonifiez, galbez et réduisez la graisse en 30 minutes.",
   alternates: { canonical: "/equipements/emsculpt" }
 };
 
