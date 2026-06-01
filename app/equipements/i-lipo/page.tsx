@@ -3,8 +3,8 @@ import Image from "next/image";
 import AddToCartCard from "@/app/components/AddToCartCard";
 
 export const metadata: Metadata = {
-  title: "I-Lipo | Kinesvelt Casablanca",
-  description: "Technologie laser lipolytique de dernière génération. 100% indolore.",
+  title: "I-Lipo – Laser Lipolytique Indolore | Kinesvelt Casablanca",
+  description: "I-Lipo chez Kinesvelt Casablanca : laser lipolytique pour cibler et éliminer la graisse localisée. 100% indolore, 0 aiguille, résultats visibles.",
   alternates: { canonical: "/equipements/i-lipo" }
 
 };
