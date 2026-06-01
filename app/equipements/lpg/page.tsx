@@ -3,8 +3,8 @@ import Image from "next/image";
 import AddToCartCard from "@/app/components/AddToCartCard";
 
 export const metadata: Metadata = {
-  title: "LPG | Kinesvelt Casablanca",
-  description: "Technologie parfaitement conçue pour le bodycontouring et le remodelage global de la silhouette.",
+  title: "LPG – Bodycontouring & Remodelage Silhouette | Kinesvelt",
+  description: "LPG chez Kinesvelt Casablanca : rouleaux motorisés et aspiration pour réduire la cellulite, raffermir les tissus et remodeler la silhouette.",
 
   alternates: { canonical: "/equipements/lpg" }
 };
