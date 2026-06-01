@@ -3,8 +3,8 @@ import Image from "next/image";
 import AddToCartCard from "@/app/components/AddToCartCard";
 
 export const metadata: Metadata = {
-  title: "Madérothérapie & Métallothérapie | Kinesvelt Casablanca",
-  description: "Technique de remodelage corporel par instruments en bois et en métal.",
+  title: "Madérothérapie & Métallothérapie – Galbe Corps | Kinesvelt",
+  description: "Madérothérapie & Métallothérapie chez Kinesvelt Casablanca : bois et métal pour drainer, réduire la cellulite et raffermir la silhouette naturellement.",
   alternates: { canonical: "/equipements/maderotherapie" }
 };
 
