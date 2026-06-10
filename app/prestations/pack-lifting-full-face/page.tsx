@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "HIFU Lifting Full Face – Ultrasons Focalisés | Kinesvelt",
   description: "Lifting HIFU visage chez Kinesvelt Casablanca : ultrasons focalisés pour un lifting global sans chirurgie, reconnu dans les cliniques internationales.",
   alternates: {
-    canonical: "/prestations/hifu-lifting-visage"
+    canonical: "/prestations/pack-lifting-full-face"
   }
 };
 
