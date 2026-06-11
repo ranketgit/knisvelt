@@ -1,11 +1,11 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
-import CorpsServicesClient from '../../components/CorpsServicesClient'; // Adjust path if needed
+import CorpsServicesClient from '../../components/CorpsServicesClient'; // Ajustez le chemin si nécessaire
 
-// Drop your metadata right here
+// Métadonnées optimisées SEO
 export const metadata: Metadata = {
-  title: 'Prestations Corps | Kinesvelt',
-  description: 'Des solutions sur-mesure pour sculpter, raffermir et sublimer votre silhouette.',
+  title: 'Soins Corps & Lipocavitation Casablanca | Kinesvelt',
+  description: 'Lipocavitation, LPG, EMS Neo et bodycontouring à Casablanca. Programmes corps sur mesure supervisés par une kinésithérapeute certifiée. Bilan offert.',
   alternates: {
     canonical: "/prestations/corps"
   }
@@ -24,19 +24,19 @@ export default function PrestationsCorpsPage() {
             className="object-cover" 
             priority 
          />
-          <div className="absolute inset-0 bg-black/20"></div>
+          <div className="absolute inset-0 bg-black/40"></div>
         </div>
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
-          <h1 className="text-4xl lg:text-6xl font-medium text-white mb-6 uppercase">
-            Prestations Corps
+          <h1 className="text-4xl lg:text-[3.5rem] font-medium text-white mb-6 uppercase max-w-5xl leading-tight">
+            Soins corps et lipocavitation à Casablanca — programmes sur mesure
           </h1>
-          <p className="text-lg text-white/90 max-w-2xl font-medium">
-            Des solutions sur-mesure pour sculpter, raffermir et sublimer votre silhouette.
+          <p className="text-lg lg:text-xl text-white/95 max-w-3xl font-medium leading-relaxed">
+            Amincissement localisé, remodelage corporel, traitement cellulite : chaque programme est construit après un bilan morphologique complet. Résultats visibles dès la 3e séance.
           </p>
         </div>
       </section>
 
-      {/* Interactive Client Component */}
+      {/* Interactive Client Component (contient les onglets, pourquoi nous, faq et cta) */}
       <CorpsServicesClient />
     </div>
   );
