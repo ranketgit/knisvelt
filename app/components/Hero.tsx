@@ -13,16 +13,16 @@ export default function Hero() {
           </div>
 
           <h1 className="text-4xl lg:text-[2.75rem] font-medium leading-[1.15] text-[#2A2A2A] mb-6">
-            Reprenez le contrôle de votre silhouette et atteignez votre poids idéal!
+            Votre centre d'amincissement à Casablanca — résultats visibles, sur mesure
           </h1>
 
           <p className="text-gray-500 text-lg leading-relaxed mb-10 max-w-lg">
-            Nos programmes minceur personnalisés vous aident à perdre du poids de manière efficace et durable.
+            16 ans d'expertise, technologies certifiées FDA, 20 boxes individuels. Chaque programme commence par un bilan morphologique offert.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mb-10">
             <a href="/contact" className="bg-[#E38F75] hover:bg-[#d47b60] transition-colors text-white px-8 py-3.5 rounded-full font-medium text-sm">
-              Prendre un Rendez-vous
+              Réserver mon bilan gratuit
             </a>
             
           </div>
@@ -34,7 +34,7 @@ export default function Hero() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <span className="text-sm text-gray-500 font-medium">Transformation impressionnantes</span>
+              <span className="text-sm text-gray-500 font-medium">Résultats dès la 3e séance</span>
             </div>
             
             <div className="flex items-center gap-2">
@@ -43,7 +43,7 @@ export default function Hero() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <span className="text-sm text-gray-500 font-medium">Suivi Personnalisé</span>
+              <span className="text-sm text-gray-500 font-medium">Bilan morphologique offert</span>
             </div>
           </div>
         </div>

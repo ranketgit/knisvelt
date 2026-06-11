@@ -6,41 +6,29 @@ export default function Prestations() {
       title: "Prestations Corps",
       link: "/prestations/corps",
       image: "/corp.png",
-      subcategories: [
-        "Amincissement & Silhouette",
-        "Remodelage & Raffermissement",
-        "Drainage & Post-opératoire",
-        "Épilation Laser"
-      ]
+      description: "Amincissement localisé, remodelage corporel, traitement cellulite, drainage post-opératoire et épilation laser. 8 programmes sur mesure, en box individuel.",
+      linkText: "Voir tous les soins corps"
     },
     {
       title: "Prestations Visage",
       link: "/prestations/visage",
       image: "/services/2.jpg",
-      subcategories: [
-        "Remodelage & Contouring",
-        "Soins Spécifiques (Acné, Microneedling)",
-        "Booster Skin Éclat",
-        "Anti-Âge & Lifting Full Face"
-      ]
+      description: "HIFU lifting, Hydrafacial, microneedling, contouring ovale, anti-âge et soins spécifiques. 17 protocoles supervisés par une kinésithérapeute certifiée.",
+      linkText: "Voir tous les soins visage"
     },
     {
-      title: "Prestations Intime",
+      title: "Prestations Intimes",
       link: "/prestations/hifu-vaginal",
       image: "/services/3.jpg",
-      subcategories: [
-        "HIFU Vaginal",
-        "Soins rajeunissement"
-      ]
+      description: "HIFU vaginal et soins de rajeunissement intime non chirurgicaux. Discrétion absolue en box individuel fermé.",
+      linkText: "Voir les soins intimes"
     },
     {
       title: "Prestations Capillaires",
       link: "/prestations/capillaires",
       image: "/services/4.jpg",
-      subcategories: [
-        "Microneedling Cheveux",
-        "Traitements antichute"
-      ]
+      description: "Microneedling capillaire, traitements antichute et protocoles de densification. Résultats dès 3 séances.",
+      linkText: "Voir les soins capillaires"
     }
   ];
 
@@ -56,8 +44,8 @@ export default function Prestations() {
               Notre Carte
             </span>
           </div>
-          <h2 className="text-3xl lg:text-[2.5rem] font-medium leading-[1.2] text-[#2A2A2A] max-w-2xl">
-            Découvrez l'ensemble de nos prestations
+          <h2 className="text-3xl lg:text-[2.5rem] font-medium leading-[1.2] text-[#2A2A2A] max-w-3xl">
+            Nos prestations à Casablanca — corps, visage, intime & capillaires
           </h2>
         </div>
 
@@ -84,22 +72,15 @@ export default function Prestations() {
                   {category.title}
                 </h3>
                 
-                <ul className="space-y-4 mb-8 flex-grow">
-                  {category.subcategories.map((item, i) => (
-                    <li key={i} className="flex items-start gap-3">
-                      <svg className="w-5 h-5 text-[#E38F75] flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                      <span className="text-gray-600 text-[15px] leading-snug">{item}</span>
-                    </li>
-                  ))}
-                </ul>
+                <p className="text-gray-600 text-[15px] leading-relaxed mb-8 flex-grow">
+                  {category.description}
+                </p>
 
                 <Link 
                   href={category.link} 
                   className="inline-flex items-center gap-2 text-sm font-semibold text-[#E38F75] hover:text-[#d47b60] transition-colors"
                 >
-                  VOIR TOUS LES SOINS
+                  {category.linkText}
                   <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>

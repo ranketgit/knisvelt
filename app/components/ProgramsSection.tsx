@@ -14,7 +14,7 @@ export default function ProgramsSection() {
         {/* Section Title */}
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-[2.5rem] font-medium leading-[1.2] text-[#2A2A2A]">
-            Programmes de minceur personnalisés et efficaces
+            Programmes minceur personnalisés et efficaces à Casablanca
           </h2>
         </div>
 
@@ -31,7 +31,7 @@ export default function ProgramsSection() {
               Plans Diététiques Personnalisés
             </h3>
             <p className="text-gray-500 text-[15px] leading-relaxed mb-8 flex-grow">
-              Des plans nutritionnels, adaptés à vos objectifs et à vos besoins personnels.
+              Des plans nutritionnels sur mesure, adaptés à votre morphologie, vos objectifs et votre mode de vie à Casablanca. Chaque programme est établi après un bilan complet par notre équipe.
             </p>
           </div>
 
@@ -46,7 +46,7 @@ export default function ProgramsSection() {
               Traitements Corporels Avancés
             </h3>
             <p className="text-gray-500 text-[15px] leading-relaxed mb-8 flex-grow">
-              Des techniques avancées pour l'amincissement et le remodelage corporel.
+              Des techniques non invasives de dernière génération pour l'amincissement localisé, le remodelage corporel et le raffermissement. Technologies certifiées FDA, résultats visibles dès la 3e séance.
             </p>
           </div>
 
@@ -61,7 +61,7 @@ export default function ProgramsSection() {
               Coaching et Fitness
             </h3>
             <p className="text-gray-500 text-[15px] leading-relaxed mb-8 flex-grow">
-              Un accompagnement sportif personnalisé pour sculpter et tonifier votre corps.
+              Un accompagnement sportif personnalisé pour sculpter, tonifier et maintenir vos résultats dans la durée. Combiné à nos traitements corps pour un effet transformant complet.
             </p>
           </div>
         </div>
@@ -69,10 +69,13 @@ export default function ProgramsSection() {
         {/* Updated Call to Action Button */}
         <div className="text-center">
           <Link 
-            href="/contact" 
-            className="inline-flex items-center px-10 py-4 text-white bg-[#E38F75] hover:bg-[#d47b60] font-medium rounded-full transition-all duration-300 shadow-lg shadow-[#E38F75]/20 hover:shadow-xl hover:shadow-[#E38F75]/30 transform hover:-translate-y-1"
+            href="https://kinesvelt.com/reservation" 
+            className="inline-flex items-center px-10 py-4 text-white bg-[#E38F75] hover:bg-[#d47b60] font-medium rounded-full transition-all duration-300 shadow-lg shadow-[#E38F75]/20 hover:shadow-xl hover:shadow-[#E38F75]/30 transform hover:-translate-y-1 gap-2"
           >
             Commencer ma transformation
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
           </Link>
         </div>
       </div>

@@ -19,8 +19,8 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://kinesvelt.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Kinesvelt | Reprenez le contrôle de votre silhouette",
-  description: "Nos programmes minceur personnalisés vous aident à perdre du poids de manière efficace et durable.",
+  title: "Kinesvelt | Centre Amincissement, Corps & Visage Casablanca",
+  description: "Kinesvelt, centre d'amincissement à Casablanca depuis 16 ans. LPG, lipocavitation, EMS Neo, HIFU, soins visage. 20 boxes individuels. Bilan offert.",
   alternates: {
     canonical: "/",
   },

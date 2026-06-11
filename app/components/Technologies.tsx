@@ -6,49 +6,49 @@ export default function Technologies() {
     // PREMIUM MACHINES FIRST
     {
       name: "LPG",
-      action: "Bodycontouring et remodelage global de la silhouette.",
+      action: "Le standard mondial du remodelage corporel. Palper-rouler mécanique pour éliminer la cellulite, drainer et raffermir la peau en profondeur.",
       link: "/equipements/lpg",
       img: "/lpg.jpeg",
       premium: true
     },
     {
       name: "Emtone – BTL",
-      action: "Technologie révolutionnaire pour traiter tous les types de cellulite.",
+      action: "Combine radiofréquence et ondes de pression pour traiter les 4 types de cellulite simultanément. Certifié FDA.",
       link: "/equipements/emtone-btl",
       img: "/emtone.jpeg",
       premium: true
     },
     {
       name: "Exilis – BTL",
-      action: "Combinaison radiofréquence et ultrasons pour le raffermissement.",
+      action: "Radiofréquence et ultrasons combinés pour raffermir la peau du visage et du corps. Résultats progressifs sur 3 à 6 mois. Certifié FDA.",
       link: "/equipements/exilis-btl",
       img: "/exilis.jpeg",
       premium: true
     },
     {
       name: "T-Care Slim",
-      action: "Stimulation cellulaire profonde par radiofréquence capacitive.",
+      action: "Radiofréquence capacitive pour stimuler le métabolisme cellulaire et réduire la graisse localisée en profondeur.",
       link: "/equipements/t-care-slim",
       img: "/tcare.jpeg",
       premium: true
     },
     {
       name: "Alma PrimeX",
-      action: "Technologie premium de radiofréquence pour réduire les graisses.",
+      action: "Technologie premium multi-applications : réduit les graisses, raffermit la peau et améliore la texture cutanée. Corps et visage.",
       link: "/equipements/alma-primex-corps",
-      img: "/new-services/21.jpg", // Replace with correct image path if needed
+      img: "/new-services/21.jpg", 
       premium: true
     },
     {
-      name: "EMS NEO BTL",
-      action: "Renforcement musculaire et réduction de graisse par HIFEM+.",
+      name: "EMS Neo BTL",
+      action: "20 000 contractions musculaires par séance. Renforce la sangle abdominale et brûle la graisse en parallèle. Certifié FDA.",
       link: "/equipements/ems-neo-btl",
       img: "/ems-neo.jpg",
       premium: true
     },
     {
       name: "VelaShape III",
-      action: "Solution n°1 pour la cellulite et la réduction de circonférence.",
+      action: "Solution certifiée FDA n°1 contre la cellulite : combine infrarouge, radiofréquence et aspiration pour réduire la peau d'orange.",
       link: "/equipements/velashape-3",
       img: "/vela.jpg",
       premium: true
@@ -57,49 +57,49 @@ export default function Technologies() {
     // STANDARD MACHINES
     {
       name: "Radiofréquence",
-      action: "Technologie avancée de raffermissement et régénération cutanée.",
+      action: "Raffermissement et régénération cutanée par chaleur contrôlée. Stimule la production de collagène en profondeur.",
       link: "/equipements/radiofrequence",
       img: "/radio.jpeg"
     },
     {
       name: "Lipocavitation",
-      action: "Technologie avancée de réduction de la graisse localisée.",
+      action: "Ultrasons de basse fréquence pour désintégrer les cellules graisseuses dans les zones ciblées. Non invasif, sans douleur.",
       link: "/equipements/lipocavitation",
       img: "/lipo.jpeg"
     },
     {
       name: "Ondes de choc X-Wave",
-      action: "Stimulation mécanique profonde et restructuration tissulaire.",
+      action: "Stimulation mécanique profonde pour briser les fibres de cellulite compacte et restructurer les tissus.",
       link: "/equipements/ondes-de-choc",
       img: "/ondes.jpeg"
     },
     {
       name: "Pressothérapie",
-      action: "Technologie avancée de drainage et stimulation circulatoire.",
+      action: "Drainage lymphatique par compression séquentielle. Élimine la rétention d'eau, réduit les gonflements et améliore la circulation.",
       link: "/equipements/pressotherapie",
       img: "/presto.jpeg"
     },
     {
-      name: "EMSculpt Haute Intensity",
-      action: "Renforcement musculaire et remodelage corporel.",
+      name: "EMSculpt",
+      action: "Électrostimulation haute intensité pour sculpter et tonifier sans effort physique. Idéal abdominaux et fessiers.",
       link: "/equipements/emsculpt",
       img: "/emscuplt.jpeg"
     },
     {
       name: "I-Lipo",
-      action: "Technologie laser lipolytique de dernière génération.",
+      action: "Laser lipolytique de dernière génération pour déstabiliser les cellules graisseuses et réduire les centimètres.",
       link: "/equipements/i-lipo",
       img: "/i-lipo.jpeg"
     },
     {
       name: "Endosphères",
-      action: "Micro-vibration compressive pour le drainage et remodelage avancé.",
+      action: "Micro-vibration compressive pour drainer, lisser la peau d'orange et remodeler les contours du corps.",
       link: "/equipements/endospheres",
       img: "/endospheres.jpeg"
     },
     {
-      name: "Madérothérapie & Métallo.",
-      action: "Remodelage corporel par instruments en bois et en métal.",
+      name: "Madérothérapie & Métallothérapie",
+      action: "Modelage corporel manuel par instruments en bois et en métal. Drainant, raffermissant et sculptant.",
       link: "/equipements/maderotherapie",
       img: "/maderotherapie.jpeg"
     }
@@ -117,8 +117,8 @@ export default function Technologies() {
               Nos Équipements
             </span>
           </div>
-          <h2 className="text-3xl lg:text-[2.5rem] font-medium leading-[1.2] text-[#2A2A2A] max-w-2xl">
-            Des technologies de pointe au service de votre corps
+          <h2 className="text-3xl lg:text-[2.5rem] font-medium leading-[1.2] text-[#2A2A2A] max-w-4xl">
+            Technologies certifiées FDA — les meilleurs équipements d'amincissement à Casablanca
           </h2>
         </div>
 
@@ -160,7 +160,7 @@ export default function Technologies() {
                   href={machine.link} 
                   className="inline-flex items-center gap-2 text-sm font-semibold text-[#E38F75] hover:text-[#d47b60] transition-colors group"
                 >
-                  Découvrir la technologie
+                  Découvrir
                   <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>

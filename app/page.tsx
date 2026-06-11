@@ -5,6 +5,7 @@ import OwnerExpertise from "./components/Onwer";
 import Testimonials from "./components/Testimonials";
 import Prestations from "./components/Services";
 import Technologies from "./components/Technologies";
+import FAQ from "./components/Faq";
 
 export default function Home() {
   return (
@@ -16,8 +17,7 @@ export default function Home() {
     <Testimonials />
     <Prestations />
     <Technologies />
-    
+    <FAQ />
     </>
-   
   );
 }
