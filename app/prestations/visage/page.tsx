@@ -1,12 +1,13 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
-import VisageServicesClient from '../../components/VisageServicesClient'; // Adjust the import path as needed
+import VisageServicesClient from '../../components/VisageServicesClient'; // Ajustez le chemin si nécessaire
 
+// Métadonnées optimisées SEO avec canonical corrigée
 export const metadata: Metadata = {
-  title: 'Prestations Visage | KINESVELT by Imane D',
-  description: 'Découvrez nos soins du visage : remodelage, contouring, soins spécifiques et traitements anti-âge pour une peau éclatante.',
+  title: 'Soins Visage Casablanca – Anti-Âge, HIFU & Hydrafacial | Kinesvelt',
+  description: 'Soins visage médicaux à Casablanca : HIFU lifting, Hydrafacial, microneedling, radiofréquence, LPG Kobido. Supervisés par une kinésithérapeute certifiée. Bilan peau offert.',
   alternates: {
-    canonical: "/prestations/visage"
+    canonical: "https://kinesvelt.com/prestations/visage"
   }
 };
 
@@ -18,19 +19,19 @@ export default function PrestationsVisagePage() {
         <div className="absolute inset-0 bg-gray-200">
           <Image 
             src="/visage.jpg" 
-            alt="Prestations Visage" 
+            alt="Soins Visage Casablanca" 
             fill 
             className="object-cover" 
             priority 
           />
-          <div className="absolute inset-0 bg-black/20"></div>
+          <div className="absolute inset-0 bg-black/40"></div>
         </div>
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
-          <h1 className="text-4xl lg:text-6xl font-medium text-white mb-6 uppercase">
-            Prestations Visage
+          <h1 className="text-4xl lg:text-[3.5rem] font-medium text-white mb-6 uppercase max-w-5xl leading-tight">
+            Soins visage à Casablanca — résultats médicaux, sans chirurgie
           </h1>
-          <p className="text-lg text-white/90 max-w-2xl font-medium">
-            KINESVELT by Imane D
+          <p className="text-lg lg:text-xl text-white/95 max-w-3xl font-medium leading-relaxed">
+            17 protocoles visage sur mesure, supervisés par une kinésithérapeute certifiée depuis 16 ans. Bilan peau offert.
           </p>
         </div>
       </section>
