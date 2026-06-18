@@ -24,28 +24,29 @@ export default function VisageServicesClient() {
 
   const servicesData: Record<VisageCategory, { title: string; desc: string; href: string }[]> = {
     remodelage: [
-      { title: "Contouring ovale du visage", desc: "Énergie thermique et mécanique pour tonifier le bas du visage et redessiner la mâchoire. Résultats particulièrement marqués après une perte de poids. 2 à 4 séances.", href: "/prestations/contouring-ovale-visage" },
-      { title: "Graisse double menton", desc: "Ultrasons focalisés sur la graisse localisée sous le menton — résistante au régime et au sport. Profil affiné de face et de côté en 2 à 4 séances.", href: "/prestations/graisse-double-menton" },
+      { title: "Contouring ovale du visage", desc: "Ultrasons et énergie thermique pour tonifier le bas du visage et redessiner la mâchoire. Résultats visibles après 2 à 4 séances. Idéal après une perte de poids.", href: "/prestations/contouring-ovale-visage" },
+      { title: "Graisse double menton", desc: "Traitement non invasif des graisses localisées sous le menton. Profil affiné de face et de côté en 2 à 4 séances, sans chirurgie ni injection.", href: "/prestations/graisse-double-menton" },
+      { title: "LPG Visage + Massage Kobido", desc: "LPG mécanique et massage Kobido combinés pour relancer le collagène et redéfinir les contours. Lifting naturel sans chaleur ni injection. Unique à Casablanca.", href: "/prestations/lpg-visage-kobido" },
     ],
     soins: [
-      { title: "Hydrafacial Signature", desc: "Nettoyage profond, exfoliation douce et infusion de sérums concentrés en une séance. Sans rougeur ni éviction sociale. Adapté à toutes les peaux, y compris peaux réactives et rosacées.", href: "/prestations/hydrafacial-signature" },
+      { title: "Hydrafacial Signature", desc: "Nettoyage profond, exfoliation et infusion de sérums en une séance. Aucune rougeur, aucune éviction. Compatible avec les peaux sensibles et rosacées.", href: "/prestations/hydrafacial-signature" },
       { title: "Soin Luxury Caviar", desc: "Actifs ultra-concentrés en acides aminés et oméga. Répare la barrière cutanée et restaure densité et éclat. Idéal pour les peaux sèches ou manquant de vitalité.", href: "/prestations/luxury-caviar" },
       { title: "Soin Luxury ADN Saumon", desc: "Polynucléotides de saumon pour stimuler la régénération cellulaire en profondeur. Efficace sur peaux post-stress, post-traitement ou avec une perte d'éclat persistante.", href: "/prestations/luxury-adn-saumon" },
-      { title: "MesojectGun", desc: "Infusion d'acide hyaluronique, vitamines et peptides dans le derme par pression — sans aiguille, sans douleur. Peau repulpée et lumineuse dès la première séance.", href: "/prestations/mesojectgun" },
-      { title: "Traitement Acné", desc: "Peeling, LED bleue antibactérienne et soins régulateurs pour purifier la peau et prévenir les récidives. Traite la cause — pas uniquement les boutons visibles. Adapté à l'acné adulte et hormonale.", href: "/prestations/soins-anti-acne" },
-      { title: "Peeling + LED", desc: "Exfoliation chimique douce suivie de photothérapie LED pour renouveler les cellules et stimuler le collagène. Teint unifié et texture lissée dès la 1re séance.", href: "/prestations/peeling-led" },
-      { title: "Microneedling", desc: "Micro-lésions contrôlées pour relancer la production naturelle de collagène. Cicatrices d'acné atténuées, pores resserrés, texture améliorée durablement. 3 à 5 séances.", href: "/prestations/microneedling-visage" },
+      { title: "MesojectGun", desc: "Infusion d'acide hyaluronique et vitamines dans le derme par pression, sans aiguille ni douleur. Peau repulpée et lumineuse dès la première séance.", href: "/prestations/mesojectgun" },
+      { title: "Traitement Acné", desc: "Protocole combiné Peeling + LED bleue pour purifier la peau et prévenir les récidives. Traite la cause de l'acné adulte et hormonale, pas uniquement les boutons visibles.", href: "/prestations/soins-anti-acne" },
+      { title: "Peeling + LED", desc: "Exfoliation chimique douce suivie de LED pour renouveler les cellules. Teint unifié et texture lissée dès la 1re séance.", href: "/prestations/peeling-led" },
+      { title: "Microneedling", desc: "Micro-lésions contrôlées pour relancer la production de collagène. Cicatrices d'acné atténuées, pores resserrés, texture lissée durablement. 3 à 5 séances.", href: "/prestations/microneedling-visage" },
       { title: "Soin visage complet", desc: "Nettoyage, exfoliation enzymatique, masque ciblé et hydratation adaptée à votre type de peau. Soin d'entretien mensuel recommandé entre deux protocoles intensifs.", href: "/prestations/soin-visage-complet" },
-      { title: "Booster skin éclat", desc: "Soin express pour teints ternes ou fatigués. Revitalise, uniformise et illumine en moins d'une heure. Idéal 48h avant un mariage ou un événement.", href: "/prestations/booster-skin-eclat" },
+      { title: "Booster Skin Éclat", desc: "Soin express pour teints ternes ou fatigués. Revitalise et illumine en moins d'une heure. Idéal 48h avant un mariage ou un événement.", href: "/prestations/booster-skin-eclat" },
     ],
     antiage: [
       { title: "EndyMed", desc: "Le secret beauté des célébrités à Hollywood pour un lifting naturel sans chirurgie.", href: "/prestations/endymed" },
-      { title: "HIFU Lifting Visage", desc: "Ultrasons haute intensité sur les couches profondes du visage — même action que la chirurgie, sans bistouri ni éviction. Raffermissement et remontée de l'ovale visibles dès 4 à 6 semaines. 1 séance par an suffit.", href: "/prestations/pack-lifting-full-face" },
+      { title: "HIFU Lifting Visage", desc: "Ultrasons haute intensité pour raffermir les couches profondes du visage. Même effet qu'un lifting chirurgical, sans bistouri. Résultats visibles dès 4 à 6 semaines. 1 séance par an suffit.", href: "/prestations/pack-lifting-full-face" },
       { title: "Alma PrimeX", desc: "Combine plusieurs technologies pour traiter simultanément le relâchement, les irrégularités de texture et les taches. Résultat naturel et progressif en 4 séances.", href: "/prestations/alma-primex-visage" },
-      { title: "Radiofréquence Fractionnée", desc: "Énergie thermique en micro-zones du derme pour resserrer les pores, lisser les ridules et améliorer la densité cutanée. Résultats qui se construisent sur 6 à 8 semaines.", href: "/prestations/radiofrequence-fractionnee" },
-      { title: "Exilis Lifting Visage", desc: "Chaleur contrôlée pour contracter les fibres de collagène immédiatement et relancer leur production sur 3 à 6 mois. Certifié FDA. Idéal pour le début de relâchement, les paupières et le cou.", href: "/prestations/exilis-lifting-visage" },
-      { title: "LPG Visage + Kobido", desc: "Alliance unique à Casablanca : le LPG mécanique relance la production de collagène et d'élastine pendant que le Kobido japonais redéfinit les contours. Lifting naturel sans chaleur ni injection.", href: "/prestations/lpg-visage-kobido" },
-      { title: "Pack anti-âge", desc: "Combinaison de technologies choisies après bilan pour traiter rides, relâchement et manque d'éclat en même temps. Protocole sur mesure — pas un soin pré-formulé.", href: "/prestations/pack-anti-age" },
+      { title: "Radiofréquence Fractionnée", desc: "Énergie thermique ciblée pour resserrer les pores, lisser les ridules et améliorer la densité cutanée. Résultats progressifs sur 6 à 8 semaines.", href: "/prestations/radiofrequence-fractionnee" },
+      { title: "Exilis Lifting Visage", desc: "Chaleur contrôlée pour contracter le collagène et relancer sa production sur 3 à 6 mois. Certifié FDA. Idéal pour le début de relâchement, paupières et cou.", href: "/prestations/exilis-lifting-visage" },
+      { title: "Pack Anti-Âge", desc: "Combinaison de technologies choisies après bilan pour traiter rides, relâchement et manque d'éclat simultanément. Protocole sur mesure pas un soin pré-formulé.", href: "/prestations/pack-anti-age" },
+      { title: "Pack Lifting Full Face", desc: "HIFU associé à des soins revitalisants pour un résultat global : fermeté, éclat et contours redéfinis. Idéal avant un grand événement.", href: "/prestations/pack-lifting-full-face" },
     ]
   };
 
@@ -55,24 +56,20 @@ export default function VisageServicesClient() {
 
   const faqs = [
     {
-      question: "Quelle est la différence entre un soin visage chez Kinesvelt et dans un salon classique ?",
-      answer: "Nos soins sont supervisés par Imane Daoudi, kinésithérapeute diplômée d'État, avec des équipements certifiés FDA. Un salon de beauté utilise des soins cosmétiques qui agissent en surface — nous utilisons des dispositifs médicaux qui agissent dans les couches profondes du derme pour un résultat durable."
+      question: "Quels sont les différents types de soins visage proposés chez Kinesvelt ?",
+      answer: "Chez Kinesvelt, les prestations visage couvrent 3 grandes catégories : le remodelage et contouring (LPG, contouring ovale, double menton), les soins spécifiques (Hydrafacial, microneedling, traitement acné, mésothérapie), et l'anti-âge & lifting (HIFU, radiofréquence fractionnée, Exilis BTL). Chaque protocole est sélectionné après un bilan peau gratuit."
     },
     {
-      question: "Le HIFU visage est-il douloureux et combien de séances faut-il ?",
-      answer: "Le HIFU provoque des sensations de chaleur et de légères vibrations profondes — inconfortables pour certains, mais pas douloureux. Une seule séance est suffisante pour un lifting global. Les résultats progressent sur 4 à 6 mois et durent 12 à 18 mois. Un entretien annuel suffit."
+      question: "Quel est le soin visage le plus efficace pour l'anti-âge ?",
+      answer: "Le HIFU lifting visage est le traitement anti-âge non chirurgical le plus puissant il agit sur les couches profondes du visage comme un lifting chirurgical, sans bistouri. Pour des résultats progressifs et naturels, l'Exilis BTL et la radiofréquence fractionnée sont également très efficaces."
     },
     {
-      question: "Puis-je faire un Hydrafacial si j'ai la peau sensible ou de la rosacée ?",
-      answer: "Oui. L'Hydrafacial est compatible avec les peaux réactives, sensibles et rosacées car il n'utilise ni chaleur ni abrasion agressive. L'intensité et les sérums sont adaptés à votre type de peau lors du bilan préalable."
+      question: "Quel est le prix d'un Hydrafacial à Casablanca chez Kinesvelt ?",
+      answer: "Le tarif varie selon le protocole choisi. Nous recommandons de réserver un bilan peau gratuit pour obtenir un devis personnalisé selon votre type de peau et vos objectifs."
     },
     {
-      question: "Quel soin recommandez-vous pour l'acné adulte à Casablanca ?",
-      answer: "Pour l'acné adulte hormonale, nous recommandons un protocole combiné : Peeling LED pour réguler le sébum, LED bleue antibactérienne, et MesojectGun pour apaiser l'inflammation. Ce protocole traite la cause, pas uniquement les boutons visibles."
-    },
-    {
-      question: "Comment se déroule le bilan peau chez Kinesvelt ?",
-      answer: "Le bilan dure 20 à 30 minutes. Notre kinésithérapeute analyse votre peau, comprend vos antécédents et vous propose un programme précis avec le nombre de séances et les techniques adaptées. Le bilan est gratuit et sans obligation de traitement."
+      question: "Quel est le meilleur soin pour rajeunir le visage sans chirurgie ?",
+      answer: "Le HIFU lifting visage reste la référence pour un effet lifting sans chirurgie. Pour une action globale, le Pack Anti-Âge combine plusieurs technologies selon votre bilan. Une séance par an pour le HIFU suffit à maintenir les résultats."
     }
   ];
 
@@ -83,10 +80,10 @@ export default function VisageServicesClient() {
         {/* BLOC INTRO */}
         <div className="max-w-4xl mx-auto text-center mb-16">
           <p className="text-gray-600 text-[16px] lg:text-[17px] leading-relaxed mb-6">
-            Chez Kinesvelt, les soins visage ne relèvent pas de l'esthétique classique. Chaque protocole est conçu et supervisé par Imane Daoudi, kinésithérapeute certifiée avec 16 ans d'expérience clinique. Nos équipements — HIFU, Exilis BTL, Alma PrimeX, radiofréquence fractionnée, LPG, Hydrafacial — sont les mêmes technologies utilisées dans les meilleurs centres médicaux.
+            Chez Kinesvelt, les prestations visage vont au-delà de l'esthétique classique. Chaque soin est conçu et supervisé par Imane Daoudi, kinésithérapeute certifiée avec 16 ans d'expérience, avec des technologies certifiées FDA : HIFU, Exilis BTL, Hydrafacial, microneedling, radiofréquence fractionnée.
           </p>
           <p className="text-gray-600 text-[16px] lg:text-[17px] leading-relaxed">
-            Chaque soin se déroule en box individuel fermé, et chaque parcours commence par un bilan peau gratuit pour identifier vos vrais besoins — pas un protocole générique appliqué à tout le monde.
+            Avant toute prestation, un bilan peau gratuit analyse votre type de peau, vos objectifs et vos antécédents pour construire un protocole sur mesure pas un soin générique appliqué à tout le monde.
           </p>
         </div>
 
@@ -142,11 +139,8 @@ export default function VisageServicesClient() {
             {/* Contenu textuel */}
             <div>
               <h2 className="text-3xl lg:text-[2.5rem] font-medium leading-[1.2] text-[#2A2A2A] mb-6">
-                Pourquoi Kinesvelt est différent des salons de beauté classiques
+                Pourquoi choisir Kinesvelt pour vos soins visage à Casablanca
               </h2>
-              <p className="text-gray-500 text-[16px] leading-relaxed mb-10">
-                À Casablanca, la majorité des instituts proposent des soins visage cosmétiques — efficaces en surface, sans action réelle sur les structures profondes de la peau. Chez Kinesvelt, c'est différent pour 4 raisons concrètes.
-              </p>
 
               <div className="space-y-6 mb-10">
                 <div className="flex gap-4">
@@ -154,8 +148,8 @@ export default function VisageServicesClient() {
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                   </span>
                   <div>
-                    <h3 className="text-[17px] font-medium text-[#2A2A2A] mb-1">Un bilan peau avant chaque protocole.</h3>
-                    <p className="text-gray-500 text-[15px] leading-relaxed">Nous commençons par comprendre votre peau : son type, ses fragilités, ses objectifs. Ce bilan est gratuit, sans engagement, et détermine le programme exact qui vous convient.</p>
+                    <h3 className="text-[17px] font-medium text-[#2A2A2A] mb-1">Médical, pas esthétique.</h3>
+                    <p className="text-gray-500 text-[15px] leading-relaxed">Nos prestations visage sont supervisées par Imane Daoudi, kinésithérapeute diplômée d'État. Ce n'est pas un salon de beauté c'est une prise en charge clinique avec des équipements certifiés FDA.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -163,8 +157,8 @@ export default function VisageServicesClient() {
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                   </span>
                   <div>
-                    <h3 className="text-[17px] font-medium text-[#2A2A2A] mb-1">Des technologies certifiées, pas des soins de confort.</h3>
-                    <p className="text-gray-500 text-[15px] leading-relaxed">HIFU, Exilis BTL, Alma PrimeX, radiofréquence fractionnée — ce sont des dispositifs médicaux homologués dont l'efficacité est documentée dans la littérature scientifique. Ils agissent dans les couches profondes du derme.</p>
+                    <h3 className="text-[17px] font-medium text-[#2A2A2A] mb-1">Bilan peau avant tout.</h3>
+                    <p className="text-gray-500 text-[15px] leading-relaxed">Avant chaque soin, notre kinésithérapeute analyse votre peau en profondeur. Ce bilan gratuit détermine le protocole exact adapté à votre peau et vos objectifs.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -172,8 +166,8 @@ export default function VisageServicesClient() {
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                   </span>
                   <div>
-                    <h3 className="text-[17px] font-medium text-[#2A2A2A] mb-1">Supervisé par une kinésithérapeute diplômée d'État.</h3>
-                    <p className="text-gray-500 text-[15px] leading-relaxed">Imane Daoudi, fondatrice de Kinesvelt, cumule 16 ans de pratique clinique. Chaque protocole est conçu et contrôlé par elle — pas par une esthéticienne.</p>
+                    <h3 className="text-[17px] font-medium text-[#2A2A2A] mb-1">Technologies de référence internationale.</h3>
+                    <p className="text-gray-500 text-[15px] leading-relaxed">HIFU, Hydrafacial, Exilis BTL, Alma PrimeX, microneedling disponibles à Casablanca dans un espace de 400 m², 20 boxes individuels fermés.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -181,8 +175,8 @@ export default function VisageServicesClient() {
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                   </span>
                   <div>
-                    <h3 className="text-[17px] font-medium text-[#2A2A2A] mb-1">Suivi documenté séance par séance.</h3>
-                    <p className="text-gray-500 text-[15px] leading-relaxed">Photos avant/après à chaque étape. Vous voyez et mesurez concrètement vos progrès.</p>
+                    <h3 className="text-[17px] font-medium text-[#2A2A2A] mb-1">Résultats documentés.</h3>
+                    <p className="text-gray-500 text-[15px] leading-relaxed">Photos avant/après à chaque étape. Vous mesurez concrètement votre progression séance par séance.</p>
                   </div>
                 </div>
               </div>
@@ -202,7 +196,7 @@ export default function VisageServicesClient() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-[2.5rem] font-medium leading-[1.2] text-[#2A2A2A]">
-              Questions fréquentes — soins visage Casablanca
+              Questions fréquentes — prestations visage à Casablanca
             </h2>
           </div>
           <div className="space-y-4">
@@ -241,10 +235,10 @@ export default function VisageServicesClient() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-[#EEF3ED] rounded-[3rem] p-10 lg:p-16 text-center shadow-sm relative overflow-hidden">
             <h2 className="text-3xl lg:text-4xl font-medium text-[#2A2A2A] mb-6 relative z-10">
-              Bilan peau offert — sans engagement, en box individuel fermé
+              Bilan peau offert — sans engagement, en box individuel
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-10 relative z-10">
-              Avant tout traitement, on diagnostique. Notre kinésithérapeute analyse votre peau, identifie vos besoins réels et vous propose le programme adapté — avec les technologies et le budget qui correspondent à votre situation.
+              Avant toute prestation visage, notre kinésithérapeute analyse votre peau, identifie vos vrais besoins et vous propose le protocole adapté. Le bilan est gratuit et sans obligation de traitement.
             </p>
             <Link 
               href="https://kinesvelt.com/reservation" 
