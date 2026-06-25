@@ -35,7 +35,7 @@ Un point important : aucune de ces techniques n'est une méthode de perte de poi
 
 La cellulite est un problème de structure, pas seulement de graisse. Elle vient de fibres de collagène durcies, d'une mauvaise circulation et de rétention d'eau. Pour de vrais résultats, il faut une technologie qui agit sur ces causes.
 
-L'**EMTONE** combine la radiofréquence et les ondes de choc dans une même séance. Cette double action traite plusieurs causes de la cellulite à la fois : elle chauffe les tissus, assouplit les fibres durcies et relance la circulation ([Body by BTL](https://bodybybtl.com/solutions/emtone)). C'est l'une des approches les plus complètes contre la peau d'orange. Pour comprendre les mécanismes en détail, lisez notre [guide pour éliminer la cellulite à Casablanca](https://kinesvelt.com/blog/eliminer-cellulite-casablanca).
+L'**EMTONE** combine la radiofréquence et les ondes de choc dans une même séance. Cette double action traite plusieurs causes de la cellulite à la fois : elle chauffe les tissus, assouplit les fibres durcies et relance la circulation. C'est l'une des approches les plus complètes contre la peau d'orange. Pour comprendre les mécanismes en détail, lisez notre [guide pour éliminer la cellulite à Casablanca](https://kinesvelt.com/blog/eliminer-cellulite-casablanca).
 
 Le **VelaShape III** associe radiofréquence, infrarouge et massage par aspiration pour réduire la cellulite et la circonférence des zones traitées. C'est une solution reconnue pour lisser la peau et affiner la silhouette.
 
