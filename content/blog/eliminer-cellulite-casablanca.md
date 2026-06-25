@@ -11,13 +11,13 @@ Ce guide explique ce qu'est vraiment la cellulite, les cinq mécanismes qui la c
 
 ## Qu'est-ce que la cellulite exactement ?
 
-La cellulite est un phénomène normal qui touche entre 80 et 90 % des femmes après la puberté, quel que soit leur poids ([Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/17694-cellulite)). Elle apparaît quand les cellules graisseuses sous la peau poussent vers le haut, pendant que les fibres qui relient la peau aux muscles tirent vers le bas. Ce jeu de tension crée l'aspect capitonné que l'on appelle « peau d'orange ».
+La cellulite est un phénomène normal qui touche entre 80 et 90 % des femmes après la puberté, quel que soit leur poids. Elle apparaît quand les cellules graisseuses sous la peau poussent vers le haut, pendant que les fibres qui relient la peau aux muscles tirent vers le bas. Ce jeu de tension crée l'aspect capitonné que l'on appelle « peau d'orange ».
 
 Toutes les cellulites ne se ressemblent pas. On en distingue trois types, et chacun demande une approche différente.
 
 La **cellulite adipeuse** vient d'un excès de graisse stockée. La peau reste souple, mais la peau d'orange apparaît quand on pince. Elle se loge surtout sur les cuisses, les fesses et le ventre.
 
-La **cellulite aqueuse** est liée à une mauvaise circulation et à la rétention d'eau. On la retrouve même chez les personnes minces. Le drainage lymphatique est ici la clé ([Typology](https://us.typology.com/library/water-fat-or-fibrous-cellulite-how-to-make-them-disappear)).
+La **cellulite aqueuse** est liée à une mauvaise circulation et à la rétention d'eau. On la retrouve même chez les personnes minces. Le drainage lymphatique est ici la clé.
 
 La **cellulite fibreuse** est la plus ancienne et la plus tenace. Les fibres de collagène durcissent et emprisonnent la graisse, ce qui rend la peau dure et parfois douloureuse au toucher. C'est la plus difficile à traiter avec une seule méthode.
 
@@ -63,9 +63,9 @@ Le vrai problème est là : chaque méthode ne coche qu'une case sur cinq. Pour 
 
 EMTONE est une technologie conçue pour traiter les cinq causes de la cellulite dans une seule séance, sans chirurgie ni temps de repos. C'est ce qui la distingue des appareils qui n'agissent que sur un facteur.
 
-L'appareil combine deux énergies en même temps. La radiofréquence monopolaire chauffe les tissus en profondeur. Cette chaleur réduit le volume des cellules graisseuses, ramollit les fibres de collagène durcies et stimule la production de nouveau collagène et d'élastine. En parallèle, les ondes de choc ciblées créent des vibrations mécaniques qui relancent la circulation sanguine et le drainage lymphatique ([Body by BTL](https://bodybybtl.com/solutions/emtone)).
+L'appareil combine deux énergies en même temps. La radiofréquence monopolaire chauffe les tissus en profondeur. Cette chaleur réduit le volume des cellules graisseuses, ramollit les fibres de collagène durcies et stimule la production de nouveau collagène et d'élastine. En parallèle, les ondes de choc ciblées créent des vibrations mécaniques qui relancent la circulation sanguine et le drainage lymphatique.
 
-C'est l'action simultanée des deux énergies qui fait la différence. Selon les données cliniques du fabricant, cette combinaison entraîne une augmentation de 59 % du collagène, de 64 % de l'élastine et de 44 % de l'épaisseur du derme ([Dr Valérie Leduc](https://www.drvalerieleduc.fr/cellulite-les-5-causes-traitees-par-emtone/)). Concrètement, l'appareil agit en même temps sur la graisse, la circulation, le drainage, la fibrose et la fermeté de la peau.
+C'est l'action simultanée des deux énergies qui fait la différence. Selon les données cliniques du fabricant, cette combinaison entraîne une augmentation de 59 % du collagène, de 64 % de l'élastine et de 44 % de l'épaisseur du derme. Concrètement, l'appareil agit en même temps sur la graisse, la circulation, le drainage, la fibrose et la fermeté de la peau.
 
 EMTONE traite ainsi les cinq leviers d'un seul geste :
 
@@ -83,13 +83,13 @@ Une bonne technologie ne fait pas tout. La façon dont elle est utilisée compte
 
 Un kinésithérapeute connaît l'anatomie, la circulation et le système lymphatique en profondeur. Avant de commencer, il évalue votre type de cellulite, adipeuse, aqueuse ou fibreuse, et adapte le protocole en conséquence. Une cellulite aqueuse ne se traite pas comme une cellulite fibreuse, et un réglage personnalisé donne de meilleurs résultats.
 
-Le suivi kiné permet aussi de combiner EMTONE avec des techniques manuelles éprouvées, comme le drainage lymphatique. Le drainage lymphatique manuel réalisé par un kinésithérapeute est un traitement de choix pour la cellulite aqueuse ([Améliore ta Santé](https://amelioretasante.com/types-de-cellulite-et-traitement-aqueuse-fibreuse-ou-adipeuse/)). Cette combinaison renforce l'effet de la machine et accélère l'évacuation des déchets.
+Le suivi kiné permet aussi de combiner EMTONE avec des techniques manuelles éprouvées, comme le drainage lymphatique. Le drainage lymphatique manuel réalisé par un kinésithérapeute est un traitement de choix pour la cellulite aqueuse. Cette combinaison renforce l'effet de la machine et accélère l'évacuation des déchets.
 
 Enfin, un cadre paramédical apporte un suivi sérieux : bilan de départ, séances régulières, conseils d'hygiène de vie et mesure des progrès. C'est cette rigueur qui distingue un centre de kinésithérapie d'un simple institut esthétique.
 
 ## À quoi s'attendre : séances, résultats et durabilité
 
-Le protocole EMTONE est simple et confortable. Il comprend en général une série de quatre séances, réparties sur deux à quatre semaines. Chaque séance dure environ 20 minutes selon la zone traitée ([Dr Valérie Leduc](https://www.drvalerieleduc.fr/cellulite-les-5-causes-traitees-par-emtone/)).
+Le protocole EMTONE est simple et confortable. Il comprend en général une série de quatre séances, réparties sur deux à quatre semaines. Chaque séance dure environ 20 minutes selon la zone traitée.
 
 La séance ressemble à un massage aux pierres chaudes, avec des vibrations. Il n'y a pas besoin d'anesthésie et vous reprenez vos activités tout de suite après. Beaucoup de patients ressentent une peau plus ferme dès les premières séances, et les résultats continuent de s'améliorer pendant les semaines qui suivent.
 
@@ -109,7 +109,7 @@ Non. La séance est décrite comme un massage aux pierres chaudes accompagné de
 
 ### Combien de séances faut-il pour voir des résultats ?
 
-Le protocole standard prévoit quatre séances sur deux à quatre semaines ([Dr Valérie Leduc](https://www.drvalerieleduc.fr/cellulite-les-5-causes-traitees-par-emtone/)). Certains patients remarquent une peau plus ferme dès les premières séances, et les résultats continuent de progresser pendant plusieurs semaines après la fin du protocole.
+Le protocole standard prévoit quatre séances sur deux à quatre semaines. Certains patients remarquent une peau plus ferme dès les premières séances, et les résultats continuent de progresser pendant plusieurs semaines après la fin du protocole.
 
 ### EMTONE traite-t-il la cellulite des cuisses ?
 
