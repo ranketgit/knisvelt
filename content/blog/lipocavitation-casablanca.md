@@ -19,9 +19,9 @@ La technique est non invasive. Il n'y a ni incision, ni anesthésie, ni cicatric
 
 ## Comment fonctionne la lipocavitation ?
 
-Le principe repose sur un phénomène physique simple. L'appareil émet des ultrasons à basse fréquence qui pénètrent sous la peau et créent des microbulles autour des cellules graisseuses. Ces bulles font vibrer puis fragilisent la membrane des adipocytes, les cellules qui stockent la graisse ([La Radiofréquence](https://laradiofrequence.com/cavitation/)).
+Le principe repose sur un phénomène physique simple. L'appareil émet des ultrasons à basse fréquence qui pénètrent sous la peau et créent des microbulles autour des cellules graisseuses. Ces bulles font vibrer puis fragilisent la membrane des adipocytes, les cellules qui stockent la graisse.
 
-Quand la membrane se rompt, la cellule libère son contenu, principalement des graisses sous forme de triglycérides. Ce liquide passe ensuite dans les tissus environnants ([Beauty-Tech](https://www.beauty-tech.fr/blog/cavitation/)).
+Quand la membrane se rompt, la cellule libère son contenu, principalement des graisses sous forme de triglycérides. Ce liquide passe ensuite dans les tissus environnants.
 
 L'organisme prend alors le relais. Les graisses libérées sont évacuées progressivement par le système lymphatique et traitées par le foie, comme n'importe quelle graisse que le corps élimine naturellement. C'est pour cela que boire beaucoup d'eau et bouger après une séance améliore les résultats : ces gestes aident le corps à drainer.
 
@@ -29,7 +29,7 @@ Cette phase d'élimination explique aussi pourquoi les résultats ne sont pas im
 
 ## Combien de séances faut-il à Casablanca ?
 
-C'est la question la plus fréquente, et la réponse dépend de chaque personne. En général, il faut compter entre 6 et 10 séances pour obtenir des résultats satisfaisants ([Beauty-Tech](https://www.beauty-tech.fr/blog/cavitation/)). Certaines zones plus résistantes peuvent demander davantage.
+C'est la question la plus fréquente, et la réponse dépend de chaque personne. En général, il faut compter entre 6 et 10 séances pour obtenir des résultats satisfaisants. Certaines zones plus résistantes peuvent demander davantage.
 
 Le rythme compte autant que le nombre. Les séances sont espacées de plusieurs jours, en général une par semaine. Cet intervalle laisse au corps le temps d'éliminer la graisse libérée avant la séance suivante. Enchaîner les séances trop vite n'accélère pas les résultats, au contraire : cela surcharge le système d'élimination sans bénéfice.
 
@@ -55,7 +55,7 @@ Dans la pratique, les deux soins sont parfois combinés. Réduire la graisse ave
 
 La lipocavitation convient aux personnes en bonne santé, proches de leur poids normal, qui veulent affiner une zone précise. Elle ne convient pas à tout le monde, et certaines situations sont des contre-indications claires.
 
-La technique est déconseillée pendant la grossesse et l'allaitement. Elle est aussi à éviter en cas de prothèse métallique, de dispositif électronique implanté comme un pacemaker ou un défibrillateur, de diabète, de troubles du foie ou des reins, et sur une peau lésée ou irritée ([Maison Evenia](https://maisonevenia.com/blog/risques-lipocavitation/)).
+La technique est déconseillée pendant la grossesse et l'allaitement. Elle est aussi à éviter en cas de prothèse métallique, de dispositif électronique implanté comme un pacemaker ou un défibrillateur, de diabète, de troubles du foie ou des reins, et sur une peau lésée ou irritée.
 
 En cas de doute, un avis professionnel est indispensable avant de commencer. C'est l'un des avantages d'un suivi dans un centre de kinésithérapie : l'évaluation de départ permet de vérifier que la technique est adaptée et sans risque pour vous. Vous pouvez en savoir plus sur [notre centre à Casablanca](https://kinesvelt.com/le-centre) et son approche paramédicale.
 
@@ -79,7 +79,7 @@ Non. La séance est généralement bien tolérée. On ressent une légère chale
 
 ### Au bout de combien de temps voit-on les résultats ?
 
-Les premiers effets sont souvent visibles après quelques séances, avec une réduction de centimètres sur la zone traitée. Les résultats les plus nets apparaissent en général après six à huit séances ([Beauty-Tech](https://www.beauty-tech.fr/blog/cavitation/)). Boire de l'eau et bouger entre les séances aide à les obtenir plus vite.
+Les premiers effets sont souvent visibles après quelques séances, avec une réduction de centimètres sur la zone traitée. Les résultats les plus nets apparaissent en général après six à huit séances. Boire de l'eau et bouger entre les séances aide à les obtenir plus vite.
 
 ### Les résultats sont-ils définitifs ?
 
@@ -87,7 +87,7 @@ Ils peuvent l'être si vous gardez un poids stable. Les graisses éliminées ne 
 
 ### Quelles sont les contre-indications ?
 
-La lipocavitation est déconseillée en cas de grossesse, d'allaitement, de prothèse métallique, de dispositif électronique implanté, de diabète, de troubles du foie ou des reins, et sur une peau irritée ([Maison Evenia](https://maisonevenia.com/blog/risques-lipocavitation/)). Un bilan préalable permet de vérifier que la technique vous convient.
+La lipocavitation est déconseillée en cas de grossesse, d'allaitement, de prothèse métallique, de dispositif électronique implanté, de diabète, de troubles du foie ou des reins, et sur une peau irritée. Un bilan préalable permet de vérifier que la technique vous convient.
 
 ## En résumé
 
