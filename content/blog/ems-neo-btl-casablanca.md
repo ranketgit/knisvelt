@@ -113,7 +113,6 @@ Un bilan préalable est toujours réalisé chez Kinesvelt avant de débuter le p
 Chez Kinesvelt, vous avez accès à deux technologies BTL complémentaires. Voici la différence :
 
 | | EMS Neo BTL | EMTONE BTL |
-|---|---|---|
 | **Action principale** | Muscle + graisse | Cellulite + peau |
 | **Technologie** | HIFEM+ + Radiofréquence | Radiofréquence + ondes de choc |
 | **Objectif** | Sculpter, tonifier, réduire graisse | Lisser la peau, réduire cellulite |
