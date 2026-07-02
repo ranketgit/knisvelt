@@ -1,6 +1,6 @@
 ---
 title: "EMS Neo BTL à Casablanca : comment ça marche, combien de séances et résultats réels"
-date: "2026-07-03"
+date: "2026-07-02"
 excerpt: "Découvrez comment fonctionne l'EMS Neo BTL à Casablanca : technologie HIFEM+, résultats cliniques et nombre de séances. Guide complet Kinesvelt."
 image: "/ems-neo-btl-casablanca.webp"
 ---
@@ -152,25 +152,3 @@ Chez [Kinesvelt](https://kinesvelt.com/) à Casablanca, l'EMS Neo BTL est superv
 Vous pouvez consulter l'ensemble des [prestations corps](https://kinesvelt.com/prestations/corps) disponibles ou [réserver votre bilan directement en ligne](https://kinesvelt.com/reservation).
 
 ---
-
-**Title tag :** EMS Neo BTL Casablanca : résultats et séances
-**Meta description :** Découvrez comment fonctionne l'EMS Neo BTL à Casablanca : technologie HIFEM+, résultats cliniques et nombre de séances. Guide complet Kinesvelt.
-**URL slug :** /blog/ems-neo-btl-casablanca
-**Schema recommandé :** Article + FAQPage
-
-**Vérification caractères :**
-- Title tag : 45 caractères (max 60)
-- Meta description : 144 caractères (max 160)
-- Aucun tiret cadratin ni tiret demi-cadratin dans le corps de l'article
-
-**SEO Checklist**
-- [x] Frontmatter CMS complet (title, date, excerpt, image)
-- [x] Mot-clé principal dans les 100 premiers mots
-- [x] 17 liens internes sur URLs réelles Kinesvelt
-- [x] Ancres variées et naturelles
-- [x] Section FAQ incluse (5 questions)
-- [x] Zéro tiret cadratin ou demi-cadratin dans le corps de l'article
-- [x] Title tag : 45 caractères
-- [x] Meta description : 144 caractères
-- [x] Niveau de lecture accessible
-- [x] Nombre de mots : ~1 500 mots
