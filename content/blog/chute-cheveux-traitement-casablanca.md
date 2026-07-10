@@ -1,6 +1,6 @@
 ---
 title: "Chute de cheveux femme Casablanca : causes et solutions | Kinesvelt"
-date: "2026-07-10"
+date: "2026-07-06"
 excerpt: "Vous perdez vos cheveux à Casablanca ? Découvrez les vraies causes de la chute chez la femme et les solutions non médicamenteuses disponibles chez Kinesvelt."
 image: "/chute-cheveux-traitement-casablanca.webp"
 ---
