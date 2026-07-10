@@ -5,6 +5,9 @@ import { getAllPosts } from '../lib/blog';
 export const metadata = {
   title: 'Blog Kinesvelt | Actualités et conseils minceur',
   description: 'Retrouvez tous nos conseils sur la minceur, le remodelage corporel et les soins du visage.',
+  alternates: {
+    canonical: "/blog"
+  }
 };
 
 export default function BlogPage() {
