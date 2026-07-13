@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from "react";
+import Link from "next/link";
 
 export default function FAQ() {
   const [activeIndex, setActiveIndex] = useState<number | null>(0);
@@ -11,24 +12,29 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: "Combien de séances faut-il pour voir des résultats ?",
-      answer: "Les premiers résultats — perte de centimètres, peau plus ferme — sont visibles dès la 3e ou 4e séance selon la technique utilisée. Un programme complet comprend entre 8 et 12 séances. Votre bilan initial permet de définir le nombre exact et le rythme adapté à votre situation."
+      question: "Quel est le meilleur centre d'amincissement à Casablanca ?",
+      answer: "Kinesvelt est reconnu parmi les meilleurs centres d'amincissement à Casablanca grâce à ses 16 ans d'expertise, ses équipements certifiés FDA et ses programmes 100 % personnalisés. Chaque programme est encadré par Imane Daoudi, kinésithérapeute et nutrithérapeute certifiée."
     },
     {
-      question: "Les soins d'amincissement sont-ils douloureux ?",
-      answer: "Non. Toutes les techniques proposées chez Kinesvelt sont non invasives. Certains patients ressentent une légère chaleur pendant la radiofréquence ou une sensation de pression pendant la lipocavitation — aucune douleur, aucune anesthésie, aucune éviction sociale."
+      question: "Le centre Kinesvelt est-il accessible depuis le Maarif et l'Oulfa ?",
+      answer: "Oui. Kinesvelt est situé au quartier Californie à Casablanca, facilement accessible depuis le Maarif, l'Oulfa, Sidi Maarouf, Bouskoura, Ain Sebaa et Dar Bouazza. Adresse : Résidence Al Andalous, Lotissement Ouled Taleb, Boulevard Al Qods."
     },
     {
-      question: "Le centre reçoit-il les hommes ?",
-      answer: "Oui. Kinesvelt accueille femmes et hommes pour tous les programmes corps, soins visage et équipements. Chaque séance se déroule en box individuel fermé pour une discrétion totale."
+      question: "Quels programmes d'amincissement propose Kinesvelt à Casablanca ?",
+      answer: "Kinesvelt propose des programmes minceur personnalisés combinant suivi nutritionnel, équipements certifiés FDA (cryolipolyse, lipocavitation, radiofréquence, pressothérapie) et coaching. Chaque programme débute par un bilan corporel gratuit et sans engagement."
     },
     {
-      question: "Où est situé le centre Kinesvelt à Casablanca ?",
-      answer: "Le centre est situé Résidence Al Andalous, quartier Californie, Casablanca. Nous recevons du lundi au vendredi de 9h à 19h30. Vous pouvez réserver en ligne ou appeler le 05 22 21 73 91."
+      question: "Kinesvelt propose-t-il l'épilation laser à Casablanca ?",
+      answer: "Oui. Kinesvelt propose l'épilation laser définitive à Casablanca avec une triple technologie Alexandrite, Diode et Nd:YAG, adaptée à tous les phototypes y compris les peaux mates et foncées. Un diagnostic de phototype gratuit est proposé lors de la première visite.",
+      link: { text: "en savoir plus sur l'épilation laser", href: "/prestations/epilation-laser" }
     },
     {
-      question: "Comment se déroule le bilan morphologique offert ?",
-      answer: "Le bilan dure 20 à 30 minutes. Notre kinésithérapeute analyse votre morphologie, comprend vos antécédents et objectifs, puis vous propose un programme précis avec les techniques adaptées et le nombre de séances recommandé. Le bilan est entièrement gratuit et sans obligation de traitement."
+      question: "Le bilan corporel est-il vraiment gratuit ?",
+      answer: "Oui. Kinesvelt offre un bilan corporel complet gratuit et sans engagement à chaque nouvelle personne. Ce bilan inclut une analyse par impédancemètre et une consultation avec Imane Daoudi pour définir le programme le plus adapté à vos objectifs."
+    },
+    {
+      question: "Kinesvelt accueille-t-il les hommes et les femmes ?",
+      answer: "Oui. Notre centre d'amincissement à Casablanca accueille les femmes et les hommes pour l'ensemble des programmes minceur, bien être et épilation laser. Les boxes privés garantissent votre confort et votre confidentialité à chaque séance."
     }
   ];
 
@@ -45,7 +51,7 @@ export default function FAQ() {
             </span>
           </div>
           <h2 className="text-3xl lg:text-[2.5rem] font-medium leading-[1.2] text-[#2A2A2A]">
-            Questions fréquentes — centre d'amincissement à Casablanca
+            Questions fréquentes sur notre centre d'amincissement à Casablanca
           </h2>
         </div>
 
@@ -92,7 +98,12 @@ export default function FAQ() {
                 >
                   <div className="overflow-hidden">
                     <div className="px-6 pb-6 text-gray-500 text-[15px] leading-relaxed">
-                      {faq.answer}
+                      {faq.answer}{" "}
+                      {faq.link && (
+                        <Link href={faq.link.href} className="text-[#E38F75] hover:underline font-medium">
+                          {faq.link.text}
+                        </Link>
+                      )}
                     </div>
                   </div>
                 </div>

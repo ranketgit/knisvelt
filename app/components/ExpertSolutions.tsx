@@ -9,9 +9,9 @@ export default function ExpertSolutions() {
         {/* Left Column: Image */}
         <div className="relative hidden md:inline h-[400px] lg:h-[500px] w-full rounded-[2.5rem] overflow-hidden">
           {/* Note: Add an image named 'consultation.jpg' to your public folder */}
-          <Image 
-            src="/solutions.jpg" 
-            alt="Consultation minceur avec une experte" 
+          <Image
+            src="/solutions.jpg"
+            alt="programme amincissement Casablanca centre Kinesvelt"
             fill
             className="object-cover"
             sizes="(max-width: 1024px) 100vw, 50vw"
@@ -32,7 +32,7 @@ export default function ExpertSolutions() {
           </h2>
 
           <p className="text-gray-500 text-[15px] leading-relaxed mb-4">
-            Chez Kinesvelt, il n'existe pas de programme standard. Que vous souhaitiez traiter une zone rebelle, retrouver votre silhouette après une grossesse, éliminer la cellulite ou transformer votre corps en profondeur — votre programme est construit spécifiquement pour vous, après analyse de votre morphologie et de vos objectifs.
+            Chez Kinesvelt, centre d'amincissement à Casablanca, il n'existe pas de programme standard. Que vous souhaitiez traiter une zone rebelle, retrouver votre silhouette après une grossesse, éliminer la cellulite ou transformer votre corps en profondeur, votre programme est construit spécifiquement pour vous, après analyse de votre morphologie et de vos objectifs.
           </p>
 
           <p className="text-gray-500 text-[15px] leading-relaxed mb-8">
@@ -52,7 +52,7 @@ export default function ExpertSolutions() {
                 <svg className="w-5 h-5 text-gray-800 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-[#2A2A2A] text-sm font-medium">Technologies certifiées FDA — résultats mesurés et documentés</span>
+                <span className="text-[#2A2A2A] text-sm font-medium">Technologies certifiées FDA, résultats mesurés et documentés</span>
               </li>
             </ul>
 

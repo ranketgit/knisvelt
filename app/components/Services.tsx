@@ -29,6 +29,13 @@ export default function Prestations() {
       image: "/services/4.jpg",
       description: "Microneedling capillaire, traitements antichute et protocoles de densification. Résultats dès 3 séances.",
       linkText: "Voir les soins capillaires"
+    },
+    {
+      title: "Épilation Laser Définitive à Casablanca",
+      link: "/prestations/epilation-laser",
+      image: "/new-services/18.jpeg",
+      description: "Triple technologie Alexandrite, Diode et Nd:YAG adaptée à tous les phototypes, y compris les peaux mates et foncées. Réduction permanente de la pilosité en quelques séances.",
+      linkText: "En savoir plus sur l'épilation laser à Casablanca"
     }
   ];
 
@@ -45,7 +52,7 @@ export default function Prestations() {
             </span>
           </div>
           <h2 className="text-3xl lg:text-[2.5rem] font-medium leading-[1.2] text-[#2A2A2A] max-w-3xl">
-            Nos prestations à Casablanca — corps, visage, intime & capillaires
+            Nos prestations à Casablanca : corps, visage, épilation laser, intime et capillaires
           </h2>
         </div>
 

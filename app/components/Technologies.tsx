@@ -12,14 +12,14 @@ export default function Technologies() {
       premium: true
     },
     {
-      name: "Emtone – BTL",
+      name: "Emtone BTL",
       action: "Combine radiofréquence et ondes de pression pour traiter les 4 types de cellulite simultanément. Certifié FDA.",
       link: "/equipements/emtone-btl",
       img: "/emtone.jpeg",
       premium: true
     },
     {
-      name: "Exilis – BTL",
+      name: "Exilis BTL",
       action: "Radiofréquence et ultrasons combinés pour raffermir la peau du visage et du corps. Résultats progressifs sur 3 à 6 mois. Certifié FDA.",
       link: "/equipements/exilis-btl",
       img: "/exilis.jpeg",
@@ -118,7 +118,7 @@ export default function Technologies() {
             </span>
           </div>
           <h2 className="text-3xl lg:text-[2.5rem] font-medium leading-[1.2] text-[#2A2A2A] max-w-4xl">
-            Technologies certifiées FDA — les meilleurs équipements d'amincissement à Casablanca
+            Technologies certifiées FDA, les meilleurs équipements d'amincissement à Casablanca
           </h2>
         </div>
 

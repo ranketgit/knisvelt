@@ -13,18 +13,28 @@ export default function Hero() {
           </div>
 
           <h1 className="text-4xl lg:text-[2.75rem] font-medium leading-[1.15] text-[#2A2A2A] mb-6">
-            Votre centre d'amincissement à Casablanca — résultats visibles, sur mesure
+            Votre Centre d'Amincissement à Casablanca
           </h1>
 
-          <p className="text-gray-500 text-lg leading-relaxed mb-10 max-w-lg">
-            16 ans d'expertise, technologies certifiées FDA, 20 boxes individuels. Chaque programme commence par un bilan morphologique offert.
+          <p className="text-gray-500 text-lg leading-relaxed mb-8 max-w-lg">
+            Kinesvelt vous accompagne depuis 16 ans vers vos objectifs minceur et bien être. Programmes personnalisés, technologies certifiées FDA et encadrement médical au coeur du quartier Californie à Casablanca.
           </p>
 
+          <div className="flex flex-wrap items-center gap-6 mb-8 text-sm text-[#2A2A2A] font-medium">
+            <span>16 ans d'expertise</span>
+            <span className="w-1 h-1 rounded-full bg-[#E38F75]"></span>
+            <span>400 m² d'espace</span>
+            <span className="w-1 h-1 rounded-full bg-[#E38F75]"></span>
+            <span>20 boxes privés</span>
+          </div>
+
           <div className="flex flex-wrap items-center gap-4 mb-10">
-            <a href="/contact" className="bg-[#E38F75] hover:bg-[#d47b60] transition-colors text-white px-8 py-3.5 rounded-full font-medium text-sm">
-              Réserver mon bilan gratuit
+            <a href="/reservation" className="bg-[#E38F75] hover:bg-[#d47b60] transition-colors text-white px-8 py-3.5 rounded-full font-medium text-sm">
+              Prendre rendez-vous
             </a>
-            
+            <a href="/reservation" className="bg-white border-2 border-gray-200 hover:border-[#E38F75] hover:text-[#E38F75] transition-colors text-gray-600 px-8 py-3.5 rounded-full font-medium text-sm">
+              Bilan gratuit
+            </a>
           </div>
 
           <div className="flex flex-wrap items-center gap-6">
@@ -36,7 +46,7 @@ export default function Hero() {
               </div>
               <span className="text-sm text-gray-500 font-medium">Résultats dès la 3e séance</span>
             </div>
-            
+
             <div className="flex items-center gap-2">
               <div className="flex-shrink-0 w-5 h-5 rounded-full border border-[#E38F75] flex items-center justify-center">
                 <svg className="w-3 h-3 text-[#E38F75]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -50,9 +60,9 @@ export default function Hero() {
 
         {/* Right Column: Image */}
         <div className="hidden relative md:inline h-[400px] lg:h-auto min-h-[500px] w-full rounded-[2.5rem] overflow-hidden">
-          <Image 
-            src="/hero-kenisvelt.jpg" 
-            alt="Femme mesurant sa taille" 
+          <Image
+            src="/hero-kenisvelt.jpg"
+            alt="centre amincissement casablanca kinesvelt"
             fill
             className="object-cover"
             priority
