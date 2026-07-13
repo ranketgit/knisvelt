@@ -5,7 +5,7 @@ import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
   title: "Épilation Laser Définitive à Casablanca | Kinesvelt",
-  description: "Épilation laser définitive à Casablanca. Alexandrite, Diode et Nd:YAG pour tous les phototypes, résultats durables et sans douleur. Bilan gratuit chez Kinesvelt.",
+  description: "Épilation laser définitive à Casablanca. Alexandrite, Diode et Nd:YAG pour tous les phototypes, résultats durables et sans douleur.",
   alternates: {
     canonical: "https://kinesvelt.com/prestations/epilation-laser"
   }
