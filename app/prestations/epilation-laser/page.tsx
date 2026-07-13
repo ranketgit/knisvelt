@@ -207,7 +207,7 @@ export default function EpilationLaserPage() {
             <div className="relative w-full h-[350px] rounded-[2rem] overflow-hidden bg-gray-100 shadow-sm">
                <Image
                  src="/new-services/18.jpeg"
-                 alt="Épilation laser Casablanca Kinesvelt"
+                 alt="épilation laser casablanca kinesvelt"
                  fill
                  className="object-cover"
                  priority
