@@ -62,7 +62,7 @@ const jsonLd = {
       "description": "Épilation laser définitive à Casablanca avec triple technologie Alexandrite (755 nm), Diode (810 nm) et Nd:YAG (1064 nm). Traitement adapté à tous les phototypes de I à VI. Réduction permanente de 80 à 90 % en 4 à 10 séances.",
       "serviceType": "Épilation laser définitive",
       "provider": { "@id": "https://kinesvelt.com/#business" },
-      "areaServed": { "@type": "City", "name": "Casablanca", "addressCountry": "MA" },
+      "areaServed": { "@type": "City", "name": "Casablanca" },
       "url": "https://kinesvelt.com/prestations/epilation-laser",
       "availableChannel": {
         "@type": "ServiceChannel",
