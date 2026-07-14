@@ -1,0 +1,61 @@
+# Kinesvelt
+
+> Kinesvelt est un centre d'amincissement et de bien être médical à Casablanca, avec plus de 16 ans d'expertise. Nous proposons des programmes minceur 100 % personnalisés, des soins du visage et du corps, ainsi que l'épilation laser définitive, grâce à des technologies certifiées FDA. Notre approche médicale aide femmes et hommes à atteindre leurs objectifs minceur et bien être durablement.
+
+Important notes:
+
+- Fondé par Imane Daoudi, kinésithérapeute et nutrithérapeute certifiée
+- Basé à Casablanca, Maroc (quartier Californie, Résidence Al Andalous, Boulevard Al Qods)
+- Approche médicale et personnalisée : chaque programme débute par un bilan morphologique gratuit
+- Centre de 400 m², 20 boxes privés, ouvert depuis plus de 16 ans
+
+## Sitemaps
+
+[XML Sitemap](https://kinesvelt.com/sitemap.xml): Inclut toutes les pages indexables du site. *(URL à vérifier, peut être /sitemap_index.xml)*
+
+## Services
+
+- [Prestations Corps](https://kinesvelt.com/prestations/corps): Amincissement localisé, remodelage corporel, traitement cellulite, drainage post opératoire, 8 programmes sur mesure en box individuel avec technologies FDA (LPG, EMS Neo BTL, Emtone BTL, lipocavitation, ondes de choc, pressothérapie)
+- [Prestations Visage](https://kinesvelt.com/prestations/visage): HIFU lifting, Hydrafacial, microneedling, contouring ovale du visage, soins anti âge, 17 protocoles supervisés par une kinésithérapeute certifiée
+- [Épilation Laser](https://kinesvelt.com/prestations/epilation-laser): Épilation laser définitive avec triple technologie Alexandrite, Diode et Nd:YAG, adaptée à tous les phototypes y compris peaux mates et foncées
+- [Prestations Intimes](https://kinesvelt.com/prestations/hifu-vaginal): HIFU vaginal et soins de rajeunissement intime non chirurgicaux, en toute discrétion en box individuel fermé
+- [Prestations Capillaires](https://kinesvelt.com/prestations/capillaires): Microneedling capillaire, traitements antichute et protocoles de densification, résultats dès 3 séances
+- [Plans Diététiques](https://kinesvelt.com/prestations): Plans nutritionnels sur mesure adaptés à la morphologie, aux objectifs et au mode de vie de chaque patient
+- [Coaching et Fitness](https://kinesvelt.com/prestations): Accompagnement sportif personnalisé pour sculpter, tonifier et maintenir les résultats dans la durée
+
+## Équipements
+
+- [LPG](https://kinesvelt.com/equipements/lpg): Standard mondial du remodelage corporel par palper rouler mécanique
+- [EMS Neo BTL](https://kinesvelt.com/equipements/ems-neo-btl): 20 000 contractions musculaires par séance pour renforcer la sangle abdominale et brûler les graisses. Certifié FDA
+- [Emtone BTL](https://kinesvelt.com/equipements/emtone-btl): Traitement des 4 types de cellulite simultanément par radiofréquence et ondes de pression. Certifié FDA
+- [Exilis BTL](https://kinesvelt.com/equipements/exilis-btl): Raffermissement du visage et du corps par radiofréquence et ultrasons combinés. Certifié FDA
+- [Alma PrimeX](https://kinesvelt.com/equipements/alma-primex-corps): Technologie multi applications premium pour réduire les graisses, raffermir la peau et améliorer la texture cutanée
+- [Voir tous les équipements](https://kinesvelt.com/equipements): LPG, Emtone, Exilis, T-Care Slim, Alma PrimeX, EMS Neo, VelaShape III, lipocavitation, ondes de choc X-Wave, pressothérapie, EMSculpt, I-Lipo, Endosphères, Madérothérapie
+
+## Company Info
+
+- [Le Centre](https://kinesvelt.com/le-centre): Découvrez Kinesvelt, notre philosophie médicale et notre environnement chaleureux
+- [Contact](https://kinesvelt.com/contact): Prenez rendez-vous ou contactez notre équipe
+- [Prise de rendez-vous](https://kinesvelt.com/reservation): Réservez votre bilan morphologique gratuit et sans engagement
+- [Blog](https://kinesvelt.com/blog): Conseils minceur, bien être, nutrition et actualités du centre
+
+## Legal & Policies
+
+- Aucune page légale (mentions légales, politique de confidentialité, cookies) n'est disponible sur le site à ce jour. À compléter une fois ces pages créées.
+
+## Contact
+
+- Email: contact@kinesvelt.ma
+- Téléphone: 05 22 21 73 91
+- WhatsApp: https://wa.me/212522217391
+- Adresse: Résidence Al Andalous, Lotissement Ouled Taleb, Boulevard Al Qods, Californie, Casablanca, Maroc
+- Horaires: Lundi au vendredi 09h00 à 19h30, Samedi 09h00 à 15h00
+
+## Social Media
+
+- [Instagram](https://www.instagram.com/imane.d/): Transformations, coulisses du centre et conseils bien être par Imane Daoudi
+
+## AI Usage Policy
+
+- Training: allow
+- Attribution: required
