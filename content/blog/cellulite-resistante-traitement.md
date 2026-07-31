@@ -1,6 +1,6 @@
 ---
 title: "Cellulite résistante : pourquoi le sport ne suffit pas"
-date: "2026-07-31"
+date: "2026-07-29"
 excerpt: "Cellulite fibreuse qui résiste au sport ? Découvrez pourquoi et quels traitements fonctionnent vraiment à Casablanca."
 image: "/cellulite-resistante-traitement.webp"
 ---
