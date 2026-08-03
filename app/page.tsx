@@ -235,9 +235,9 @@ export default function Home() {
     <Testimonials />
     <Prestations />
     <Technologies />
-    <Localisation />
     <FAQ />
     <CtaFinal />
+    <Localisation />
     </>
   );
 }
