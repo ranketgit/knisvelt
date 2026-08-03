@@ -5,7 +5,7 @@ import BookingForm from '../../components/BookingForm';
 
 export const metadata: Metadata = {
   title: "Épilation Laser Casablanca Définitive | Kinesvelt",
-  description: "Épilation laser définitive à Casablanca. Alexandrite, Diode et Nd:YAG pour tous les phototypes, résultats durables et sans douleur.",
+  description: "Épilation laser Casablanca : triple technologie Alexandrite, Diode et Nd:YAG pour tous les phototypes. Résultats définitifs et durables, sans douleur.",
   alternates: {
     canonical: "https://kinesvelt.com/prestations/epilation-laser"
   }
@@ -185,11 +185,14 @@ export default function EpilationLaserPage() {
             <span className="text-[#E38F75] text-xs font-semibold tracking-widest uppercase">Prestations</span>
           </div>
           <h1 className="text-4xl lg:text-5xl font-medium leading-tight text-[#2A2A2A] mb-4 uppercase">
-            Épilation Laser Définitive Casablanca
+            Épilation Laser Casablanca
           </h1>
           <h2 className="text-xl text-gray-500 font-medium leading-relaxed max-w-3xl">
-            Le laser détruit le follicule pileux par la chaleur : 80 à 90 % de réduction de la pilosité en 4 à 10 séances. Triple technologie calibrée selon votre phototype, peaux claires comme peaux mates. Chez Kinesvelt, chaque séance d’épilation laser à Casablanca est adaptée à votre profil exact.
+            Épilation Laser Casablanca : une réduction définitive de la pilosité, sans douleur
           </h2>
+          <p className="text-gray-500 text-[15px] leading-relaxed max-w-3xl mt-3">
+            Le laser détruit le follicule pileux par la chaleur : 80 à 90 % de réduction de la pilosité en 4 à 10 séances. Triple technologie calibrée selon votre phototype, peaux claires comme peaux mates. Chez Kinesvelt, chaque séance d’épilation laser à Casablanca est adaptée à votre profil exact.
+          </p>
           <div className="flex flex-wrap gap-4 mt-8">
             <Link href="/reservation" className="inline-flex items-center gap-2 bg-[#2A2A2A] hover:bg-black transition-colors text-white px-6 py-3.5 rounded-xl font-medium">
               Réserver ma séance

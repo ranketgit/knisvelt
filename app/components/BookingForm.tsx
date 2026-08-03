@@ -20,9 +20,9 @@ export default function BookingForm({ serviceName }: BookingFormProps) {
         </svg>
       </div>
 
-      <h2 className="text-2xl font-medium text-[#2A2A2A] mb-2">
+      <h3 className="text-2xl font-medium text-[#2A2A2A] mb-2">
         Réserver ce soin
-      </h2>
+      </h3>
       <p className="text-gray-500 text-[14px] mb-8">
         Ajoutez cette prestation à votre réservation pour choisir votre date et heure.
       </p>
