@@ -98,7 +98,7 @@ export default function Header() {
               <Link href="/" className="flex items-center">
                 <Image 
                   src="/logo-kinesvelt.png"
-                  alt="Kinesvelt Logo" 
+                  alt="Kinesvelt – centre de bien-être et soins intimes à Casablanca"
                   width={160}
                   height={40}
                   className="object-contain h-auto w-auto max-h-12"

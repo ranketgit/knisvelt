@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import BookingForm from './BookingForm'; // Ajustez le chemin selon votre structure
 
 export default function HifuVaginalClient() {
@@ -20,6 +21,23 @@ export default function HifuVaginalClient() {
     {
       question: "Combien de séances sont nécessaires ?",
       answer: "Le protocole comprend une cure de 3 séances. L'espacement entre les séances est défini selon les recommandations du protocole, lors de votre prise en charge chez Kinesvelt."
+    },
+    {
+      question: "Le HIFU vaginal est-il douloureux ?",
+      answer: "Non. La grande majorité des patientes décrivent une sensation de chaleur douce ou de légers picotements pendant la séance. Le traitement est réalisé sans anesthésie. Aucune douleur n'est ressentie après la séance."
+    },
+    {
+      question: "Quelle est la différence entre le HIFU vaginal et le laser CO2 ?",
+      answer: "Le HIFU vaginal agit en profondeur sur les tissus via des ultrasons focalisés pour stimuler la production de collagène et d'élastine. Le laser CO2 agit principalement en surface sur la muqueuse vaginale. Le HIFU ne nécessite aucun temps de récupération, contrairement au laser qui peut entraîner de légères irritations."
+    },
+    {
+      question: "Peut-on faire le HIFU vaginal après un accouchement ?",
+      questionAr: "هل يمكن إجراء الهيفو المهبلي بعد الولادة؟",
+      answer: "Oui. Le HIFU vaginal est particulièrement indiqué pour les femmes souhaitant retrouver la tonicité intime après un ou plusieurs accouchements. Un délai minimum de 3 mois après l'accouchement est recommandé avant de commencer le traitement."
+    },
+    {
+      question: "Combien de temps durent les résultats du HIFU vaginal ?",
+      answer: "Les résultats du HIFU vaginal durent généralement entre 12 et 18 mois, selon le mode de vie et les facteurs hormonaux. Une séance d'entretien annuelle peut être recommandée pour prolonger les bénéfices du traitement."
     }
   ];
 
@@ -36,9 +54,9 @@ export default function HifuVaginalClient() {
           <h1 className="text-4xl lg:text-[3rem] font-medium leading-tight text-[#2A2A2A] mb-6">
             HIFU Vaginal à Casablanca, rajeunissement intime sans chirurgie
           </h1>
-          <h2 className="text-lg lg:text-xl text-gray-500 font-medium leading-relaxed max-w-3xl">
+          <p className="hero-subtitle text-lg lg:text-xl text-gray-500 font-medium leading-relaxed max-w-3xl">
             Des ultrasons focalisés pour raffermir les tissus intimes, améliorer le confort et réduire la sécheresse. Un traitement non invasif réalisé en box individuel fermé par une kinésithérapeute certifiée.
-          </h2>
+          </p>
         </div>
 
         <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
@@ -48,7 +66,7 @@ export default function HifuVaginalClient() {
             <div className="relative w-full h-[350px] lg:h-[450px] rounded-[2rem] overflow-hidden bg-gray-100 shadow-sm">
                <Image 
                  src="/new-services/19.jpeg" 
-                 alt="HIFU Vaginal rajeunissement intime à Casablanca" 
+                 alt="Traitement HIFU vaginal à Casablanca chez Kinesvelt – rajeunissement intime sans chirurgie"
                  fill 
                  className="object-cover" 
                  priority
@@ -62,13 +80,16 @@ export default function HifuVaginalClient() {
                   Le HIFU vaginal, ou High Intensity Focused Ultrasound, est une technologie qui utilise des ultrasons de haute intensité pour stimuler la production naturelle de collagène dans les tissus intimes. Concrètement, cela signifie que les tissus vaginaux se raffermissent, leur tonicité s'améliore et leur régénération est relancée naturellement, sans chirurgie et sans injection.
                 </p>
                 <p className="mt-4">
-                  Chez Kinesvelt à Casablanca, ce traitement est supervisé par Imane Daoudi, kinésithérapeute certifiée avec 16 ans d'expérience. Chaque séance se déroule dans un box individuel fermé, dans un environnement discret et cliniquement contrôlé.
+                  Également recherché sous : <span lang="ar" dir="rtl">الهيفو المهبلي</span> – <span lang="ar" dir="rtl">تضييق المهبل بدون جراحة في الدار البيضاء</span>.
+                </p>
+                <p className="mt-4">
+                  Chez <Link href="/le-centre" className="text-[#E38F75] hover:underline">Kinesvelt à Casablanca</Link>, ce traitement est supervisé par Imane Daoudi, kinésithérapeute diplômée d'État, certifiée en rééducation périnéale et technologies HIFU, avec plus de 16 ans d'expérience clinique. Chaque séance se déroule dans un box individuel fermé, dans un environnement discret et cliniquement contrôlé.
                 </p>
               </section>
 
               {/* POUR QUI */}
               <section className="bg-gray-50 p-8 lg:p-10 rounded-[2rem] border border-gray-100">
-                <h2 className="text-2xl font-medium text-[#2A2A2A] mb-4">Pour qui ?</h2>
+                <h2 className="text-2xl font-medium text-[#2A2A2A] mb-4">Pour qui est destiné le HIFU vaginal ?</h2>
                 <p className="mb-6">Ce traitement est fait pour les femmes qui souhaitent prendre soin de leur santé intime de façon naturelle et non invasive, quel que soit leur âge :</p>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
@@ -96,11 +117,12 @@ export default function HifuVaginalClient() {
                     <span>traiter l'atrophie vaginale après la ménopause</span>
                   </li>
                 </ul>
+                <p className="mt-6">Découvrez toutes nos <Link href="/prestations/intime" className="text-[#E38F75] hover:underline">prestations intimes</Link>.</p>
               </section>
 
               {/* BIENFAITS */}
               <section className="bg-[#FAF8F7] p-8 lg:p-10 rounded-[2rem] border border-gray-50">
-                <h2 className="text-2xl font-medium text-[#2A2A2A] mb-6">Bienfaits</h2>
+                <h2 className="text-2xl font-medium text-[#2A2A2A] mb-6">Les bienfaits du HIFU vaginal</h2>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <span className="text-[#E38F75] mt-1">✓</span>
@@ -147,7 +169,7 @@ export default function HifuVaginalClient() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-[#2A2A2A] mb-2">Étape 3 : Application du HIFU</h3>
-                    <p>La sonde délivre des impulsions d'ultrasons ciblant les tissus profonds. La sensation est légère, une chaleur douce ou de légères picotements. La séance dure entre 30 et 45 minutes.</p>
+                    <p>La sonde délivre des impulsions d'ultrasons ciblant les tissus profonds. La sensation est légère, une chaleur douce ou de légères picotements. La séance dure entre 30 et 45 minutes. <Link href="/equipements" className="text-[#E38F75] hover:underline">En savoir plus sur nos équipements</Link>.</p>
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-[#2A2A2A] mb-2">Étape 4 : Reprise immédiate des activités</h3>
@@ -156,21 +178,124 @@ export default function HifuVaginalClient() {
                 </div>
               </section>
 
+              {/* CONSEILS AVANT / APRÈS */}
+              <section className="bg-gray-50 p-8 lg:p-10 rounded-[2rem] border border-gray-100">
+                <h2 className="text-2xl font-medium text-[#2A2A2A] mb-6">Conseils avant et après une séance de HIFU vaginal</h2>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h3 className="text-lg font-medium text-[#2A2A2A] mb-3">Avant la séance</h3>
+                    <ul className="space-y-3">
+                      <li className="flex items-start gap-3">
+                        <span className="text-[#E38F75] mt-1">•</span>
+                        <span>Éviter de programmer la séance pendant la période de menstruation</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="text-[#E38F75] mt-1">•</span>
+                        <span>Signaler toute infection vaginale ou urinaire en cours</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="text-[#E38F75] mt-1">•</span>
+                        <span>Aucune préparation spécifique n&apos;est requise</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium text-[#2A2A2A] mb-3">Après la séance</h3>
+                    <ul className="space-y-3">
+                      <li className="flex items-start gap-3">
+                        <span className="text-[#E38F75] mt-1">•</span>
+                        <span>Éviter les rapports sexuels pendant 48 heures</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="text-[#E38F75] mt-1">•</span>
+                        <span>Ne pas utiliser de tampon, ne pas prendre de bain ni aller à la piscine pendant 48 heures</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="text-[#E38F75] mt-1">•</span>
+                        <span>Reprise immédiate de toutes les activités quotidiennes</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
               {/* PROTOCOLE & RÉSULTAT */}
               <div className="grid md:grid-cols-2 gap-8 border-t border-b border-gray-100 py-10">
                 <section>
-                  <h2 className="text-2xl font-medium text-[#2A2A2A] mb-4">Protocole</h2>
+                  <h2 className="text-2xl font-medium text-[#2A2A2A] mb-4">Protocole de traitement HIFU vaginal à Casablanca</h2>
                   <p>
                     Le protocole comprend une cure de <span className="text-[#E38F75] font-medium">3 séances</span>, espacées selon les recommandations cliniques. Les résultats s'installent progressivement à mesure que la production de collagène se relance naturellement.
                   </p>
                 </section>
                 <section>
-                  <h2 className="text-2xl font-medium text-[#2A2A2A] mb-4">Résultat</h2>
+                  <h2 className="text-2xl font-medium text-[#2A2A2A] mb-4">Résultats attendus du HIFU vaginal</h2>
                   <p>
                     Les tissus deviennent progressivement plus fermes et plus toniques, améliorant le confort intime et la qualité de vie. Les résultats s'installent naturellement à mesure que la production de collagène augmente au fil des séances.
                   </p>
                 </section>
               </div>
+
+              {/* CTA SECONDAIRE */}
+              <p className="text-center">
+                <button
+                  onClick={() => {
+                    document.getElementById('booking-form-container')?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  className="cta-button inline-flex items-center px-6 py-3 text-white bg-[#E38F75] hover:bg-[#d47b60] font-medium rounded-full transition-all"
+                >
+                  Réserver ma consultation gratuite
+                </button>{' '}
+                ou appelez-nous au <a href="tel:0522217391" className="text-[#E38F75] hover:underline">05 22 21 73 91</a>.
+              </p>
+
+              {/* HIFU VS CHIRURGIE */}
+              <section>
+                <h2 className="text-2xl font-medium text-[#2A2A2A] mb-6">HIFU vaginal ou chirurgie : quelle différence ?</h2>
+                <div className="overflow-x-auto rounded-2xl border border-gray-100">
+                  <table className="w-full text-left border-collapse">
+                    <thead>
+                      <tr className="bg-gray-50">
+                        <th className="px-6 py-4 font-medium text-[#2A2A2A]">Critère</th>
+                        <th className="px-6 py-4 font-medium text-[#2A2A2A]">HIFU Vaginal</th>
+                        <th className="px-6 py-4 font-medium text-[#2A2A2A]">Chirurgie intime</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-t border-gray-100">
+                        <td className="px-6 py-4">Anesthésie</td>
+                        <td className="px-6 py-4">Aucune</td>
+                        <td className="px-6 py-4">Générale ou locale</td>
+                      </tr>
+                      <tr className="border-t border-gray-100">
+                        <td className="px-6 py-4">Durée de la séance</td>
+                        <td className="px-6 py-4">30 à 45 minutes</td>
+                        <td className="px-6 py-4">1 à 2 heures</td>
+                      </tr>
+                      <tr className="border-t border-gray-100">
+                        <td className="px-6 py-4">Temps de récupération</td>
+                        <td className="px-6 py-4">Aucun – reprise immédiate</td>
+                        <td className="px-6 py-4">Plusieurs semaines</td>
+                      </tr>
+                      <tr className="border-t border-gray-100">
+                        <td className="px-6 py-4">Résultats</td>
+                        <td className="px-6 py-4">Progressifs sur 4 à 8 semaines</td>
+                        <td className="px-6 py-4">Immédiats</td>
+                      </tr>
+                      <tr className="border-t border-gray-100">
+                        <td className="px-6 py-4">Invasivité</td>
+                        <td className="px-6 py-4">Non invasif</td>
+                        <td className="px-6 py-4">Chirurgical</td>
+                      </tr>
+                      <tr className="border-t border-gray-100">
+                        <td className="px-6 py-4">Cicatrice</td>
+                        <td className="px-6 py-4">Aucune</td>
+                        <td className="px-6 py-4">Possible</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p className="mt-6">Le HIFU vaginal est une alternative idéale pour les femmes qui souhaitent améliorer leur confort intime sans recourir à la chirurgie.</p>
+              </section>
 
               {/* CONTRE-INDICATIONS */}
               <section>
@@ -192,6 +317,9 @@ export default function HifuVaginalClient() {
                       <summary className="flex cursor-pointer items-center justify-between gap-4 px-6 py-5 focus:outline-none">
                         <h3 className="text-[17px] font-medium text-[#2A2A2A] group-open:text-[#E38F75] transition-colors">
                           {faq.question}
+                          {faq.questionAr && (
+                            <span lang="ar" dir="rtl" className="block text-sm font-normal text-gray-400 mt-1">({faq.questionAr})</span>
+                          )}
                         </h3>
                         <span className="flex-shrink-0 w-8 h-8 rounded-full bg-[#EEF3ED] flex items-center justify-center text-[#2A2A2A] group-open:bg-[#E38F75] group-open:text-white transition-colors">
                           <svg className="w-4 h-4 group-open:rotate-180 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -206,6 +334,11 @@ export default function HifuVaginalClient() {
                   ))}
                 </div>
               </section>
+
+              {/* CTA SECONDAIRE APRÈS FAQ */}
+              <p className="text-center">
+                Vous avez d&apos;autres questions ? <Link href="/contact" className="text-[#E38F75] hover:underline">Contactez-nous</Link> ou appelez directement au <a href="tel:0522217391" className="text-[#E38F75] hover:underline">05 22 21 73 91</a>.
+              </p>
 
               {/* CTA FINAL AVEC ONCLICK */}
               <section className="bg-[#EEF3ED] p-8 lg:p-12 rounded-[2rem] text-center mt-8 border border-[#E38F75]/20">

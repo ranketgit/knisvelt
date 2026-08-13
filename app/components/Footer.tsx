@@ -12,7 +12,7 @@ export default function Footer() {
             <Link href="/" className="mb-4 block">
               <Image 
                 src="/logo-kinesvelt.png" 
-                alt="Kinesvelt Logo" 
+                alt="Kinesvelt Casablanca logo"
                 width={120}
                 height={60}
                 className="h-auto w-auto"
